@@ -3,7 +3,7 @@
     <NETStandardLibraryPackageVersion>2.0.0</NETStandardLibraryPackageVersion>
   </PropertyGroup>
 
-  <ItemGroup>
+  <ItemGroup Condition="'$(_NetStandardLibraryRefPath)' != '' OR '$(_NetStandardLibraryLibPath)' != ''">
     <Reference Condition="'$(_NetStandardLibraryRefPath)' != ''" Include="$(_NetStandardLibraryRefPath)*.dll">
       <!-- Private = false to make these reference only -->
       <Private>false</Private>

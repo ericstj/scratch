@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <EnableDefaultItems>false</EnableDefaultItems>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="build\**\*.*" Pack="true" PackagePath="build" />
+  </ItemGroup>
+
+</Project>

@@ -836,7 +836,7 @@
       "Microsoft.NETCore.Jit/1.0.7": {
         "type": "package"
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -3706,7 +3706,7 @@
           "runtime.rhel.7-x64.Microsoft.NETCore.Jit": "1.0.7"
         }
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -6857,7 +6857,7 @@
           "runtime.debian.8-x64.Microsoft.NETCore.Jit": "1.0.7"
         }
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -10008,7 +10008,7 @@
           "runtime.ubuntu.14.04-x64.Microsoft.NETCore.Jit": "1.0.7"
         }
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -13159,7 +13159,7 @@
           "runtime.opensuse.13.2-x64.Microsoft.NETCore.Jit": "1.0.7"
         }
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -16310,7 +16310,7 @@
           "runtime.osx.10.10-x64.Microsoft.NETCore.Jit": "1.0.7"
         }
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -19459,7 +19459,7 @@
           "runtime.rhel.7-x64.Microsoft.NETCore.Jit": "1.0.7"
         }
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -22610,7 +22610,7 @@
           "runtime.ubuntu.14.04-x64.Microsoft.NETCore.Jit": "1.0.7"
         }
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -25761,7 +25761,7 @@
           "runtime.ubuntu.16.04-x64.Microsoft.NETCore.Jit": "1.0.7"
         }
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -28912,7 +28912,7 @@
           "runtime.win7-x64.Microsoft.NETCore.Jit": "1.0.7"
         }
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -32150,7 +32150,7 @@
           "runtime.win7-x86.Microsoft.NETCore.Jit": "1.0.7"
         }
       },
-      "Microsoft.NETCore.Platforms/1.0.2": {
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -35215,17 +35215,19 @@
         "runtime.json"
       ]
     },
-    "Microsoft.NETCore.Platforms/1.0.2": {
-      "sha512": "fRHBvQs9Z/ZSUAqaSotK1UPol/lwybTgdeTXR4eVw3rVDgzUnWGTUsK0A418oR7NrimNL1TQu/IM0RDa26s0qg==",
+    "Microsoft.NETCore.Platforms/2.1.0-preview1-25727-0": {
+      "sha512": "u2I//gBpphx+6SxULXzr1Vi+NveFy8YkihmAZWglIS6sUobhTPk1Tg7qwssFGyR+AuK7XZ1qTgpu2tpc8RWVtQ==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/1.0.2",
+      "path": "microsoft.netcore.platforms/2.1.0-preview1-25727-0",
       "files": [
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.1.0.2.nupkg.sha512",
+        "microsoft.netcore.platforms.2.1.0-preview1-25727-0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
-        "runtime.json"
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.NETCore.Runtime.CoreCLR/1.0.7": {
@@ -41909,7 +41911,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.0": [
       "Microsoft.AspNetCore >= 1.0.5",
-      "Microsoft.NETCore.App >= 1.0.5"
+      "Microsoft.NETCore.App >= 1.0.5",
+      "Microsoft.NETCore.Platforms >= 2.1.0-preview1-25727-0"
     ]
   },
   "packageFolders": {
@@ -41959,6 +41962,10 @@
             "target": "Package",
             "version": "1.0.5",
             "autoReferenced": true
+          },
+          "Microsoft.NETCore.Platforms": {
+            "target": "Package",
+            "version": "2.1.0-preview1-25727-0"
           },
           "Microsoft.AspNetCore": {
             "target": "Package",

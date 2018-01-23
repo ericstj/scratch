@@ -22,12 +22,6 @@ When using NuGet 3.x this package requires at least version 3.4.</description>
     <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
     <serviceable>true</serviceable>
     <dependencies>
-      <group targetFramework="MonoAndroid1.0">
-        <dependency id="System.Threading.Tasks.Extensions" version="4.4.0" />
-      </group>
-      <group targetFramework="MonoTouch1.0">
-        <dependency id="System.Threading.Tasks.Extensions" version="4.4.0" />
-      </group>
       <group targetFramework=".NETFramework4.6">
         <dependency id="System.Threading.Tasks.Extensions" version="4.4.0" />
       </group>
@@ -40,18 +34,6 @@ When using NuGet 3.x this package requires at least version 3.4.</description>
         <dependency id="System.Threading.Tasks.Extensions" version="4.4.0" />
       </group>
       <group targetFramework="UAP10.0.16300" />
-      <group targetFramework="Xamarin.iOS1.0">
-        <dependency id="System.Threading.Tasks.Extensions" version="4.4.0" />
-      </group>
-      <group targetFramework="Xamarin.Mac2.0">
-        <dependency id="System.Threading.Tasks.Extensions" version="4.4.0" />
-      </group>
-      <group targetFramework="Xamarin.TVOS1.0">
-        <dependency id="System.Threading.Tasks.Extensions" version="4.4.0" />
-      </group>
-      <group targetFramework="Xamarin.WatchOS1.0">
-        <dependency id="System.Threading.Tasks.Extensions" version="4.4.0" />
-      </group>
     </dependencies>
   </metadata>
   <files>

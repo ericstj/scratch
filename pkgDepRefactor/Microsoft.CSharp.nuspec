@@ -45,8 +45,6 @@ When using NuGet 3.x this package requires at least version 3.4.</description>
       </group>
       <group targetFramework=".NETStandard2.0" />
       <group targetFramework=".NETPortable0.0-Profile259" />
-      <group targetFramework=".NETPortable4.5-Profile78" />
-      <group targetFramework=".NETPortable4.5-Profile111" />
       <group targetFramework="UAP10.0.16300" />
       <group targetFramework="Windows8.0" />
       <group targetFramework="WindowsPhone8.0" />

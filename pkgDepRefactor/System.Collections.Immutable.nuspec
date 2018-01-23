@@ -35,7 +35,6 @@ e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
     <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
     <serviceable>true</serviceable>
     <dependencies>
-      <group targetFramework=".NETCoreApp2.0" />
       <group targetFramework=".NETStandard1.0">
         <dependency id="NETStandard.Library" version="1.6.1" />
         <dependency id="System.Diagnostics.Contracts" version="4.3.0" />

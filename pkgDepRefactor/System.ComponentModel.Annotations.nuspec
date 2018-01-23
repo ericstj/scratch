@@ -52,7 +52,6 @@ When using NuGet 3.x this package requires at least version 3.4.</description>
       </group>
       <group targetFramework=".NETStandard2.0" />
       <group targetFramework=".NETPortable0.0-Profile7" />
-      <group targetFramework=".NETPortable4.6-Profile44" />
       <group targetFramework="UAP10.0.16300" />
       <group targetFramework="Windows8.0" />
       <group targetFramework="Xamarin.iOS1.0" />

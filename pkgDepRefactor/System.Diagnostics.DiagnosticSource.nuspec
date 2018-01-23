@@ -23,7 +23,6 @@ e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
     <dependencies>
       <group targetFramework=".NETFramework4.5" />
       <group targetFramework=".NETFramework4.6" />
-      <group targetFramework=".NETCoreApp2.0" />
       <group targetFramework=".NETStandard1.1">
         <dependency id="System.Collections" version="4.3.0" />
         <dependency id="System.Diagnostics.Debug" version="4.3.0" />
@@ -41,6 +40,7 @@ e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
         <dependency id="System.Runtime.Extensions" version="4.3.0" />
         <dependency id="System.Threading" version="4.3.0" />
       </group>
+      <group targetFramework=".NETStandard2.0" />
       <group targetFramework=".NETPortable4.5-Profile111" />
     </dependencies>
     <frameworkAssemblies>

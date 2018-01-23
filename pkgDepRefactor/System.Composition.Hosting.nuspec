@@ -21,15 +21,6 @@ When using NuGet 3.x this package requires at least version 3.4.</description>
     <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
     <serviceable>true</serviceable>
     <dependencies>
-      <group targetFramework="MonoAndroid1.0">
-        <dependency id="System.Composition.Runtime" version="1.2.0-preview2-26123-0" />
-      </group>
-      <group targetFramework="MonoTouch1.0">
-        <dependency id="System.Composition.Runtime" version="1.2.0-preview2-26123-0" />
-      </group>
-      <group targetFramework=".NETCoreApp2.0">
-        <dependency id="System.Composition.Runtime" version="1.2.0-preview2-26123-0" />
-      </group>
       <group targetFramework=".NETStandard1.0">
         <dependency id="NETStandard.Library" version="1.6.1" />
         <dependency id="System.Composition.Runtime" version="1.2.0-preview2-26123-0" />
@@ -38,18 +29,6 @@ When using NuGet 3.x this package requires at least version 3.4.</description>
         <dependency id="System.Composition.Runtime" version="1.2.0-preview2-26123-0" />
       </group>
       <group targetFramework=".NETPortable4.5-Profile259">
-        <dependency id="System.Composition.Runtime" version="1.2.0-preview2-26123-0" />
-      </group>
-      <group targetFramework="Xamarin.iOS1.0">
-        <dependency id="System.Composition.Runtime" version="1.2.0-preview2-26123-0" />
-      </group>
-      <group targetFramework="Xamarin.Mac2.0">
-        <dependency id="System.Composition.Runtime" version="1.2.0-preview2-26123-0" />
-      </group>
-      <group targetFramework="Xamarin.TVOS1.0">
-        <dependency id="System.Composition.Runtime" version="1.2.0-preview2-26123-0" />
-      </group>
-      <group targetFramework="Xamarin.WatchOS1.0">
         <dependency id="System.Composition.Runtime" version="1.2.0-preview2-26123-0" />
       </group>
     </dependencies>

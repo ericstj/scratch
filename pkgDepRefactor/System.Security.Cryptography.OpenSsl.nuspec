@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Security.Cryptography.OpenSsl</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>System.Security.Cryptography.OpenSsl</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides cryptographic algorithm implementations and key management for non-Windows systems with OpenSSL.
+
+Commonly Used Types:
+System.Security.Cryptography.RSAOpenSsl
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0" />
+      <group targetFramework="MonoTouch1.0" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1" />
+      <group targetFramework=".NETStandard1.6">
+        <dependency id="System.Collections" version="4.3.0" exclude="Compile" />
+        <dependency id="System.IO" version="4.3.0" />
+        <dependency id="System.Resources.ResourceManager" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Runtime" version="4.3.0" />
+        <dependency id="System.Runtime.Extensions" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Runtime.Handles" version="4.3.0" />
+        <dependency id="System.Runtime.InteropServices" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Runtime.Numerics" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Security.Cryptography.Algorithms" version="4.3.0" />
+        <dependency id="System.Security.Cryptography.Encoding" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Security.Cryptography.Primitives" version="4.3.0" />
+        <dependency id="System.Text.Encoding" version="4.3.0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework="Xamarin.iOS1.0" />
+      <group targetFramework="Xamarin.Mac2.0" />
+      <group targetFramework="Xamarin.TVOS1.0" />
+      <group targetFramework="Xamarin.WatchOS1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\System.Security.Cryptography.OpenSsl.dll" target="lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\System.Security.Cryptography.OpenSsl.pdb" target="lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.OpenSsl\4.4.0\lib\netstandard1.6\System.Security.Cryptography.OpenSsl.dll" target="lib\netstandard1.6" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netstandard\System.Security.Cryptography.OpenSsl.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netstandard\System.Security.Cryptography.OpenSsl.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.OpenSsl\4.4.0\ref\netcoreapp2.0\System.Security.Cryptography.OpenSsl.dll" target="ref\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.OpenSsl\4.4.0\ref\netcoreapp2.0\System.Security.Cryptography.OpenSsl.xml" target="ref\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Security.Cryptography.OpenSsl.xml" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.OpenSsl\4.1.1.0\netcoreapp\System.Security.Cryptography.OpenSsl.dll" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.OpenSsl\4.1.1.0\netcoreapp\System.Security.Cryptography.OpenSsl.pdb" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.OpenSsl\4.4.0\ref\netstandard1.6\System.Security.Cryptography.OpenSsl.dll" target="ref\netstandard1.6" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.OpenSsl\4.1.0.0\netstandard\System.Security.Cryptography.OpenSsl.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.OpenSsl\4.1.0.0\netstandard\System.Security.Cryptography.OpenSsl.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Security.Cryptography.OpenSsl.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.OpenSsl\4.4.0\runtimes\unix\lib\netcoreapp2.0\System.Security.Cryptography.OpenSsl.dll" target="runtimes\unix\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\System.Security.Cryptography.OpenSsl.dll" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\System.Security.Cryptography.OpenSsl.pdb" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.OpenSsl\4.4.0\runtimes\unix\lib\netstandard1.6\System.Security.Cryptography.OpenSsl.dll" target="runtimes\unix\lib\netstandard1.6" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\System.Security.Cryptography.OpenSsl.notsupported.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\System.Security.Cryptography.OpenSsl.notsupported.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netstandard\System.Security.Cryptography.OpenSsl.notsupported.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netstandard\System.Security.Cryptography.OpenSsl.notsupported.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Security.Cryptography.OpenSsl\4.1.0.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Security.Cryptography.OpenSsl\4.1.0.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Security.Cryptography.OpenSsl\4.1.1.0\netcoreapp\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Security.Cryptography.OpenSsl\4.1.1.0\netcoreapp\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Unix.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\SR.cs" target="src\bin\obj\Unix.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Unix.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\_AssemblyInfo.cs" target="src\bin\obj\Unix.AnyCPU.Debug\System.Security.Cryptography.OpenSsl\netcoreapp\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Internal\Cryptography\AsymmetricAlgorithmHelpers.Der.cs" target="src\src\Common\src\Internal\Cryptography\AsymmetricAlgorithmHelpers.Der.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Internal\Cryptography\AsymmetricAlgorithmHelpers.Hash.cs" target="src\src\Common\src\Internal\Cryptography\AsymmetricAlgorithmHelpers.Hash.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\Interop.Libraries.cs" target="src\src\Common\src\Interop\Unix\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.ASN1.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.ASN1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.ASN1.Nid.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.ASN1.Nid.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.Bignum.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.Bignum.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.Dsa.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.Dsa.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EcDsa.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EcDsa.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EcDsa.ImportExport.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EcDsa.ImportExport.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EcKey.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EcKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.ERR.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.ERR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EvpPkey.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EvpPkey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EvpPkey.Dsa.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EvpPkey.Dsa.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EvpPkey.EcKey.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EvpPkey.EcKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EvpPkey.Rsa.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.EvpPkey.Rsa.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.Initialization.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.Initialization.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.Rsa.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.Rsa.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\Asn1SafeHandles.Unix.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\Asn1SafeHandles.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeBignumHandle.Unix.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeBignumHandle.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeDsaHandle.Unix.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeDsaHandle.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeEcKeyHandle.Unix.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeEcKeyHandle.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeInteriorHandle.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeInteriorHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeRsaHandle.Unix.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeRsaHandle.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Security\Cryptography\DerEncoder.cs" target="src\src\Common\src\System\Security\Cryptography\DerEncoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Security\Cryptography\DerSequenceReader.cs" target="src\src\Common\src\System\Security\Cryptography\DerSequenceReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Security\Cryptography\DSAOpenSsl.cs" target="src\src\Common\src\System\Security\Cryptography\DSAOpenSsl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Security\Cryptography\ECDsaOpenSsl.cs" target="src\src\Common\src\System\Security\Cryptography\ECDsaOpenSsl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Security\Cryptography\ECDsaOpenSsl.ImportExport.cs" target="src\src\Common\src\System\Security\Cryptography\ECDsaOpenSsl.ImportExport.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Security\Cryptography\RSAOpenSsl.cs" target="src\src\Common\src\System\Security\Cryptography\RSAOpenSsl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.OpenSsl\ref\System.Security.Cryptography.OpenSsl.cs" target="src\src\System.Security.Cryptography.OpenSsl\ref\System.Security.Cryptography.OpenSsl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.OpenSsl\src\System\Security\Cryptography\DSAOpenSsl.cs" target="src\src\System.Security.Cryptography.OpenSsl\src\System\Security\Cryptography\DSAOpenSsl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.OpenSsl\src\System\Security\Cryptography\ECDsaOpenSsl.cs" target="src\src\System.Security.Cryptography.OpenSsl\src\System\Security\Cryptography\ECDsaOpenSsl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.OpenSsl\src\System\Security\Cryptography\RSAOpenSsl.cs" target="src\src\System.Security.Cryptography.OpenSsl\src\System\Security\Cryptography\RSAOpenSsl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.OpenSsl\src\System\Security\Cryptography\SafeEvpPKeyHandle.Unix.cs" target="src\src\System.Security.Cryptography.OpenSsl\src\System\Security\Cryptography\SafeEvpPKeyHandle.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

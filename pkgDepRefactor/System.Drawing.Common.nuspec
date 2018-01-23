@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Drawing.Common</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>System.Drawing.Common</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides access to GDI+ graphics functionality.
+
+Commonly Used Types:
+System.Drawing.Bitmap
+System.Drawing.BitmapData
+System.Drawing.Brush
+System.Drawing.Font
+System.Drawing.Graphics
+System.Drawing.Icon
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0" />
+      <group targetFramework="MonoTouch1.0" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework="Xamarin.iOS1.0" />
+      <group targetFramework="Xamarin.Mac2.0" />
+      <group targetFramework="Xamarin.TVOS1.0" />
+      <group targetFramework="Xamarin.WatchOS1.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Drawing.Common\netfx\System.Drawing.Common.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Drawing.Common\netfx\System.Drawing.Common.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Drawing.Common\netstandard\System.Drawing.Common.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Drawing.Common\netstandard\System.Drawing.Common.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Drawing.Common\4.0.0.0\netfx\System.Drawing.Common.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Drawing.Common\4.0.0.0\netfx\System.Drawing.Common.pdb" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Drawing.Common\4.0.0.0\netstandard\System.Drawing.Common.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Drawing.Common\4.0.0.0\netstandard\System.Drawing.Common.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\System.Drawing.Common.dll" target="runtimes\unix\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\System.Drawing.Common.pdb" target="runtimes\unix\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\System.Drawing.Common.dll" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\System.Drawing.Common.pdb" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Drawing.Common\netfx\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Drawing.Common\netfx\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Drawing.Common\netfx\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Drawing.Common\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Drawing.Common\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Drawing.Common\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Drawing.Common\netstandard\System.Drawing.Common.notsupported.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Drawing.Common\netstandard\System.Drawing.Common.notsupported.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Drawing.Common\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Drawing.Common\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Drawing.Common\4.0.0.0\netfx\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Drawing.Common\4.0.0.0\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Drawing.Common\4.0.0.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Drawing.Common\4.0.0.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Unix.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\SR.cs" target="src\bin\obj\Unix.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Unix.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\_AssemblyInfo.cs" target="src\bin\obj\Unix.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\SR.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Drawing.Common\netcoreapp2.0\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\Interop.Libraries.cs" target="src\src\Common\src\Interop\Unix\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\libdl\Interop.dlopen.cs" target="src\src\Common\src\Interop\Unix\libdl\Interop.dlopen.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\libdl\Interop.dlsym.cs" target="src\src\Common\src\Interop\Unix\libdl\Interop.dlsym.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetProcAddress.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetProcAddress.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibraryEx.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibraryEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.GetSysColor.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.GetSysColor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.Win32SystemColors.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.Win32SystemColors.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeLibraryHandle.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeLibraryHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Drawing\ColorConverterCommon.cs" target="src\src\Common\src\System\Drawing\ColorConverterCommon.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Drawing\ColorTable.cs" target="src\src\Common\src\System\Drawing\ColorTable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Drawing\ColorUtil.netcoreapp20.cs" target="src\src\Common\src\System\Drawing\ColorUtil.netcoreapp20.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Drawing\KnownColor.cs" target="src\src\Common\src\System\Drawing\KnownColor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Drawing\KnownColorTable.cs" target="src\src\Common\src\System\Drawing\KnownColorTable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\LocalAppContext.cs" target="src\src\Common\src\System\LocalAppContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Numerics\Hashing\HashHelpers.cs" target="src\src\Common\src\System\Numerics\Hashing\HashHelpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Runtime\InteropServices\FunctionWrapper.cs" target="src\src\Common\src\System\Runtime\InteropServices\FunctionWrapper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Runtime\InteropServices\FunctionWrapper.Unix.cs" target="src\src\Common\src\System\Runtime\InteropServices\FunctionWrapper.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Runtime\InteropServices\FunctionWrapper.Windows.cs" target="src\src\Common\src\System\Runtime\InteropServices\FunctionWrapper.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\ref\System.Drawing.Common.cs" target="src\src\System.Drawing.Common\ref\System.Drawing.Common.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\AssemblyRef.cs" target="src\src\System.Drawing.Common\src\AssemblyRef.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\CompModSwitches.cs" target="src\src\System.Drawing.Common\src\misc\CompModSwitches.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\DbgUtil.cs" target="src\src\System.Drawing.Common\src\misc\DbgUtil.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\DebugHandleTracker.cs" target="src\src\System.Drawing.Common\src\misc\DebugHandleTracker.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\DpiHelper.cs" target="src\src\System.Drawing.Common\src\misc\DpiHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\ExternDll.cs" target="src\src\System.Drawing.Common\src\misc\ExternDll.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\ExternDll.Unix.cs" target="src\src\System.Drawing.Common\src\misc\ExternDll.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\GDI\ApplyGraphicsProperties.cs" target="src\src\System.Drawing.Common\src\misc\GDI\ApplyGraphicsProperties.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\GDI\DeviceContext.cs" target="src\src\System.Drawing.Common\src\misc\GDI\DeviceContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\GDI\DeviceContexts.cs" target="src\src\System.Drawing.Common\src\misc\GDI\DeviceContexts.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\GDI\DeviceContextType.cs" target="src\src\System.Drawing.Common\src\misc\GDI\DeviceContextType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\GDI\NativeMethods.cs" target="src\src\System.Drawing.Common\src\misc\GDI\NativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\GDI\SafeNativeMethods.cs" target="src\src\System.Drawing.Common\src\misc\GDI\SafeNativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\GDI\UnsafeNativeMethods.cs" target="src\src\System.Drawing.Common\src\misc\GDI\UnsafeNativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\GDI\WindowsGraphics.cs" target="src\src\System.Drawing.Common\src\misc\GDI\WindowsGraphics.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\GDI\WindowsRegion.cs" target="src\src\System.Drawing.Common\src\misc\GDI\WindowsRegion.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\GDI\WindowsRegionCombineMode.cs" target="src\src\System.Drawing.Common\src\misc\GDI\WindowsRegionCombineMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\HandleCollector.cs" target="src\src\System.Drawing.Common\src\misc\HandleCollector.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\misc\InvalidEnumArgumentException.cs" target="src\src\System.Drawing.Common\src\misc\InvalidEnumArgumentException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\MonoTODOAttribute.cs" target="src\src\System.Drawing.Common\src\MonoTODOAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\SRDescriptionAttribute.cs" target="src\src\System.Drawing.Common\src\SRDescriptionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Bitmap.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Bitmap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Bitmap.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Bitmap.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Bitmap.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Bitmap.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\BitmapSelector.cs" target="src\src\System.Drawing.Common\src\System\Drawing\BitmapSelector.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\BitmapSuffixInSameAssemblyAttribute.cs" target="src\src\System.Drawing.Common\src\System\Drawing\BitmapSuffixInSameAssemblyAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\BitmapSuffixInSatelliteAssemblyAttribute.cs" target="src\src\System.Drawing.Common\src\System\Drawing\BitmapSuffixInSatelliteAssemblyAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Brush.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Brush.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Brushes.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Brushes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\BufferedGraphics.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\BufferedGraphics.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\BufferedGraphics.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\BufferedGraphics.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\BufferedGraphicsContext.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\BufferedGraphicsContext.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\BufferedGraphicsContext.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\BufferedGraphicsContext.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\BufferedGraphicsManager.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\BufferedGraphicsManager.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\BufferedGraphicsManager.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\BufferedGraphicsManager.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\CharacterRange.cs" target="src\src\System.Drawing.Common\src\System\Drawing\CharacterRange.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\ClientUtils.cs" target="src\src\System.Drawing.Common\src\System\Drawing\ClientUtils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\ColorTranslator.cs" target="src\src\System.Drawing.Common\src\System\Drawing\ColorTranslator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\ContentAlignment.cs" target="src\src\System.Drawing.Common\src\System\Drawing\ContentAlignment.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\CopyPixelOperation.cs" target="src\src\System.Drawing.Common\src\System\Drawing\CopyPixelOperation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\DashCap.cs" target="src\src\System.Drawing.Common\src\System\Drawing\DashCap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Design\CategoryNameCollection.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Design\CategoryNameCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\AdjustableArrowCap.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\AdjustableArrowCap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\AdjustableArrowCap.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\AdjustableArrowCap.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\Blend.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\Blend.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\BrushType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\BrushType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\ColorBlend.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\ColorBlend.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CombineMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CombineMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CompositingMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CompositingMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CompositingQuality.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CompositingQuality.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CoordinateSpace.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CoordinateSpace.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CustomLineCap.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CustomLineCap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CustomLineCap.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CustomLineCap.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CustomLineCap.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CustomLineCap.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CustomLineCapType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\CustomLineCapType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\DashStyle.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\DashStyle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\FillMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\FillMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\FlushIntention.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\FlushIntention.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\GraphicsContainer.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\GraphicsContainer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\GraphicsPath.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\GraphicsPath.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\GraphicsPath.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\GraphicsPath.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\GraphicsPathIterator.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\GraphicsPathIterator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\GraphicsState.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\GraphicsState.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\HatchBrush.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\HatchBrush.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\HatchStyle.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\HatchStyle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\InterpolationMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\InterpolationMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\LinearGradientBrush.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\LinearGradientBrush.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\LinearGradientMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\LinearGradientMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\LineCap.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\LineCap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\LineJoin.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\LineJoin.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\Matrix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\Matrix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\MatrixOrder.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\MatrixOrder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PathData.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PathData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PathGradientBrush.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PathGradientBrush.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PathPointType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PathPointType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PenAlignment.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PenAlignment.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PenType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PenType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PixelOffsetMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\PixelOffsetMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\QualityMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\QualityMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\RegionData.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\RegionData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\SafeCustomLineCapHandle.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\SafeCustomLineCapHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\SmoothingMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\SmoothingMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\WarpMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\WarpMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Drawing2D\WrapMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Drawing2D\WrapMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Font.NotSerializable.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Font.NotSerializable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Font.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Font.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Font.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Font.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\FontFamily.cs" target="src\src\System.Drawing.Common\src\System\Drawing\FontFamily.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\FontStyle.cs" target="src\src\System.Drawing.Common\src\System\Drawing\FontStyle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Gdiplus.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Gdiplus.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\GdiplusNative.cs" target="src\src\System.Drawing.Common\src\System\Drawing\GdiplusNative.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\GdiplusNative.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\GdiplusNative.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\GdiplusNative.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\GdiplusNative.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\GdiPlusStreamHelper.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\GdiPlusStreamHelper.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Graphics.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Graphics.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Graphics.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Graphics.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Graphics.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Graphics.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\GraphicsContext.cs" target="src\src\System.Drawing.Common\src\System\Drawing\GraphicsContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\GraphicsUnit.cs" target="src\src\System.Drawing.Common\src\System\Drawing\GraphicsUnit.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Icon.NotSerializable.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Icon.NotSerializable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Icon.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Icon.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Icon.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Icon.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\IDeviceContext.cs" target="src\src\System.Drawing.Common\src\System\Drawing\IDeviceContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Image.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Image.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Image.NotSerializable.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Image.NotSerializable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Image.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Image.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Image.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Image.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\ImageAnimator.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\ImageAnimator.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\ImageAnimator.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\ImageAnimator.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\ImageInfo.cs" target="src\src\System.Drawing.Common\src\System\Drawing\ImageInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\ImageType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\ImageType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\BitmapData.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\BitmapData.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\BitmapData.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\BitmapData.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorAdjustType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorAdjustType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorChannelFlags.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorChannelFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorMap.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorMap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorMapType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorMapType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorMatrix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorMatrix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorMatrixFlags.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorMatrixFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorPalette.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ColorPalette.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\EmfPlusFlags.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\EmfPlusFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\EmfPlusRecordType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\EmfPlusRecordType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\EmfType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\EmfType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\Encoder.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\Encoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\EncoderParameter.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\EncoderParameter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\EncoderParameters.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\EncoderParameters.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\EncoderParameterValueType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\EncoderParameterValueType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\EncoderValue.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\EncoderValue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\FrameDimension.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\FrameDimension.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageAttributes.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageAttributes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageCodecFlags.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageCodecFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageCodecInfo.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageCodecInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageCodecInfoPrivate.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageCodecInfoPrivate.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageFlags.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageFormat.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageFormat.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageLockMode.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\ImageLockMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\Metafile.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\Metafile.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\Metafile.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\Metafile.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileFrameUnit.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileFrameUnit.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileHeader.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileHeader.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileHeader.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileHeader.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileHeaderEmf.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileHeaderEmf.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileHeaderWmf.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileHeaderWmf.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\MetafileType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\MetaHeader.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\MetaHeader.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\MetaHeader.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\MetaHeader.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\PaletteFlags.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\PaletteFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\PixelFormat.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\PixelFormat.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\PlayRecordCallback.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\PlayRecordCallback.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\PropertyItem.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\PropertyItem.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Imaging\WmfPlaceableFileHeader.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Imaging\WmfPlaceableFileHeader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Internal\GPPOINT.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Internal\GPPOINT.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Internal\GPPOINTF.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Internal\GPPOINTF.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Internal\GPRECT.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Internal\GPRECT.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Internal\GPRECTF.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Internal\GPRECTF.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Internal\GPStream.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Internal\GPStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\LibX11Functions.cs" target="src\src\System.Drawing.Common\src\System\Drawing\LibX11Functions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\LocalAppContextSwitches.cs" target="src\src\System.Drawing.Common\src\System\Drawing\LocalAppContextSwitches.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\macFunctions.cs" target="src\src\System.Drawing.Common\src\System\Drawing\macFunctions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\MarshallingHelpers.cs" target="src\src\System.Drawing.Common\src\System\Drawing\MarshallingHelpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\NativeMethods.cs" target="src\src\System.Drawing.Common\src\System\Drawing\NativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\NativeStructs.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\NativeStructs.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Pen.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Pen.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Pen.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Pen.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Pen.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Pen.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Pens.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Pens.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\DefaultPrintController.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\DefaultPrintController.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\Duplex.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\Duplex.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\InvalidPrinterException.Core.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\InvalidPrinterException.Core.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\InvalidPrinterException.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\InvalidPrinterException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\LibcupsNative.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\LibcupsNative.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\Margins.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\Margins.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\ModeField.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\ModeField.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PageSettings.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PageSettings.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PageSettings.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PageSettings.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PaperKinds.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PaperKinds.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PaperSize.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PaperSize.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PaperSource.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PaperSource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PaperSourceKind.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PaperSourceKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PreviewPageInfo.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PreviewPageInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PreviewPrintController.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PreviewPrintController.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PreviewPrintController.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PreviewPrintController.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintAction.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintAction.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintController.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintController.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintController.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintController.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintDocument.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintDocument.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintDocument.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintDocument.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterResolution.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterResolution.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterResolutionKind.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterResolutionKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterSettings.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterSettings.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterSettings.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterSettings.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterUnit.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterUnit.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterUnitConvert.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrinterUnitConvert.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintEventArgs.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintEventArgs.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintEventArgs.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintEventArgs.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintEventHandler.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintingPermissionLevel.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintingPermissionLevel.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintingServices.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintingServices.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintPageEventArgs.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintPageEventArgs.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintPageEventArgs.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintPageEventArgs.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintPageEventHandler.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintPageEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintPreviewGraphics.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintPreviewGraphics.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\PrintRange.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\PrintRange.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\QueryPageSettingsEventArgs.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\QueryPageSettingsEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\QueryPageSettingsEventHandler.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\QueryPageSettingsEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\StandardPrintController.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\StandardPrintController.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Printing\TriState.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Printing\TriState.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\PropertyItemInternal.cs" target="src\src\System.Drawing.Common\src\System\Drawing\PropertyItemInternal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Region.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Region.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Region.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Region.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Region.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Region.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\RotateFlipType.cs" target="src\src\System.Drawing.Common\src\System\Drawing\RotateFlipType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\SolidBrush.cs" target="src\src\System.Drawing.Common\src\System\Drawing\SolidBrush.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\SRDescriptionAttribute.cs" target="src\src\System.Drawing.Common\src\System\Drawing\SRDescriptionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\StringAlignment.cs" target="src\src\System.Drawing.Common\src\System\Drawing\StringAlignment.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\StringDigitSubstitute.cs" target="src\src\System.Drawing.Common\src\System\Drawing\StringDigitSubstitute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\StringFormat.cs" target="src\src\System.Drawing.Common\src\System\Drawing\StringFormat.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\StringFormatFlags.cs" target="src\src\System.Drawing.Common\src\System\Drawing\StringFormatFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\StringTrimming.cs" target="src\src\System.Drawing.Common\src\System\Drawing\StringTrimming.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\StringUnit.cs" target="src\src\System.Drawing.Common\src\System\Drawing\StringUnit.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\SystemBrushes.cs" target="src\src\System.Drawing.Common\src\System\Drawing\SystemBrushes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\SystemColors.cs" target="src\src\System.Drawing.Common\src\System\Drawing\SystemColors.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\SystemFonts.cs" target="src\src\System.Drawing.Common\src\System\Drawing\SystemFonts.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\SystemFonts.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\SystemFonts.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\SystemFonts.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\SystemFonts.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\SystemIcons.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\SystemIcons.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\SystemIcons.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\SystemIcons.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\SystemPens.cs" target="src\src\System.Drawing.Common\src\System\Drawing\SystemPens.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\TextureBrush.cs" target="src\src\System.Drawing.Common\src\System\Drawing\TextureBrush.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Text\FontCollection.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Text\FontCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Text\GenericFontFamilies.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Text\GenericFontFamilies.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Text\HotkeyPrefix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Text\HotkeyPrefix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Text\InstalledFontCollection.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Text\InstalledFontCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Text\PrivateFontCollection.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Text\PrivateFontCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Text\PrivateFontCollection.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Text\PrivateFontCollection.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Text\PrivateFontCollection.Windows.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Text\PrivateFontCollection.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\Text\TextRenderingHint.cs" target="src\src\System.Drawing.Common\src\System\Drawing\Text\TextRenderingHint.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\ToolboxBitmapAttribute.cs" target="src\src\System.Drawing.Common\src\System\Drawing\ToolboxBitmapAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\ToolboxBitmapAttribute.Unix.cs" target="src\src\System.Drawing.Common\src\System\Drawing\ToolboxBitmapAttribute.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Drawing.Common\src\System\Drawing\UnsafeNativeMethods.cs" target="src\src\System.Drawing.Common\src\System\Drawing\UnsafeNativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

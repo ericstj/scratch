@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.DirectoryServices.Protocols</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>System.DirectoryServices.Protocols</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides the methods defined in the Lightweight Directory Access Protocol (LDAP) version 3 (V3) and Directory Services Markup Language (DSML) version 2.0 (V2) standards. 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0">
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="MonoTouch1.0">
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.Mac2.0">
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.TVOS1.0">
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.WatchOS1.0">
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.DirectoryServices.Protocols" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.DirectoryServices.Protocols\netstandard\System.DirectoryServices.Protocols.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.DirectoryServices.Protocols\netstandard\System.DirectoryServices.Protocols.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.DirectoryServices.Protocols\4.0.0.0\netstandard\System.DirectoryServices.Protocols.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.DirectoryServices.Protocols\4.0.0.0\netstandard\System.DirectoryServices.Protocols.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.DirectoryServices.Protocols.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="runtimes\win\lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.DirectoryServices.Protocols\netcoreapp2.0\System.DirectoryServices.Protocols.dll" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.DirectoryServices.Protocols\netcoreapp2.0\System.DirectoryServices.Protocols.pdb" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.DirectoryServices.Protocols\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.DirectoryServices.Protocols\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.DirectoryServices.Protocols\netstandard\System.DirectoryServices.Protocols.notsupported.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.DirectoryServices.Protocols\netstandard\System.DirectoryServices.Protocols.notsupported.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.DirectoryServices.Protocols\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.DirectoryServices.Protocols\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.DirectoryServices.Protocols\4.0.0.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\System.DirectoryServices.Protocols\4.0.0.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.DirectoryServices.Protocols\netcoreapp2.0\SR.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.DirectoryServices.Protocols\netcoreapp2.0\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.DirectoryServices.Protocols\netcoreapp2.0\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.DirectoryServices.Protocols\netcoreapp2.0\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\ref\System.DirectoryServices.Protocols.cs" target="src\src\System.DirectoryServices.Protocols\ref\System.DirectoryServices.Protocols.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\AuthTypes.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\AuthTypes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\BerConverter.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\BerConverter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DereferenceAlias.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DereferenceAlias.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryAttribute.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryAttributeOperation.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryAttributeOperation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryConnection.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryConnection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryControl.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryControl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryException.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryIdentifier.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryIdentifier.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryOperation.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryOperation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryRequest.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryRequest.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryResponse.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\DirectoryResponse.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\PartialResultsCollection.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\PartialResultsCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\ReferralChasingOption.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\ReferralChasingOption.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\ResultCode.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\ResultCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\SearchResults.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\SearchResults.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\SearchScope.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\SearchScope.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\utils.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\common\utils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapAsyncResult.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapAsyncResult.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapConnection.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapConnection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapDirectoryIdentifier.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapDirectoryIdentifier.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapException.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapPartialResultsProcessor.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapPartialResultsProcessor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapSessionOptions.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\LdapSessionOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\SafeHandles.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\SafeHandles.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\Wldap32UnsafeMethods.cs" target="src\src\System.DirectoryServices.Protocols\src\System\DirectoryServices\Protocols\ldap\Wldap32UnsafeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

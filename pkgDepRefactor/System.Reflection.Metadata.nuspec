@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.8.6">
+    <id>System.Reflection.Metadata</id>
+    <version>1.6.0-preview2-26123-0</version>
+    <title>System.Reflection.Metadata</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>This packages provides a low-level .NET (ECMA-335) metadata reader and writer. It's geared for performance and is the ideal choice for building higher-level libraries that intend to provide their own object model, such as compilers.
+
+Commonly Used Types:
+System.Reflection.Metadata.MetadataReader
+System.Reflection.PortableExecutable.PEReader
+System.Reflection.Metadata.Ecma335.MetadataBuilder
+System.Reflection.PortableExecutable.PEBuilder
+System.Reflection.PortableExecutable.ManagedPEBuilder
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0">
+        <dependency id="System.Collections.Immutable" version="1.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="MonoTouch1.0">
+        <dependency id="System.Collections.Immutable" version="1.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.Collections.Immutable" version="1.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Collections.Immutable" version="1.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Collections.Immutable" version="1.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework=".NETPortable0.0-Profile7">
+        <dependency id="System.Collections.Immutable" version="1.4.0" />
+      </group>
+      <group targetFramework=".NETPortable4.5-Profile111">
+        <dependency id="System.Collections.Immutable" version="1.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="System.Collections.Immutable" version="1.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.Mac2.0">
+        <dependency id="System.Collections.Immutable" version="1.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.TVOS1.0">
+        <dependency id="System.Collections.Immutable" version="1.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.WatchOS1.0">
+        <dependency id="System.Collections.Immutable" version="1.5.0-preview2-26123-0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard1.1\System.Reflection.Metadata.dll" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard1.1\System.Reflection.Metadata.pdb" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Reflection.Metadata.xml" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Reflection.Metadata.xml" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard\System.Reflection.Metadata.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard\System.Reflection.Metadata.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard1.1\System.Reflection.Metadata.dll" target="lib\portable-net45+win8" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard1.1\System.Reflection.Metadata.pdb" target="lib\portable-net45+win8" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Reflection.Metadata.xml" target="lib\portable-net45+win8" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard1.1\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard1.1\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard1.1\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard1.1\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Reflection.Metadata\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\Properties\InternalsVisibleTo.cs" target="src\src\System.Reflection.Metadata\src\Properties\InternalsVisibleTo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\AbstractMemoryBlock.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\AbstractMemoryBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\ByteArrayMemoryBlock.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\ByteArrayMemoryBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\ByteArrayMemoryProvider.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\ByteArrayMemoryProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\ExternalMemoryBlock.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\ExternalMemoryBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\ExternalMemoryBlockProvider.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\ExternalMemoryBlockProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\MemoryBlockProvider.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\MemoryBlockProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\MemoryMappedFileBlock.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\MemoryMappedFileBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\NativeHeapMemoryBlock.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\NativeHeapMemoryBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\StreamConstraints.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\StreamConstraints.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\StreamMemoryBlockProvider.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\MemoryBlocks\StreamMemoryBlockProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\BitArithmetic.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\BitArithmetic.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\BlobUtilities.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\BlobUtilities.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ByteSequenceComparer.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ByteSequenceComparer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\CriticalDisposableObject.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\CriticalDisposableObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\CriticalDisposableObject.netstandard1.1.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\CriticalDisposableObject.netstandard1.1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\DecimalUtilities.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\DecimalUtilities.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\EmptyArray.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\EmptyArray.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\EncodingHelper.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\EncodingHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\EnumerableExtensions.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\EnumerableExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ExceptionUtilities.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ExceptionUtilities.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\FileStreamReadLightUp.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\FileStreamReadLightUp.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\FileStreamReadLightUp.netstandard1.1.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\FileStreamReadLightUp.netstandard1.1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\Hash.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\Hash.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ImmutableByteArrayInterop.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ImmutableByteArrayInterop.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ImmutableMemoryStream.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ImmutableMemoryStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\LightUpHelper.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\LightUpHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\MemoryBlock.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\MemoryBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\MemoryMapLightUp.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\MemoryMapLightUp.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\MemoryMapLightUp.netstandard1.1.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\MemoryMapLightUp.netstandard1.1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ObjectPool`1.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ObjectPool`1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\PathUtilities.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\PathUtilities.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\PinnedObject.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\PinnedObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\PooledStringBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\PooledStringBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ReadOnlyUnmanagedMemoryStream.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\ReadOnlyUnmanagedMemoryStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\StreamExtensions.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\StreamExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\StringUtils.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Internal\Utilities\StringUtils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Blob.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Blob.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobBuilder.Enumerators.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobBuilder.Enumerators.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobContentId.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobContentId.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobReader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobWriter.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobWriter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobWriterImpl.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\BlobWriterImpl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Decoding\IConstructedTypeProvider.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Decoding\IConstructedTypeProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Decoding\ICustomAttributeTypeProvider.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Decoding\ICustomAttributeTypeProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Decoding\ISignatureTypeProvider.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Decoding\ISignatureTypeProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Decoding\ISimpleTypeProvider.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Decoding\ISimpleTypeProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Decoding\ISZArrayTypeProvider.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Decoding\ISZArrayTypeProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\CodedIndex.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\CodedIndex.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\CustomAttributeDecoder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\CustomAttributeDecoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\EditAndContinueLogEntry.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\EditAndContinueLogEntry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\EditAndContinueOperation.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\EditAndContinueOperation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\BlobEncoders.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\BlobEncoders.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\ControlFlowBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\ControlFlowBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\ExceptionRegionEncoder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\ExceptionRegionEncoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\FunctionPointerAttributes.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\FunctionPointerAttributes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\InstructionEncoder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\InstructionEncoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\LabelHandle.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\LabelHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\MethodBodyAttributes.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\MethodBodyAttributes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\MethodBodyStreamEncoder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\Encoding\MethodBodyStreamEncoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\ExportedTypeExtensions.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\ExportedTypeExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\HeapIndex.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\HeapIndex.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataAggregator.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataAggregator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataBuilder.Heaps.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataBuilder.Heaps.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataBuilder.Tables.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataBuilder.Tables.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataReaderExtensions.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataReaderExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataRootBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataRootBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataSizes.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataSizes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataTokens.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\MetadataTokens.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\PortablePdbBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\PortablePdbBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\SerializedMetadataHeaps.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\SerializedMetadataHeaps.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\SignatureDecoder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\SignatureDecoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\TableIndex.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Ecma335\TableIndex.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\EntityHandle.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\EntityHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Handle.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Handle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\HandleComparer.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\HandleComparer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\HandleKind.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\HandleKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\IL\ExceptionRegion.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\IL\ExceptionRegion.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\IL\ExceptionRegionKind.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\IL\ExceptionRegionKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\IL\ILOpCode.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\IL\ILOpCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\IL\ILOpCodeExtensions.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\IL\ILOpCodeExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\IL\MethodBodyBlock.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\IL\MethodBodyBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\ImageFormatLimitationException.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\ImageFormatLimitationException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\BlobHeap.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\BlobHeap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\COR20Constants.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\COR20Constants.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\CorElementType.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\CorElementType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\CustomAttributeTypeTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\CustomAttributeTypeTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\GuidHeap.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\GuidHeap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HasConstantTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HasConstantTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HasCustomAttributeTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HasCustomAttributeTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HasDeclSecurityTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HasDeclSecurityTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HasFieldMarshalTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HasFieldMarshalTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HasSemanticsTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HasSemanticsTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HeapSizeFlag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\HeapSizeFlag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\ImplementationTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\ImplementationTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MemberForwardedTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MemberForwardedTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MemberRefParentTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MemberRefParentTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MetadataFlags.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MetadataFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MetadataStreamConstants.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MetadataStreamConstants.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MetadataWriterUtilities.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MetadataWriterUtilities.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MethodDefOrRefTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\MethodDefOrRefTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\NamespaceCache.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\NamespaceCache.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\NamespaceData.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\NamespaceData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\ResolutionScopeTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\ResolutionScopeTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\StreamHeader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\StreamHeader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\StringHeap.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\StringHeap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\Tables.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\Tables.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\Treatments.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\Treatments.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\TypeDefOrRefTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\TypeDefOrRefTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\TypeOrMethodDefTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\TypeOrMethodDefTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\UserStringHeap.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\UserStringHeap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\VirtualHeap.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Internal\VirtualHeap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataKind.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataReader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataReader.netstandard.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataReader.netstandard.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataReader.WinMD.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataReader.WinMD.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataReaderOptions.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataReaderOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataReaderProvider.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataReaderProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataStreamOptions.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataStreamOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataStringComparer.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataStringComparer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataStringDecoder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\MetadataStringDecoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PEReaderExtensions.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PEReaderExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PooledBlobBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PooledBlobBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\CustomDebugInformation.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\CustomDebugInformation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\DebugMetadataHeader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\DebugMetadataHeader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\Document.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\Document.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\DocumentNameBlobHandle.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\DocumentNameBlobHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\HandleCollections.Debug.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\HandleCollections.Debug.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\Handles.Debug.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\Handles.Debug.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\HasCustomDebugInformationTag.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\HasCustomDebugInformationTag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\ImportDefinition.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\ImportDefinition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\ImportDefinitionCollection.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\ImportDefinitionCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\ImportDefinitionKind.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\ImportDefinitionKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\ImportScope.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\ImportScope.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\LocalConstant.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\LocalConstant.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\LocalScope.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\LocalScope.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\LocalVariable.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\LocalVariable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\LocalVariableAttributes.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\LocalVariableAttributes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\MethodDebugInformation.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\MethodDebugInformation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\PortablePdbVersions.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\PortablePdbVersions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\SequencePoint.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\SequencePoint.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\SequencePointCollection.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\SequencePointCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\Tables.Debug.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\PortablePdb\Tables.Debug.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\ReservedBlob.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\ReservedBlob.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\ArrayShape.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\ArrayShape.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\ConstantTypeCode.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\ConstantTypeCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\CustomAttributeNamedArgument.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\CustomAttributeNamedArgument.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\CustomAttributeNamedArgumentKind.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\CustomAttributeNamedArgumentKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\CustomAttributeTypedArgument.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\CustomAttributeTypedArgument.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\CustomAttributeValue.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\CustomAttributeValue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\MemberReferenceKind.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\MemberReferenceKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\MethodSignature.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\MethodSignature.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\PrimitiveSerializationTypeCode.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\PrimitiveSerializationTypeCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\PrimitiveTypeCode.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\PrimitiveTypeCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SerializationTypeCode.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SerializationTypeCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureAttributes.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureAttributes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureCallingConvention.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureCallingConvention.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureHeader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureHeader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureKind.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureTypeCode.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureTypeCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureTypeKind.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\SignatureTypeKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\StandaloneSignatureKind.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\Signatures\StandaloneSignatureKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\AssemblyDefinition.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\AssemblyDefinition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\AssemblyDefinition.netstandard.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\AssemblyDefinition.netstandard.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\AssemblyFile.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\AssemblyFile.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\AssemblyReference.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\AssemblyReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\AssemblyReference.netstandard.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\AssemblyReference.netstandard.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\Constant.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\Constant.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\CustomAttribute.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\CustomAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\DeclarativeSecurityAttribute.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\DeclarativeSecurityAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\EventDefinition.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\EventDefinition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\ExportedType.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\ExportedType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\FieldDefinition.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\FieldDefinition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\GenericParameter.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\GenericParameter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\GenericParameterConstraint.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\GenericParameterConstraint.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\HandleCollections.TypeSystem.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\HandleCollections.TypeSystem.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\Handles.TypeSystem.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\Handles.TypeSystem.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\InterfaceImplementation.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\InterfaceImplementation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\ManifestResource.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\ManifestResource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\MemberReference.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\MemberReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\MethodDefinition.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\MethodDefinition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\MethodImplementation.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\MethodImplementation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\MethodImport.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\MethodImport.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\MethodSpecification.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\MethodSpecification.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\ModuleDefinition.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\ModuleDefinition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\ModuleReference.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\ModuleReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\NamespaceDefinition.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\NamespaceDefinition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\Parameter.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\Parameter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\PropertyDefinition.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\PropertyDefinition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\StandaloneSignature.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\StandaloneSignature.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\TypeDefinition.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\TypeDefinition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\TypeLayout.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\TypeLayout.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\TypeReference.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\TypeReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\TypeSpecification.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Metadata\TypeSystem\TypeSpecification.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\CoffHeader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\CoffHeader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\CorFlags.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\CorFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\CorHeader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\CorHeader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DebugDirectory\CodeViewDebugDirectoryData.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DebugDirectory\CodeViewDebugDirectoryData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DebugDirectory\DebugDirectoryBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DebugDirectory\DebugDirectoryBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DebugDirectory\DebugDirectoryBuilder.EmbeddedPortablePdb.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DebugDirectory\DebugDirectoryBuilder.EmbeddedPortablePdb.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DebugDirectory\DebugDirectoryEntry.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DebugDirectory\DebugDirectoryEntry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DebugDirectory\DebugDirectoryEntryType.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DebugDirectory\DebugDirectoryEntryType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DirectoryEntry.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\DirectoryEntry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\Machine.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\Machine.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\ManagedPEBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\ManagedPEBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\ManagedTextSection.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\ManagedTextSection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEBinaryReader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEBinaryReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEDirectoriesBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEDirectoriesBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEFileFlags.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEFileFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEHeader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEHeader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEHeaderBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEHeaderBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEHeaders.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEHeaders.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEMemoryBlock.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEMemoryBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEReader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEReader.EmbeddedPortablePdb.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEReader.EmbeddedPortablePdb.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEStreamOptions.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\PEStreamOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\ResourceSectionBuilder.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\ResourceSectionBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\SectionHeader.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\SectionHeader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\SectionLocation.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\PortableExecutable\SectionLocation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\System.Reflection.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\System.Reflection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.Metadata\src\System\Reflection\Throw.cs" target="src\src\System.Reflection.Metadata\src\System\Reflection\Throw.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

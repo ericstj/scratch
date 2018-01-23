@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>Microsoft.Windows.Compatibility.Shims</id>
+    <version>2.0.0-preview2-26123-0</version>
+    <title>Microsoft.Windows.Compatibility.Shims</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>This package provides infrastructure services and shouldn't be referenced directly from your code. It provides facade assemblies in order to make the Microsoft.Windows.Compatibility package work across all .NET implementations. 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\mscorlib.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\System.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\System.Configuration.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\System.Core.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\System.Data.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\System.Drawing.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\System.Net.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\System.Security.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\System.ServiceModel.Web.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\System.ServiceProcess.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\System.Transactions.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\shims\netcoreapp\facades\WindowsBase.dll" target="\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="\lib\netstandard2.0" exclude="" />
+  </files>
+</package>

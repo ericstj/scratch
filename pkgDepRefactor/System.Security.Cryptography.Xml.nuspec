@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Security.Cryptography.Xml</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>System.Security.Cryptography.Xml</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides classes to support the creation and validation of XML digital signatures. The classes in this namespace implement the World Wide Web Consortium Recommendation, "XML-Signature Syntax and Processing", described at http://www.w3.org/TR/xmldsig-core/.
+
+Commonly Used Types:
+System.Security.Cryptography.Xml.CipherData
+System.Security.Cryptography.Xml.CipherReference
+System.Security.Cryptography.Xml.DataObject
+System.Security.Cryptography.Xml.DataReference
+System.Security.Cryptography.Xml.DSAKeyValue
+System.Security.Cryptography.Xml.EncryptedData
+System.Security.Cryptography.Xml.EncryptedKey
+System.Security.Cryptography.Xml.EncryptedReference
+System.Security.Cryptography.Xml.EncryptedType
+System.Security.Cryptography.Xml.EncryptedXml
+System.Security.Cryptography.Xml.EncryptionMethod
+System.Security.Cryptography.Xml.EncryptionProperty
+System.Security.Cryptography.Xml.EncryptionPropertyCollection
+System.Security.Cryptography.Xml.KeyInfo
+System.Security.Cryptography.Xml.KeyInfoClause
+System.Security.Cryptography.Xml.KeyInfoEncryptedKey
+System.Security.Cryptography.Xml.KeyInfoName
+System.Security.Cryptography.Xml.KeyInfoNode
+System.Security.Cryptography.Xml.KeyInfoRetrievalMethod
+System.Security.Cryptography.Xml.KeyInfoX509Data
+System.Security.Cryptography.Xml.KeyReference
+System.Security.Cryptography.Xml.Reference
+System.Security.Cryptography.Xml.ReferenceList
+System.Security.Cryptography.Xml.RSAKeyValue
+System.Security.Cryptography.Xml.Signature
+System.Security.Cryptography.Xml.SignedInfo
+System.Security.Cryptography.Xml.SignedXml
+System.Security.Cryptography.Xml.Transform
+System.Security.Cryptography.Xml.TransformChain
+System.Security.Cryptography.Xml.XmlDecryptionTransform
+System.Security.Cryptography.Xml.XmlDsigBase64Transform
+System.Security.Cryptography.Xml.XmlDsigC14NTransform
+System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform
+System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform
+System.Security.Cryptography.Xml.XmlDsigExcC14NTransform
+System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform
+System.Security.Cryptography.Xml.XmlDsigXPathTransform
+System.Security.Cryptography.Xml.XmlDsigXsltTransform
+System.Security.Cryptography.Xml.XmlLicenseTransform
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0">
+        <dependency id="System.Security.Permissions" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="MonoTouch1.0">
+        <dependency id="System.Security.Permissions" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.Security.Permissions" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.Permissions" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="System.Security.Permissions" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.Mac2.0">
+        <dependency id="System.Security.Permissions" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.TVOS1.0">
+        <dependency id="System.Security.Permissions" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.WatchOS1.0">
+        <dependency id="System.Security.Permissions" version="4.5.0-preview2-26123-0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netfx\System.Security.Cryptography.Xml.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netfx\System.Security.Cryptography.Xml.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netstandard\System.Security.Cryptography.Xml.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netstandard\System.Security.Cryptography.Xml.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Security.Cryptography.Xml.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.Xml\4.0.1.0\netfx\System.Security.Cryptography.Xml.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.Xml\4.0.1.0\netfx\System.Security.Cryptography.Xml.pdb" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.Xml\4.0.1.0\netstandard\System.Security.Cryptography.Xml.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.Xml\4.0.1.0\netstandard\System.Security.Cryptography.Xml.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Security.Cryptography.Xml.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netfx\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netfx\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netfx\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Xml\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Security.Cryptography.Xml\4.0.1.0\netfx\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Security.Cryptography.Xml\4.0.1.0\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Security.Cryptography.Xml\4.0.1.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Security.Cryptography.Xml\4.0.1.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\ref\System.Security.Cryptography.Xml.cs" target="src\src\System.Security.Cryptography.Xml\ref\System.Security.Cryptography.Xml.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\AncestralNamespaceContextManager.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\AncestralNamespaceContextManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\AttributeSortOrder.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\AttributeSortOrder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\C14NAncestralNamespaceContextManager.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\C14NAncestralNamespaceContextManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalizationDispatcher.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalizationDispatcher.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXml.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXml.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlAttribute.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlCDataSection.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlCDataSection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlComment.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlComment.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlDocument.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlDocument.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlElement.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlElement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlEntityReference.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlEntityReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlNodeList.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlNodeList.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlProcessingInstruction.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlProcessingInstruction.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlSignificantWhitespace.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlSignificantWhitespace.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlText.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlText.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlWhitespace.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CanonicalXmlWhitespace.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CertUsageType.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CertUsageType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CipherData.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CipherData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CipherReference.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CipherReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CryptoHelpers.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CryptoHelpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CryptoSignedXmlRecursionException.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\CryptoSignedXmlRecursionException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\DataObject.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\DataObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\DataReference.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\DataReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\DocPosition.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\DocPosition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\DSAKeyValue.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\DSAKeyValue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\DSASignatureDescription.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\DSASignatureDescription.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptedData.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptedData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptedKey.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptedKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptedReference.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptedReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptedType.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptedType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptedXml.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptedXml.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptionMethod.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptionMethod.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptionProperty.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptionProperty.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptionPropertyCollection.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\EncryptionPropertyCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\ExcAncestralNamespaceContextManager.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\ExcAncestralNamespaceContextManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\ExcCanonicalXml.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\ExcCanonicalXml.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\ICanonicalizableNode.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\ICanonicalizableNode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\IRelDecryptor.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\IRelDecryptor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfo.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoClause.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoClause.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoEncryptedKey.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoEncryptedKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoName.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoName.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoNode.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoNode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoRetrievalMethod.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoRetrievalMethod.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoX509Data.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyInfoX509Data.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyReference.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\KeyReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\MyXmlDocument.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\MyXmlDocument.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\NamespaceFrame.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\NamespaceFrame.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\NamespaceSortOrder.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\NamespaceSortOrder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\Reference.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\Reference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\ReferenceList.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\ReferenceList.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\ReferenceTargetType.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\ReferenceTargetType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAKeyValue.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAKeyValue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAPKCS1SHA1SignatureDescription.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAPKCS1SHA1SignatureDescription.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAPKCS1SHA256SignatureDescription.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAPKCS1SHA256SignatureDescription.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAPKCS1SHA384SignatureDescription.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAPKCS1SHA384SignatureDescription.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAPKCS1SHA512SignatureDescription.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAPKCS1SHA512SignatureDescription.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAPKCS1SignatureDescription.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\RSAPKCS1SignatureDescription.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\Signature.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\Signature.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\SignedInfo.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\SignedInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\SignedXml.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\SignedXml.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\SignedXmlDebugLog.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\SignedXmlDebugLog.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\SymmetricKeyWrap.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\SymmetricKeyWrap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\Transform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\Transform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\TransformChain.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\TransformChain.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\TransformInputType.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\TransformInputType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\Utils.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\Utils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\X509IssuerSerial.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\X509IssuerSerial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDecryptionTransform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDecryptionTransform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigBase64Transform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigBase64Transform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigC14NTransform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigC14NTransform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigC14NWithCommentsTransform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigC14NWithCommentsTransform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigEnvelopedSignatureTransform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigEnvelopedSignatureTransform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigExcC14NTransform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigExcC14NTransform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigExcC14NWithCommentsTransform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigExcC14NWithCommentsTransform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigXPathTransform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigXPathTransform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigXsltTransform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlDsigXsltTransform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlLicenseTransform.cs" target="src\src\System.Security.Cryptography.Xml\src\System\Security\Cryptography\Xml\XmlLicenseTransform.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

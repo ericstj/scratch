@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>Microsoft.Diagnostics.Tracing.EventSource.Redist</id>
+    <version>2.0.0-preview2-26123-0</version>
+    <title>Microsoft.Diagnostics.Tracing.EventSource.Redist</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>This package includes the class Microsoft.Diagnostics.Tracing.EventSource which enables firing ETW events from managed code. This is the "runtime" or "redist" EventSource package and should be referenced directly only by other NuGet packages that need the EventSource functionality. Application developers that need this functionality should instead reference the Microsoft.Diagnostics.Tracing.EventSource NuGet package which provides an enhanced developer experience.
+
+      This package enables defining a strongly typed specification of an ETW provider that can be called by managed code. The EventSource class is also included in the .NET Framework. This package provides a newer version that has more features. It is meant to be used as a stop gap until those features it contains are ported to System.Diagnostics.Tracing.EventSource.
+
+      For more details, have a look at http://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource.aspx.
+
+
+
+Commonly Used Types:
+Microsoft.Diagnostics.Tracing.EventSource
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Diagnostics.Tracing.EventSource.Redist\netfx\Microsoft.Diagnostics.Tracing.EventSource.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Diagnostics.Tracing.EventSource.Redist\netfx\Microsoft.Diagnostics.Tracing.EventSource.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Diagnostics.Tracing.EventSource.Redist\netfx\Microsoft.Diagnostics.Tracing.EventSource.dll" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Diagnostics.Tracing.EventSource.Redist\netfx\Microsoft.Diagnostics.Tracing.EventSource.pdb" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Diagnostics.Tracing.EventSource.Redist\netfx\SR.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Diagnostics.Tracing.EventSource.Redist\netfx\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Diagnostics.Tracing.EventSource.Redist\netfx\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Diagnostics.Tracing.EventSource.Redist\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\ActivityTracker.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\ActivityTracker.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\EventActivityOptions.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\EventActivityOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\EventDescriptor.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\EventDescriptor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\EventProvider.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\EventProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\EventSource.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\EventSource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\EventSourceException.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\EventSourceException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\IEventProvider.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\IEventProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\StubEnvironment.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\StubEnvironment.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\ArrayTypeInfo.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\ArrayTypeInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\ConcurrentSet.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\ConcurrentSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\ConcurrentSetItem.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\ConcurrentSetItem.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\DataCollector.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\DataCollector.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EmptyStruct.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EmptyStruct.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EnumerableTypeInfo.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EnumerableTypeInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EnumHelper.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EnumHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventDataAttribute.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventDataAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventFieldAttribute.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventFieldAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventFieldFormat.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventFieldFormat.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventIgnoreAttribute.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventIgnoreAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventPayload.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventPayload.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventSourceActivity.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventSourceActivity.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventSourceOptions.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\EventSourceOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\FieldMetadata.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\FieldMetadata.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\InvokeTypeInfo.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\InvokeTypeInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\NameInfo.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\NameInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\PropertyAnalysis.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\PropertyAnalysis.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\PropertyValue.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\PropertyValue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\SimpleEventTypes.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\SimpleEventTypes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\SimpleTypeInfos.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\SimpleTypeInfos.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\Statics.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\Statics.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingDataCollector.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingDataCollector.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingDataType.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingDataType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingEventSource.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingEventSource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingEventTraits.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingEventTraits.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingEventTypes.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingEventTypes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingMetadataCollector.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingMetadataCollector.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingTypeInfo.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TraceLoggingTypeInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TypeAnalysis.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\TraceLogging\TypeAnalysis.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\Tracing\Winmeta.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\Tracing\Winmeta.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Diagnostics.Tracing.EventSource.Redist\src\ManifestEtw.cs" target="src\src\Microsoft.Diagnostics.Tracing.EventSource.Redist\src\ManifestEtw.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Diagnostics.Tracing.EventSource.Redist\src\RuntimeSpecific.cs" target="src\src\Microsoft.Diagnostics.Tracing.EventSource.Redist\src\RuntimeSpecific.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.Tracing\src\System\Diagnostics\Tracing\EventCounter.cs" target="src\src\System.Diagnostics.Tracing\src\System\Diagnostics\Tracing\EventCounter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

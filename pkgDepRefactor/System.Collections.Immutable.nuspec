@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.8.6">
+    <id>System.Collections.Immutable</id>
+    <version>1.5.0-preview2-26123-0</version>
+    <title>System.Collections.Immutable</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>This package provides collections that are thread safe and guaranteed to never change their contents, also known as immutable collections. Like strings, any methods that perform modifications will not change the existing instance but instead return a new instance. For efficiency reasons, the implementation uses a sharing mechanism to ensure that newly created instances share as much data as possible with the previous instance while ensuring that operations have a predictable time complexity.
+
+Commonly Used Types:
+System.Collections.Immutable.ImmutableArray
+System.Collections.Immutable.ImmutableArray&lt;T&gt;
+System.Collections.Immutable.ImmutableDictionary
+System.Collections.Immutable.ImmutableDictionary&lt;TKey,TValue&gt;
+System.Collections.Immutable.ImmutableHashSet
+System.Collections.Immutable.ImmutableHashSet&lt;T&gt;
+System.Collections.Immutable.ImmutableList
+System.Collections.Immutable.ImmutableList&lt;T&gt;
+System.Collections.Immutable.ImmutableQueue
+System.Collections.Immutable.ImmutableQueue&lt;T&gt;
+System.Collections.Immutable.ImmutableSortedDictionary
+System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;
+System.Collections.Immutable.ImmutableSortedSet
+System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;
+System.Collections.Immutable.ImmutableStack
+System.Collections.Immutable.ImmutableStack&lt;T&gt;
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0" />
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Diagnostics.Contracts" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Diagnostics.Contracts" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETPortable4.5-Profile259" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.0\System.Collections.Immutable.dll" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.0\System.Collections.Immutable.pdb" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Collections.Immutable.xml" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Collections.Immutable.xml" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.3\System.Collections.Immutable.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.3\System.Collections.Immutable.pdb" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Collections.Immutable.xml" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard\System.Collections.Immutable.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard\System.Collections.Immutable.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.0\System.Collections.Immutable.dll" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.0\System.Collections.Immutable.pdb" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Collections.Immutable.xml" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.0\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.0\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.0\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.0\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.3\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.3\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.3\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard1.3\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Collections.Immutable\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Diagnostics\CodeAnalysis\ExcludeFromCodeCoverageAttribute.cs" target="src\src\Common\src\System\Diagnostics\CodeAnalysis\ExcludeFromCodeCoverageAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Runtime\Versioning\NonVersionableAttribute.cs" target="src\src\Common\src\System\Runtime\Versioning\NonVersionableAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\GlobalSuppressions.cs" target="src\src\System.Collections.Immutable\src\GlobalSuppressions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\Properties\InternalsVisibleTo.cs" target="src\src\System.Collections.Immutable\src\Properties\InternalsVisibleTo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Generic\IHashKeyCollection.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Generic\IHashKeyCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Generic\ISortKeyCollection.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Generic\ISortKeyCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\AllocFreeConcurrentStack.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\AllocFreeConcurrentStack.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\DictionaryEnumerator.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\DictionaryEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\DisposableEnumeratorAdapter_2.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\DisposableEnumeratorAdapter_2.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IBinaryTree.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IBinaryTree.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableArray.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableArray.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableDictionary.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableDictionary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableDictionaryInternal.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableDictionaryInternal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableList.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableList.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableListQueries.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableListQueries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableQueue.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableQueue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableSet.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableStack.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IImmutableStack.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray_1.Builder.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray_1.Builder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray_1.Builder.DebuggerProxy.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray_1.Builder.DebuggerProxy.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray_1.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray_1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray_1.Enumerator.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray_1.Enumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray_1.Minimal.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableArray_1.Minimal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.Builder.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.Builder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.Comparers.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.Comparers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.Enumerator.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.Enumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.HashBucket.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.HashBucket.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.MutationInput.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.MutationInput.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.MutationResult.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableDictionary_2.MutationResult.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableEnumerableDebuggerProxy.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableEnumerableDebuggerProxy.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableExtensions.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableExtensions.Minimal.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableExtensions.Minimal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.Builder.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.Builder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.Enumerator.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.Enumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.HashBucket.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.HashBucket.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.HashBucketByRefEqualityComparer.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.HashBucketByRefEqualityComparer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.HashBucketByValueEqualityComparer.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.HashBucketByValueEqualityComparer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.MutationInput.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.MutationInput.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.MutationResult.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.MutationResult.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.NodeEnumerable.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableHashSet_1.NodeEnumerable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableInterlocked.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableInterlocked.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableList.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableList.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableList_1.Builder.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableList_1.Builder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableList_1.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableList_1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableList_1.Enumerator.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableList_1.Enumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableList_1.Node.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableList_1.Node.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableQueue.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableQueue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableQueue_1.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableQueue_1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableQueue_1.Enumerator.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableQueue_1.Enumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedDictionary.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedDictionary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedDictionary_2.Builder.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedDictionary_2.Builder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedDictionary_2.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedDictionary_2.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedDictionary_2.Enumerator.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedDictionary_2.Enumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedDictionary_2.Node.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedDictionary_2.Node.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet_1.Builder.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet_1.Builder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet_1.Builder.DebuggerProxy.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet_1.Builder.DebuggerProxy.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet_1.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet_1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet_1.Enumerator.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet_1.Enumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet_1.Node.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableSortedSet_1.Node.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableStack.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableStack.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableStack_1.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableStack_1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableStack_1.Enumerator.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\ImmutableStack_1.Enumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IOrderedCollection.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IOrderedCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IStrongEnumerable_2.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IStrongEnumerable_2.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\IStrongEnumerator_1.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\IStrongEnumerator_1.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\KeysOrValuesCollectionAccessor.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\KeysOrValuesCollectionAccessor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\RefAsValueType.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\RefAsValueType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\SecureObjectPool.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\SecureObjectPool.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\SortedInt32KeyNode.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\SortedInt32KeyNode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Collections\Immutable\SortedInt32KeyNode.Enumerator.cs" target="src\src\System.Collections.Immutable\src\System\Collections\Immutable\SortedInt32KeyNode.Enumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\System\Linq\ImmutableArrayExtensions.cs" target="src\src\System.Collections.Immutable\src\System\Linq\ImmutableArrayExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\Validation\Requires.cs" target="src\src\System.Collections.Immutable\src\Validation\Requires.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Collections.Immutable\src\Validation\ValidatedNotNullAttribute.cs" target="src\src\System.Collections.Immutable\src\Validation\ValidatedNotNullAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

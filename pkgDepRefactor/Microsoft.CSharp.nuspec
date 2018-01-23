@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>Microsoft.CSharp</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>Microsoft.CSharp</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides support for compilation and code generation, including dynamic, using the C# language.
+
+Commonly Used Types:
+Microsoft.CSharp.RuntimeBinder.Binder
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo
+Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags
+Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0" />
+      <group targetFramework="MonoTouch1.0" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETCore5.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Dynamic.Runtime" version="4.3.0" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0" />
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Dynamic.Runtime" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Dynamic.Runtime" version="4.3.0" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETPortable0.0-Profile259" />
+      <group targetFramework=".NETPortable4.5-Profile78" />
+      <group targetFramework=".NETPortable4.5-Profile111" />
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhone8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
+      <group targetFramework="Xamarin.iOS1.0" />
+      <group targetFramework="Xamarin.Mac2.0" />
+      <group targetFramework="Xamarin.TVOS1.0" />
+      <group targetFramework="Xamarin.WatchOS1.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="MonoAndroid1.0" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="MonoTouch1.0" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="Xamarin.Mac2.0" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="Xamarin.TVOS1.0" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="Xamarin.WatchOS1.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\lib\netcore50\Microsoft.CSharp.dll" target="lib\netcore50" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\lib\netstandard1.3\Microsoft.CSharp.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\Microsoft.CSharp\netstandard\Microsoft.CSharp.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\Microsoft.CSharp\netstandard\Microsoft.CSharp.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\win8" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\wp80" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\net45" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\Microsoft.CSharp.dll" target="ref\netcore50" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\Microsoft.CSharp.xml" target="ref\netcore50" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\de\Microsoft.CSharp.xml" target="ref\netcore50\de" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\es\Microsoft.CSharp.xml" target="ref\netcore50\es" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\fr\Microsoft.CSharp.xml" target="ref\netcore50\fr" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\it\Microsoft.CSharp.xml" target="ref\netcore50\it" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\ja\Microsoft.CSharp.xml" target="ref\netcore50\ja" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\ko\Microsoft.CSharp.xml" target="ref\netcore50\ko" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\ru\Microsoft.CSharp.xml" target="ref\netcore50\ru" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\zh-hans\Microsoft.CSharp.xml" target="ref\netcore50\zh-hans" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netcore50\zh-hant\Microsoft.CSharp.xml" target="ref\netcore50\zh-hant" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\Microsoft.CSharp.dll" target="ref\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\Microsoft.CSharp.xml" target="ref\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\de\Microsoft.CSharp.xml" target="ref\netstandard1.0\de" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\es\Microsoft.CSharp.xml" target="ref\netstandard1.0\es" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\fr\Microsoft.CSharp.xml" target="ref\netstandard1.0\fr" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\it\Microsoft.CSharp.xml" target="ref\netstandard1.0\it" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\ja\Microsoft.CSharp.xml" target="ref\netstandard1.0\ja" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\ko\Microsoft.CSharp.xml" target="ref\netstandard1.0\ko" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\ru\Microsoft.CSharp.xml" target="ref\netstandard1.0\ru" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\zh-hans\Microsoft.CSharp.xml" target="ref\netstandard1.0\zh-hans" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.CSharp\4.4.0\ref\netstandard1.0\zh-hant\Microsoft.CSharp.xml" target="ref\netstandard1.0\zh-hant" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.CSharp\4.0.0.0\netstandard\Microsoft.CSharp.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.CSharp\4.0.0.0\netstandard\Microsoft.CSharp.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\Microsoft.CSharp.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\win8" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\wp80" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.CSharp\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.CSharp\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.CSharp\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.CSharp\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\Microsoft.CSharp\4.0.0.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\Microsoft.CSharp\4.0.0.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\ref\Microsoft.CSharp.cs" target="src\src\Microsoft.CSharp\ref\Microsoft.CSharp.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\ArgumentObject.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\ArgumentObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Binder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Binder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\BinderHelper.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\BinderHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpArgumentInfo.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpArgumentInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpArgumentInfoFlags.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpArgumentInfoFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpBinaryOperationBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpBinaryOperationBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpBinaryOperationFlags.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpBinaryOperationFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpBinderFlags.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpBinderFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpCallFlags.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpCallFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpConversionKind.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpConversionKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpConvertBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpConvertBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpGetIndexBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpGetIndexBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpGetMemberBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpGetMemberBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpInvokeBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpInvokeBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpInvokeConstructorBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpInvokeConstructorBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpInvokeMemberBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpInvokeMemberBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpIsEventBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpIsEventBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpSetIndexBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpSetIndexBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpSetMemberBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpSetMemberBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpUnaryOperationBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\CSharpUnaryOperationBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Error.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Error.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\ErrorCode.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\ErrorCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\ErrorFacts.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\ErrorFacts.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\ErrorFmt.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\ErrorFmt.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\ErrorHandling.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\ErrorHandling.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\MessageID.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\MessageID.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\UserStringBuilder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Errors\UserStringBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\ExpressionTreeCallRewriter.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\ExpressionTreeCallRewriter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\ICSharpBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\ICSharpBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\ICSharpInvokeOrInvokeMemberBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\ICSharpInvokeOrInvokeMemberBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\RuntimeBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\RuntimeBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\RuntimeBinderException.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\RuntimeBinderException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\RuntimeBinderExtensions.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\RuntimeBinderExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\RuntimeBinderInternalCompilerException.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\RuntimeBinderInternalCompilerException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\BindingContext.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\BindingContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\BindingFlag.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\BindingFlag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Binding\Better.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Binding\Better.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Binding\ErrorReporting.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Binding\ErrorReporting.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\BinOpArgInfo.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\BinOpArgInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\BinOpKind.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\BinOpKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\BinOpSig.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\BinOpSig.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\CandidateFunctionMember.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\CandidateFunctionMember.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ConstVal.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ConstVal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Conversion.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Conversion.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Conversions.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Conversions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\COperators.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\COperators.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Declarations\AggregateDeclaration.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Declarations\AggregateDeclaration.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ExplicitConversion.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ExplicitConversion.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ExpressionBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ExpressionBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ExpressionKind.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ExpressionKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\EXPRExtensions.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\EXPRExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ExprFactory.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ExprFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\EXPRFLAG.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\EXPRFLAG.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\FundamentalTypes.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\FundamentalTypes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\GlobalSymbolContext.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\GlobalSymbolContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\GroupToArgsBinder.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\GroupToArgsBinder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\GroupToArgsBinderResult.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\GroupToArgsBinderResult.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ImplicitConversion.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\ImplicitConversion.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\MemberLookup.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\MemberLookup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\MemberLookupResults.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\MemberLookupResults.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\MethodIterator.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\MethodIterator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\MethodKind.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\MethodKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\MethodTypeInferrer.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\MethodTypeInferrer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Nullable.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Nullable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\NullableLift.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\NullableLift.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Operators.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Operators.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\PredefinedMembers.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\PredefinedMembers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\SemanticChecker.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\SemanticChecker.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\SubstitutionContext.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\SubstitutionContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\AggregateSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\AggregateSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\EventSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\EventSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\FieldSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\FieldSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\IndexerSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\IndexerSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\LocalVariableSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\LocalVariableSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\MethodOrPropertySymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\MethodOrPropertySymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\MethodSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\MethodSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\NamespaceOrAggregateSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\NamespaceOrAggregateSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\NamespaceSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\NamespaceSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\ParentSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\ParentSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\PropertySymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\PropertySymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\Scope.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\Scope.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\Symbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\Symbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymbolKind.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymbolKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymbolLoader.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymbolLoader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymbolManagerBase.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymbolManagerBase.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymbolMask.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymbolMask.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymbolTable.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymbolTable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymFactory.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\SymFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\TypeParameterSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\TypeParameterSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\VariableSymbol.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Symbols\VariableSymbol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ArrayIndex.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ArrayIndex.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ArrayInitialization.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ArrayInitialization.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Assignment.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Assignment.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\BinaryOperator.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\BinaryOperator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\BoundAnonymousFunction.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\BoundAnonymousFunction.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Call.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Call.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Cast.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Cast.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Class.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Class.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\CompoundOperator.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\CompoundOperator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Concatenate.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Concatenate.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Constant.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Constant.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\EXPR.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\EXPR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ExpressionIterator.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ExpressionIterator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ExprOperator.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ExprOperator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ExprWithArgs.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ExprWithArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ExprWithType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ExprWithType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Field.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Field.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\FieldInfo.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\FieldInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\IExprWithObject.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\IExprWithObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\List.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\List.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\LocalVariable.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\LocalVariable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\MemberGroup.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\MemberGroup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\MethodInfo.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\MethodInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\NamedArgumentSpecification.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\NamedArgumentSpecification.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Property.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Property.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\PropertyInfo.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\PropertyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Temporary.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Temporary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\TypeOf.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\TypeOf.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\UnaryOperator.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\UnaryOperator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\UserDefinedConversion.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\UserDefinedConversion.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\UserDefinedLogicalOperator.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\UserDefinedLogicalOperator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Visitors\ExpressionTreeRewriter.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Visitors\ExpressionTreeRewriter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Visitors\ExprVisitorBase.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\Visitors\ExprVisitorBase.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ZeroInitialize.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Tree\ZeroInitialize.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\TypeBind.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\TypeBind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\AggregateType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\AggregateType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\ArgumentListType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\ArgumentListType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\ArrayType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\ArrayType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\MethodGroupType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\MethodGroupType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\NullableType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\NullableType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\NullType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\NullType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\ParameterModifierType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\ParameterModifierType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\PointerType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\PointerType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\PredefinedTypes.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\PredefinedTypes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\Type.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\Type.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeArray.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeArray.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeFactory.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeKind.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeManager.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeParameterType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeParameterType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeTable.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\TypeTable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\VoidType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\Types\VoidType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\UnaOpSig.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\UnaOpSig.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\UtilityTypeExtensions.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\UtilityTypeExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\WithType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Semantics\WithType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\SpecialNames.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\SpecialNames.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\SymbolTable.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\SymbolTable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\NameManager.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\NameManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\Names.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\Names.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\NameTable.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\NameTable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\Operators.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\Operators.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\PredefinedName.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\PredefinedName.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\PredefinedType.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\PredefinedType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\TokenFacts.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\TokenFacts.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\TokenKind.cs" target="src\src\Microsoft.CSharp\src\Microsoft\CSharp\RuntimeBinder\Syntax\TokenKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

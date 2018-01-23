@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>Microsoft.VisualBasic</id>
+    <version>10.3.0-preview2-26123-0</version>
+    <title>Microsoft.VisualBasic</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides types that support the Visual Basic runtime
+
+Commonly Used Types:
+Microsoft.VisualBasic.Strings
+Microsoft.VisualBasic.CompilerServices.Conversions
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETCore5.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Dynamic.Runtime" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0" />
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Dynamic.Runtime" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETPortable0.0-Profile111" />
+      <group targetFramework=".NETPortable4.5-Profile7" />
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.VisualBasic" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\lib\netcore50\Microsoft.VisualBasic.dll" target="lib\netcore50" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\lib\netstandard1.3\Microsoft.VisualBasic.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\Microsoft.VisualBasic\netstandard\Microsoft.VisualBasic.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\Microsoft.VisualBasic\netstandard\Microsoft.VisualBasic.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\portable-net45+win8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\win8" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\net45" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\Microsoft.VisualBasic.dll" target="ref\netcore50" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\Microsoft.VisualBasic.xml" target="ref\netcore50" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\de\Microsoft.VisualBasic.xml" target="ref\netcore50\de" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\es\Microsoft.VisualBasic.xml" target="ref\netcore50\es" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\fr\Microsoft.VisualBasic.xml" target="ref\netcore50\fr" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\it\Microsoft.VisualBasic.xml" target="ref\netcore50\it" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\ja\Microsoft.VisualBasic.xml" target="ref\netcore50\ja" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\ko\Microsoft.VisualBasic.xml" target="ref\netcore50\ko" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\ru\Microsoft.VisualBasic.xml" target="ref\netcore50\ru" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\zh-hans\Microsoft.VisualBasic.xml" target="ref\netcore50\zh-hans" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netcore50\zh-hant\Microsoft.VisualBasic.xml" target="ref\netcore50\zh-hant" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\Microsoft.VisualBasic.dll" target="ref\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\Microsoft.VisualBasic.xml" target="ref\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\de\Microsoft.VisualBasic.xml" target="ref\netstandard1.1\de" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\es\Microsoft.VisualBasic.xml" target="ref\netstandard1.1\es" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\fr\Microsoft.VisualBasic.xml" target="ref\netstandard1.1\fr" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\it\Microsoft.VisualBasic.xml" target="ref\netstandard1.1\it" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\ja\Microsoft.VisualBasic.xml" target="ref\netstandard1.1\ja" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\ko\Microsoft.VisualBasic.xml" target="ref\netstandard1.1\ko" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\ru\Microsoft.VisualBasic.xml" target="ref\netstandard1.1\ru" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\zh-hans\Microsoft.VisualBasic.xml" target="ref\netstandard1.1\zh-hans" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.VisualBasic\10.2.0\ref\netstandard1.1\zh-hant\Microsoft.VisualBasic.xml" target="ref\netstandard1.1\zh-hant" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.VisualBasic\10.0.0.0\netstandard\Microsoft.VisualBasic.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.VisualBasic\10.0.0.0\netstandard\Microsoft.VisualBasic.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\Microsoft.VisualBasic.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\portable-net45+win8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\win8" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.VisualBasic\netstandard\SR.vb" target="src\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.VisualBasic\netstandard\SR.vb" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.VisualBasic\netstandard\_AssemblyInfo.vb" target="src\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.VisualBasic\netstandard\_AssemblyInfo.vb" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\Microsoft.VisualBasic\10.0.0.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\Microsoft.VisualBasic\10.0.0.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.vb" target="src\src\Common\src\System\SR.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\ref\Microsoft.VisualBasic.cs" target="src\src\Microsoft.VisualBasic\ref\Microsoft.VisualBasic.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CallType.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CallType.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\ConversionResolution.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\ConversionResolution.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Conversions.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Conversions.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\DesignerGeneratedAttribute.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\DesignerGeneratedAttribute.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\ExceptionUtils.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\ExceptionUtils.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\IDOBinder.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\IDOBinder.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\IncompleteInitialization.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\IncompleteInitialization.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\NewLateBinding.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\NewLateBinding.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\ObjectFlowControl.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\ObjectFlowControl.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Operators.Resolution.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Operators.Resolution.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Operators.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Operators.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\OptionCompareAttribute.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\OptionCompareAttribute.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\OptionTextAttribute.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\OptionTextAttribute.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\OverloadResolution.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\OverloadResolution.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\ProjectData.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\ProjectData.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\StandardModuleAttribute.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\StandardModuleAttribute.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\StaticLocalInitFlag.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\StaticLocalInitFlag.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Symbols.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Symbols.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Utils.LateBinder.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Utils.LateBinder.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Utils.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\CompilerServices\Utils.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\Constants.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\Constants.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\ControlChars.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\ControlChars.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\HideModuleNameAttribute.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\HideModuleNameAttribute.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\Interaction.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\Interaction.vb" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\Strings.vb" target="src\src\Microsoft.VisualBasic\src\Microsoft\VisualBasic\Strings.vb" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.vb" target="src\Tools\AssemblyInfoPartial.vb" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

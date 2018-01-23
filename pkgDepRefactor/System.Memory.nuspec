@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Memory</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>System.Memory</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides types for efficient low-allocation access to memory.
+
+Commonly Used Types:
+System.Span
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.Numerics.Vectors" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+      </group>
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Numerics.Vectors" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETPortable4.5-Profile111">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework="UAP10.0.16300">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Memory\netstandard1.1\System.Memory.dll" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Memory\netstandard1.1\System.Memory.pdb" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Memory.xml" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Memory.xml" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Memory\netstandard\System.Memory.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Memory\netstandard\System.Memory.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Memory.xml" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Memory\4.0.1.0\netcoreapp\System.Memory.dll" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Memory\4.0.1.0\netcoreapp\System.Memory.pdb" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Memory\4.0.1.0\netstandard1.1\System.Memory.dll" target="ref\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Memory\4.0.1.0\netstandard1.1\System.Memory.pdb" target="ref\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Memory.xml" target="ref\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Memory.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Memory\4.0.1.0\netstandard\System.Memory.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Memory\4.0.1.0\netstandard\System.Memory.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Memory.xml" target="ref\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Memory\4.0.1.0\uap\System.Memory.dll" target="ref\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Memory\4.0.1.0\uap\System.Memory.pdb" target="ref\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Memory.xml" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Memory\netcoreapp\System.Memory.dll" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Memory\netcoreapp\System.Memory.pdb" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Memory.xml" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Memory\netcoreapp\System.Memory.dll" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Memory\netcoreapp\System.Memory.pdb" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Memory.xml" target="runtimes\win\lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Memory\uap\System.Memory.dll" target="runtimes\win\lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Memory\uap\System.Memory.pdb" target="runtimes\win\lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Memory\netstandard1.1\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Memory\netstandard1.1\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Memory\netstandard1.1\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Memory\netstandard1.1\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Memory\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Memory\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Memory\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Memory\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Memory\4.0.1.0\netcoreapp\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Memory\4.0.1.0\netcoreapp\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Memory\4.0.1.0\netstandard1.1\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Memory\4.0.1.0\netstandard1.1\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Memory\4.0.1.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Memory\4.0.1.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Memory\4.0.1.0\uap\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Memory\4.0.1.0\uap\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Unix.AnyCPU.Debug\System.Memory\netcoreapp\SR.cs" target="src\bin\obj\Unix.AnyCPU.Debug\System.Memory\netcoreapp\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Unix.AnyCPU.Debug\System.Memory\netcoreapp\_AssemblyInfo.cs" target="src\bin\obj\Unix.AnyCPU.Debug\System.Memory\netcoreapp\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Memory\netcoreapp\SR.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Memory\netcoreapp\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Memory\netcoreapp\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Memory\netcoreapp\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Memory\uap\SR.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Memory\uap\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Memory\uap\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Memory\uap\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Buffers\IRetainable.cs" target="src\src\Common\src\CoreLib\System\Buffers\IRetainable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Buffers\MemoryHandle.cs" target="src\src\Common\src\CoreLib\System\Buffers\MemoryHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Buffers\OwnedMemory.cs" target="src\src\Common\src\CoreLib\System\Buffers\OwnedMemory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Memory.cs" target="src\src\Common\src\CoreLib\System\Memory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\MemoryDebugView.cs" target="src\src\Common\src\CoreLib\System\MemoryDebugView.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\ReadOnlyMemory.cs" target="src\src\Common\src\CoreLib\System\ReadOnlyMemory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Runtime\InteropServices\MemoryMarshal.cs" target="src\src\Common\src\CoreLib\System\Runtime\InteropServices\MemoryMarshal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\NotImplemented.cs" target="src\src\Common\src\System\NotImplemented.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\Common\src\System\MutableDecimal.cs" target="src\src\System.Memory\Common\src\System\MutableDecimal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\ref\System.Memory.cs" target="src\src\System.Memory\ref\System.Memory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Binary\Reader.cs" target="src\src\System.Memory\src\System\Buffers\Binary\Reader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Binary\ReaderBigEndian.cs" target="src\src\System.Memory\src\System\Buffers\Binary\ReaderBigEndian.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Binary\ReaderLittleEndian.cs" target="src\src\System.Memory\src\System\Buffers\Binary\ReaderLittleEndian.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Binary\Writer.cs" target="src\src\System.Memory\src\System\Buffers\Binary\Writer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Binary\WriterBigEndian.cs" target="src\src\System.Memory\src\System\Buffers\Binary\WriterBigEndian.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Binary\WriterLittleEndian.cs" target="src\src\System.Memory\src\System\Buffers\Binary\WriterLittleEndian.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\OperationStatus.cs" target="src\src\System.Memory\src\System\Buffers\OperationStatus.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\StandardFormat.cs" target="src\src\System.Memory\src\System\Buffers\StandardFormat.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Base64Decoder.cs" target="src\src\System.Memory\src\System\Buffers\Text\Base64Decoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Base64Encoder.cs" target="src\src\System.Memory\src\System\Buffers\Text\Base64Encoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Constants.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Constants.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\FormattingHelpers.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\FormattingHelpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Boolean.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Boolean.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Date.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Date.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Date.G.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Date.G.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Date.L.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Date.L.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Date.O.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Date.O.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Date.R.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Date.R.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Decimal.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Decimal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Decimal.E.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Decimal.E.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Decimal.F.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Decimal.F.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Decimal.G.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Decimal.G.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Float.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Float.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Guid.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Guid.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Signed.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Signed.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Signed.D.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Signed.D.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Signed.Default.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Signed.Default.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Signed.N.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Signed.N.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Unsigned.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Unsigned.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Unsigned.D.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Unsigned.D.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Unsigned.Default.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Unsigned.Default.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Unsigned.N.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Unsigned.N.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Unsigned.X.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.Integer.Unsigned.X.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.TimeSpan.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Formatter\Utf8Formatter.TimeSpan.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\ParserHelpers.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\ParserHelpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Boolean.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Boolean.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.Default.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.Default.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.G.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.G.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.Helpers.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.Helpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.O.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.O.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.R.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Date.R.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Decimal.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Decimal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Float.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Float.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Guid.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Guid.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Signed.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Signed.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Signed.D.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Signed.D.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Signed.N.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Signed.N.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Unsigned.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Unsigned.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Unsigned.D.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Unsigned.D.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Unsigned.N.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Unsigned.N.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Unsigned.X.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Integer.Unsigned.X.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Number.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.Number.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.TimeSpan.BigG.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.TimeSpan.BigG.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.TimeSpan.C.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.TimeSpan.C.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.TimeSpan.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.TimeSpan.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.TimeSpan.LittleG.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.TimeSpan.LittleG.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.TimeSpanSplitter.cs" target="src\src\System.Memory\src\System\Buffers\Text\Utf8Parser\Utf8Parser.TimeSpanSplitter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\MemoryExtensions.cs" target="src\src\System.Memory\src\System\MemoryExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\MemoryExtensions.Fast.cs" target="src\src\System.Memory\src\System\MemoryExtensions.Fast.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\MemoryExtensions.Portable.cs" target="src\src\System.Memory\src\System\MemoryExtensions.Portable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Number\Decimal.DecCalc.cs" target="src\src\System.Memory\src\System\Number\Decimal.DecCalc.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Number\Number.cs" target="src\src\System.Memory\src\System\Number\Number.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Number\Number.FormatAndParse.cs" target="src\src\System.Memory\src\System\Number\Number.FormatAndParse.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Number\Number.NumberBuffer.cs" target="src\src\System.Memory\src\System\Number\Number.NumberBuffer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Pinnable.cs" target="src\src\System.Memory\src\System\Pinnable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\ReadOnlySpan.cs" target="src\src\System.Memory\src\System\ReadOnlySpan.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Runtime\InteropServices\MemoryMarshal.Portable.cs" target="src\src\System.Memory\src\System\Runtime\InteropServices\MemoryMarshal.Portable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\Span.cs" target="src\src\System.Memory\src\System\Span.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\SpanDebugView.cs" target="src\src\System.Memory\src\System\SpanDebugView.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\SpanHelpers.BinarySearch.cs" target="src\src\System.Memory\src\System\SpanHelpers.BinarySearch.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\SpanHelpers.byte.cs" target="src\src\System.Memory\src\System\SpanHelpers.byte.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\SpanHelpers.Clear.cs" target="src\src\System.Memory\src\System\SpanHelpers.Clear.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\SpanHelpers.cs" target="src\src\System.Memory\src\System\SpanHelpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\SpanHelpers.T.cs" target="src\src\System.Memory\src\System\SpanHelpers.T.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Memory\src\System\ThrowHelper.cs" target="src\src\System.Memory\src\System\ThrowHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

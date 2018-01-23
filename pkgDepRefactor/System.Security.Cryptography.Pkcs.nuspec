@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Security.Cryptography.Pkcs</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>System.Security.Cryptography.Pkcs</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides support for PKCS and CMS algorithms.
+
+Commonly Used Types:
+System.Security.Cryptography.Pkcs.EnvelopedCms
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0">
+        <dependency id="System.Buffers" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Security.Cryptography.Cng" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework="MonoTouch1.0">
+        <dependency id="System.Buffers" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Security.Cryptography.Cng" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.Buffers" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Security.Cryptography.Cng" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="System.Security.Cryptography.Cng" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Buffers" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Security.Cryptography.Cng" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="System.Buffers" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Security.Cryptography.Cng" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework="Xamarin.Mac2.0">
+        <dependency id="System.Buffers" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Security.Cryptography.Cng" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework="Xamarin.TVOS1.0">
+        <dependency id="System.Buffers" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Security.Cryptography.Cng" version="4.4.0" exclude="Compile" />
+      </group>
+      <group targetFramework="Xamarin.WatchOS1.0">
+        <dependency id="System.Buffers" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Security.Cryptography.Cng" version="4.4.0" exclude="Compile" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.6" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.Pkcs\4.4.0\lib\net46\System.Security.Cryptography.Pkcs.dll" target="lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netfx\System.Security.Cryptography.Pkcs.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netfx\System.Security.Cryptography.Pkcs.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\System.Security.Cryptography.Pkcs.dll" target="lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\System.Security.Cryptography.Pkcs.pdb" target="lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.Pkcs\4.4.0\lib\netstandard1.3\System.Security.Cryptography.Pkcs.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\System.Security.Cryptography.Pkcs.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\System.Security.Cryptography.Pkcs.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.Pkcs\4.4.0\ref\net46\System.Security.Cryptography.Pkcs.dll" target="ref\net46" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Security.Cryptography.Pkcs.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netfx\System.Security.Cryptography.Pkcs.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netfx\System.Security.Cryptography.Pkcs.pdb" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Security.Cryptography.Pkcs.xml" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netcoreapp\System.Security.Cryptography.Pkcs.dll" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netcoreapp\System.Security.Cryptography.Pkcs.pdb" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.Pkcs\4.4.0\ref\netstandard1.3\System.Security.Cryptography.Pkcs.dll" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netstandard\System.Security.Cryptography.Pkcs.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netstandard\System.Security.Cryptography.Pkcs.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Security.Cryptography.Pkcs.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.Pkcs\4.4.0\runtimes\win\lib\net46\System.Security.Cryptography.Pkcs.dll" target="runtimes\win\lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netfx\System.Security.Cryptography.Pkcs.dll" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netfx\System.Security.Cryptography.Pkcs.pdb" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\System.Security.Cryptography.Pkcs.dll" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\System.Security.Cryptography.Pkcs.pdb" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.Pkcs\4.4.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Pkcs.dll" target="runtimes\win\lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\System.Security.Cryptography.Pkcs.dll" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\System.Security.Cryptography.Pkcs.pdb" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netcoreapp\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netcoreapp\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netfx\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Security.Cryptography.Pkcs\4.0.3.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\SR.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netcoreapp\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netfx\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\SR.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.Pkcs\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Internal\Cryptography\Windows\CryptoThrowHelper.cs" target="src\src\Common\src\Internal\Cryptography\Windows\CryptoThrowHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.CryptGetProvParam.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.CryptGetProvParam.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Crypt32\Interop.DATA_BLOB.cs" target="src\src\Common\src\Interop\Windows\Crypt32\Interop.DATA_BLOB.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Crypt32\Interop.FindOidInfo.cs" target="src\src\Common\src\Interop\Windows\Crypt32\Interop.FindOidInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FormatMessage.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FormatMessage.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\NCrypt\Interop.ErrorCode.cs" target="src\src\Common\src\Interop\Windows\NCrypt\Interop.ErrorCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\NCrypt\Interop.NCryptFreeObject.cs" target="src\src\Common\src\Interop\Windows\NCrypt\Interop.NCryptFreeObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Security\Cryptography\Asn1V2.cs" target="src\src\Common\src\System\Security\Cryptography\Asn1V2.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Security\Cryptography\Asn1V2.Serializer.cs" target="src\src\Common\src\System\Security\Cryptography\Asn1V2.Serializer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Security\Cryptography\AsnReader.cs" target="src\src\Common\src\System\Security\Cryptography\AsnReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Security\Cryptography\AsnWriter.cs" target="src\src\Common\src\System\Security\Cryptography\AsnWriter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\ref\System.Security.Cryptography.Pkcs.cs" target="src\src\System.Security.Cryptography.Pkcs\ref\System.Security.Cryptography.Pkcs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\ref\System.Security.Cryptography.Pkcs.netcoreapp.cs" target="src\src\System.Security.Cryptography.Pkcs\ref\System.Security.Cryptography.Pkcs.netcoreapp.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\DecryptorPal.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\DecryptorPal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Helpers.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Helpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\KeyAgreeRecipientInfoPal.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\KeyAgreeRecipientInfoPal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\KeyLengths.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\KeyLengths.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\KeyTransRecipientInfoPal.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\KeyTransRecipientInfoPal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Oids.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Oids.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\AnyOS\PkcsPal.AnyOS.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\AnyOS\PkcsPal.AnyOS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\AlgId.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\AlgId.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\DecryptorPalWindows.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\DecryptorPalWindows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\DecryptorPalWindows.Decode.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\DecryptorPalWindows.Decode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\DecryptorPalWindows.DecodeRecipients.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\DecryptorPalWindows.DecodeRecipients.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\DecryptorPalWindows.Decrypt.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\DecryptorPalWindows.Decrypt.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\HeapBlockRetainer.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\HeapBlockRetainer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\HelpersWindows.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\HelpersWindows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\KeyAgreeRecipientInfoPalWindows.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\KeyAgreeRecipientInfoPalWindows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\KeyTransRecipientInfoPalWindows.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\KeyTransRecipientInfoPalWindows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\PkcsPal.Windows.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\PkcsPal.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\PkcsPalWindows.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\PkcsPalWindows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\PkcsPalWindows.Encrypt.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\Pal\Windows\PkcsPalWindows.Encrypt.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\PkcsPal.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\PkcsPal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\RecipientInfoPal.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Internal\Cryptography\RecipientInfoPal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertContextPropId.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertContextPropId.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertCreateCertificateContext.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertCreateCertificateContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertDuplicateCertificateContext.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertDuplicateCertificateContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertFreeCertificateContext.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertFreeCertificateContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertGetCertificateContextProperty.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertGetCertificateContextProperty.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertGetPublicKeyLength.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertGetPublicKeyLength.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertIdChoice.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertIdChoice.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertNameStrTypeAndFlags.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertNameStrTypeAndFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertNameToStr.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CertNameToStr.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CERT_CONTEXT.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CERT_CONTEXT.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CERT_ID.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CERT_ID.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CERT_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CERT_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CERT_ISSUER_SERIAL_NUMBER.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CERT_ISSUER_SERIAL_NUMBER.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CERT_PUBLIC_KEY_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CERT_PUBLIC_KEY_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMsgCmsRecipientChoice.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMsgCmsRecipientChoice.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMsgKeyAgreeOriginatorChoice.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMsgKeyAgreeOriginatorChoice.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_CMS_RECIPIENT_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_CMS_RECIPIENT_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_CTRL_DECRYPT_PARA.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_CTRL_DECRYPT_PARA.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_CTRL_KEY_AGREE_DECRYPT_PARA.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_CTRL_KEY_AGREE_DECRYPT_PARA.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_ENVELOPED_ENCODE_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_ENVELOPED_ENCODE_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_KEY_AGREE_RECIPIENT_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_KEY_AGREE_RECIPIENT_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_KEY_TRANS_RECIPIENT_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_KEY_TRANS_RECIPIENT_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_RC2_AUX_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_RC2_AUX_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_RECIPIENT_ENCODE_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_RECIPIENT_ENCODE_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_RECIPIENT_ENCRYPTED_KEY_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CMSG_RECIPIENT_ENCRYPTED_KEY_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CmsKeyAgreeKeyChoice.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CmsKeyAgreeKeyChoice.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.Crypt32.ErrorCode.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.Crypt32.ErrorCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptAcquireCertificatePrivateKey.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptAcquireCertificatePrivateKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptAcquireCertificatePrivateKeyFlags.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptAcquireCertificatePrivateKeyFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptDecodeObject.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptDecodeObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptDecodeObjectStructType.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptDecodeObjectStructType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptEncodeDecodeWrappers.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptEncodeDecodeWrappers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptEncodeObject.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptEncodeObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptKeySpec.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptKeySpec.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgClose.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgClose.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgControl.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgControl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgGetParam.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgGetParam.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgOpenToDecode.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgOpenToDecode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgOpenToEncode.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgOpenToEncode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgParamType.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgParamType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgType.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgUpdate.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptMsgUpdate.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptRc2Version.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptRc2Version.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptReleaseContext.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CryptReleaseContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_ALGORITHM_IDENTIFIER.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_ALGORITHM_IDENTIFIER.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_ATTRIBUTE.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_ATTRIBUTE.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_ATTRIBUTES.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_ATTRIBUTES.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_ATTRIBUTE_TYPE_VALUE.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_ATTRIBUTE_TYPE_VALUE.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_BIT_BLOB.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_BIT_BLOB.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_KEY_PROV_INFO.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_KEY_PROV_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_RC2_CBC_PARAMETERS.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.CRYPT_RC2_CBC_PARAMETERS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.MsgControlType.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.MsgControlType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.MsgEncodingType.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Crypt32\Interop.MsgEncodingType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Heap\Interop.Heap.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Interop\Windows\Heap\Interop.Heap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Microsoft\Win32\SafeHandles\SafeCertContextHandle.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Microsoft\Win32\SafeHandles\SafeCertContextHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Microsoft\Win32\SafeHandles\SafeCryptMsgHandle.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Microsoft\Win32\SafeHandles\SafeCryptMsgHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Microsoft\Win32\SafeHandles\SafeHeapAllocHandle.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Microsoft\Win32\SafeHandles\SafeHeapAllocHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Microsoft\Win32\SafeHandles\SafeProvOrNCryptKeyHandle.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Microsoft\Win32\SafeHandles\SafeProvOrNCryptKeyHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\Microsoft\Win32\SafeHandles\SafeProvOrNCryptKeyHandleUwp.cs" target="src\src\System.Security.Cryptography.Pkcs\src\Microsoft\Win32\SafeHandles\SafeProvOrNCryptKeyHandleUwp.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\CryptographicAttributeObject.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\CryptographicAttributeObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\CryptographicAttributeObjectCollection.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\CryptographicAttributeObjectCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\CryptographicAttributeObjectEnumerator.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\CryptographicAttributeObjectEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\AlgorithmIdentifier.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\AlgorithmIdentifier.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\AlgorithmIdentifierAsn.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\AlgorithmIdentifierAsn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\AttributeAsn.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\AttributeAsn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\CertificateChoiceAsn.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\CertificateChoiceAsn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\ContentInfoAsn.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\ContentInfoAsn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\EncapsulatedContentInfoAsn.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\EncapsulatedContentInfoAsn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\IssuerAndSerialNumberAsn.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\IssuerAndSerialNumberAsn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\PssParamsAsn.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\PssParamsAsn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\SignedDataAsn.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\SignedDataAsn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\SignerIdentifierAsn.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\SignerIdentifierAsn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\SignerInfoAsn.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Asn1\SignerInfoAsn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsRecipient.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsRecipient.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsRecipientCollection.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsRecipientCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsRecipientEnumerator.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsRecipientEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsSignature.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsSignature.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsSignature.DSA.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsSignature.DSA.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsSignature.ECDsa.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsSignature.ECDsa.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsSignature.RSA.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsSignature.RSA.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsSigner.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\CmsSigner.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\ContentInfo.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\ContentInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\EnvelopedCms.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\EnvelopedCms.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\KeyAgreeRecipientInfo.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\KeyAgreeRecipientInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\KeyTransRecipientInfo.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\KeyTransRecipientInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9AttributeObject.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9AttributeObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9ContentType.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9ContentType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9DocumentDescription.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9DocumentDescription.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9DocumentName.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9DocumentName.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9MessageDigest.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9MessageDigest.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9SigningTime.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\Pkcs9SigningTime.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\PublicKeyInfo.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\PublicKeyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\RecipientInfo.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\RecipientInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\RecipientInfoCollection.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\RecipientInfoCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\RecipientInfoEnumerator.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\RecipientInfoEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\RecipientInfoType.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\RecipientInfoType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SignedCms.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SignedCms.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SignedCms.CtorOverloads.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SignedCms.CtorOverloads.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SignerInfo.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SignerInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SignerInfoCollection.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SignerInfoCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SignerInfoEnumerator.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SignerInfoEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SubjectIdentifier.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SubjectIdentifier.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SubjectIdentifierOrKey.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SubjectIdentifierOrKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SubjectIdentifierOrKeyType.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SubjectIdentifierOrKeyType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SubjectIdentifierType.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Pkcs\SubjectIdentifierType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Xml\X509IssuerSerial.cs" target="src\src\System.Security.Cryptography.Pkcs\src\System\Security\Cryptography\Xml\X509IssuerSerial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

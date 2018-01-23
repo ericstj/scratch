@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>Microsoft.Win32.Registry</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>Microsoft.Win32.Registry</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides support for accessing and modifying the Windows Registry.
+
+Commonly Used Types:
+Microsoft.Win32.RegistryKey
+Microsoft.Win32.Registry
+Microsoft.Win32.RegistryValueKind
+Microsoft.Win32.RegistryHive
+Microsoft.Win32.RegistryView
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview2-26123-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="MonoTouch1.0">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview2-26123-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="System.Buffers" version="4.5.0-preview2-26123-0" exclude="Compile" />
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview2-26123-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview2-26123-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview2-26123-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.Mac2.0">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview2-26123-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.TVOS1.0">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview2-26123-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+      <group targetFramework="Xamarin.WatchOS1.0">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview2-26123-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview2-26123-0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\lib\net46\Microsoft.Win32.Registry.dll" target="lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netfx\Microsoft.Win32.Registry.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netfx\Microsoft.Win32.Registry.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\lib\netstandard1.3\Microsoft.Win32.Registry.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\Microsoft.Win32.Registry\netstandard\Microsoft.Win32.Registry.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\Microsoft.Win32.Registry\netstandard\Microsoft.Win32.Registry.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\net46\Microsoft.Win32.Registry.dll" target="ref\net46" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\Microsoft.Win32.Registry.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.Win32.Registry\4.1.1.0\netfx\Microsoft.Win32.Registry.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.Win32.Registry\4.1.1.0\netfx\Microsoft.Win32.Registry.pdb" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\Microsoft.Win32.Registry.dll" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\Microsoft.Win32.Registry.xml" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\de\Microsoft.Win32.Registry.xml" target="ref\netstandard1.3\de" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\es\Microsoft.Win32.Registry.xml" target="ref\netstandard1.3\es" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\fr\Microsoft.Win32.Registry.xml" target="ref\netstandard1.3\fr" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\it\Microsoft.Win32.Registry.xml" target="ref\netstandard1.3\it" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\ja\Microsoft.Win32.Registry.xml" target="ref\netstandard1.3\ja" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\ko\Microsoft.Win32.Registry.xml" target="ref\netstandard1.3\ko" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\ru\Microsoft.Win32.Registry.xml" target="ref\netstandard1.3\ru" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\zh-hans\Microsoft.Win32.Registry.xml" target="ref\netstandard1.3\zh-hans" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\ref\netstandard1.3\zh-hant\Microsoft.Win32.Registry.xml" target="ref\netstandard1.3\zh-hant" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.Win32.Registry\4.1.1.0\netstandard\Microsoft.Win32.Registry.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.Win32.Registry\4.1.1.0\netstandard\Microsoft.Win32.Registry.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\Microsoft.Win32.Registry.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\Microsoft.Win32.Registry.dll" target="runtimes\unix\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\Microsoft.Win32.Registry.pdb" target="runtimes\unix\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\runtimes\win\lib\net46\Microsoft.Win32.Registry.dll" target="runtimes\win\lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netfx\Microsoft.Win32.Registry.dll" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netfx\Microsoft.Win32.Registry.pdb" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\Microsoft.Win32.Registry.dll" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\Microsoft.Win32.Registry.pdb" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\Microsoft.Win32.Registry\4.4.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Registry.dll" target="runtimes\win\lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.Win32.Registry\netstandard\Microsoft.Win32.Registry.notsupported.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.Win32.Registry\netstandard\Microsoft.Win32.Registry.notsupported.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.Win32.Registry\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.Win32.Registry\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.Win32.Registry\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\Microsoft.Win32.Registry\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\Microsoft.Win32.Registry\4.1.1.0\netfx\_AssemblyInfo.cs" target="src\bin\obj\ref\Microsoft.Win32.Registry\4.1.1.0\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\Microsoft.Win32.Registry\4.1.1.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\Microsoft.Win32.Registry\4.1.1.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Unix.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\SR.cs" target="src\bin\obj\Unix.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Unix.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\_AssemblyInfo.cs" target="src\bin\obj\Unix.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\SR.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netcoreapp2.0\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netfx\SR.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netfx\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netfx\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\Microsoft.Win32.Registry\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegCloseKey.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegCloseKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegConnectRegistry.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegConnectRegistry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegCreateKeyEx.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegCreateKeyEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegDeleteKeyEx.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegDeleteKeyEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegDeleteValue.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegDeleteValue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegEnumKeyEx.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegEnumKeyEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegEnumValue.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegEnumValue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegFlushKey.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegFlushKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegistryOptions.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegistryOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegOpenKeyEx.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegOpenKeyEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegQueryInfoKey.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegQueryInfoKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegQueryValueEx.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegQueryValueEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegSetValueEx.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegSetValueEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.BOOL.cs" target="src\src\Common\src\Interop\Windows\Interop.BOOL.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Errors.cs" target="src\src\Common\src\Interop\Windows\Interop.Errors.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FormatMessage.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FormatMessage.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.SECURITY_ATTRIBUTES.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.SECURITY_ATTRIBUTES.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\ref\Microsoft.Win32.Registry.cs" target="src\src\Microsoft.Win32.Registry\ref\Microsoft.Win32.Registry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\Registry.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\Registry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryHive.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryHive.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryKey.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryKey.FileSystem.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryKey.FileSystem.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryKey.Windows.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryKey.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryKeyPermissionCheck.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryKeyPermissionCheck.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryOptions.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryValueKind.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryValueKind.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryValueOptions.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryValueOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryView.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\RegistryView.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\SafeHandles\SafeRegistryHandle.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\SafeHandles\SafeRegistryHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\SafeHandles\SafeRegistryHandle.FileSystem.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\SafeHandles\SafeRegistryHandle.FileSystem.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\SafeHandles\SafeRegistryHandle.Windows.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\SafeHandles\SafeRegistryHandle.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\Microsoft\Win32\ThrowHelper.cs" target="src\src\Microsoft.Win32.Registry\src\Microsoft\Win32\ThrowHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\System\Security\AccessControl\RegistryRights.cs" target="src\src\Microsoft.Win32.Registry\src\System\Security\AccessControl\RegistryRights.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\System\Security\AccessControl\RegistrySecurity.cs" target="src\src\Microsoft.Win32.Registry\src\System\Security\AccessControl\RegistrySecurity.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\System\Security\AccessControl\RegistrySecurity.FileSystem.cs" target="src\src\Microsoft.Win32.Registry\src\System\Security\AccessControl\RegistrySecurity.FileSystem.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.Registry\src\System\Security\AccessControl\RegistrySecurity.Windows.cs" target="src\src\Microsoft.Win32.Registry\src\System\Security\AccessControl\RegistrySecurity.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Runtime.CompilerServices.Unsafe</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>System.Runtime.CompilerServices.Unsafe</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides the System.Runtime.CompilerServices.Unsafe class, which provides generic, low-level functionality for manipulating pointers.
+
+Commonly Used Types:
+System.Runtime.CompilerServices.Unsafe
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0" />
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETPortable4.5-Profile259" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Runtime.CompilerServices.Unsafe\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Runtime.CompilerServices.Unsafe.xml" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Runtime.CompilerServices.Unsafe.xml" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Runtime.CompilerServices.Unsafe\netstandard\System.Runtime.CompilerServices.Unsafe.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Runtime.CompilerServices.Unsafe\4.0.4.0\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll" target="ref\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Runtime.CompilerServices.Unsafe\4.0.4.0\netstandard1.0\System.Runtime.CompilerServices.Unsafe.pdb" target="ref\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Runtime.CompilerServices.Unsafe.xml" target="ref\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.Runtime.CompilerServices.Unsafe.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Runtime.CompilerServices.Unsafe\4.0.4.0\netstandard\System.Runtime.CompilerServices.Unsafe.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Runtime.CompilerServices.Unsafe\4.0.4.0\netstandard\System.Runtime.CompilerServices.Unsafe.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Runtime.CompilerServices.Unsafe\4.0.4.0\netstandard1.0\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Runtime.CompilerServices.Unsafe\4.0.4.0\netstandard1.0\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.Runtime.CompilerServices.Unsafe\4.0.4.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\System.Runtime.CompilerServices.Unsafe\4.0.4.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Runtime.CompilerServices.Unsafe\ref\System.Runtime.CompilerServices.Unsafe.cs" target="src\src\System.Runtime.CompilerServices.Unsafe\ref\System.Runtime.CompilerServices.Unsafe.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Runtime.CompilerServices.Unsafe\src\System.Runtime.CompilerServices.Unsafe.il" target="src\src\System.Runtime.CompilerServices.Unsafe\src\System.Runtime.CompilerServices.Unsafe.il" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

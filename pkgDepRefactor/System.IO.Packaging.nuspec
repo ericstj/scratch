@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.IO.Packaging</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>System.IO.Packaging</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides classes that support storage of multiple data objects in a single container. 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0" />
+      <group targetFramework="MonoTouch1.0" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETCoreApp2.0" />
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Xamarin.iOS1.0" />
+      <group targetFramework="Xamarin.Mac2.0" />
+      <group targetFramework="Xamarin.TVOS1.0" />
+      <group targetFramework="Xamarin.WatchOS1.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Packaging\net46\System.IO.Packaging.dll" target="lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Packaging\net46\System.IO.Packaging.pdb" target="lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard1.3\System.IO.Packaging.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard1.3\System.IO.Packaging.pdb" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard\System.IO.Packaging.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard\System.IO.Packaging.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard\System.IO.Packaging.dll" target="lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard\System.IO.Packaging.pdb" target="lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.IO.Packaging.xml" target="ref\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Packaging\4.0.3.0\net46\System.IO.Packaging.dll" target="ref\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Packaging\4.0.3.0\net46\System.IO.Packaging.pdb" target="ref\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Packaging\4.0.3.0\netstandard1.3\System.IO.Packaging.dll" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Packaging\4.0.3.0\netstandard1.3\System.IO.Packaging.pdb" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.IO.Packaging.xml" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.IO.Packaging.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Packaging\4.0.3.0\netstandard\System.IO.Packaging.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Packaging\4.0.3.0\netstandard\System.IO.Packaging.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\net46\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\net46\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\net46\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\net46\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard1.3\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard1.3\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard1.3\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard1.3\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Packaging\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.IO.Packaging\4.0.3.0\net46\_AssemblyInfo.cs" target="src\bin\obj\ref\System.IO.Packaging\4.0.3.0\net46\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.IO.Packaging\4.0.3.0\netstandard1.3\_AssemblyInfo.cs" target="src\bin\obj\ref\System.IO.Packaging\4.0.3.0\netstandard1.3\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.IO.Packaging\4.0.3.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\System.IO.Packaging\4.0.3.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\ref\System.IO.Packaging.cs" target="src\src\System.IO.Packaging\ref\System.IO.Packaging.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\ref\System.IO.Packaging.Serialization.cs" target="src\src\System.IO.Packaging\ref\System.IO.Packaging.Serialization.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\CompressionOption.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\CompressionOption.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\ContentType.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\ContentType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\EncryptionOption.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\EncryptionOption.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\FileFormatException.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\FileFormatException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\IgnoreFlushAndCloseStream.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\IgnoreFlushAndCloseStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\InternalRelationshipCollection.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\InternalRelationshipCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\Package.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\Package.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackagePart.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackagePart.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackagePartCollection.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackagePartCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackageProperties.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackageProperties.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackageRelationship.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackageRelationship.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackageRelationshipCollection.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackageRelationshipCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackageRelationshipSelector.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackageRelationshipSelector.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackageRelationshipSelectorType.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackageRelationshipSelectorType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackageXmlEnum.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackageXmlEnum.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackageXmlStringTable.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackageXmlStringTable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackagingUtilities.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackagingUtilities.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PackUriHelper.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PackUriHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\PartBasedPackageProperties.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\PartBasedPackageProperties.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\TargetMode.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\TargetMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\XmlCompatibilityReader.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\XmlCompatibilityReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\XmlWrappingReader.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\XmlWrappingReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\ZipPackage.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\ZipPackage.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\ZipPackagePart.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\ZipPackagePart.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\ZipStreamManager.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\ZipStreamManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Packaging\src\System\IO\Packaging\ZipWrappingStream.cs" target="src\src\System.IO.Packaging\src\System\IO\Packaging\ZipWrappingStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

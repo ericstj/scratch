@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.IO.Ports</id>
+    <version>4.5.0-preview2-26123-0</version>
+    <title>System.IO.Ports</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides classes for controlling serial ports.
+
+Commonly Used Types:
+System.IO.Ports.SerialPort
+ 
+e9a0dc6cc08639385ca89500ef6d02672a5fb294 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework="MonoTouch1.0">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework="Xamarin.Mac2.0">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework="Xamarin.TVOS1.0">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+      <group targetFramework="Xamarin.WatchOS1.0">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview2-26123-0" exclude="Compile" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Ports\netfx\System.IO.Ports.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Ports\netfx\System.IO.Ports.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Ports\netstandard\System.IO.Ports.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Ports\netstandard\System.IO.Ports.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.IO.Ports.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Ports\4.0.1.0\netfx\System.IO.Ports.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Ports\4.0.1.0\netfx\System.IO.Ports.pdb" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Ports\4.0.1.0\netstandard\System.IO.Ports.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Ports\4.0.1.0\netstandard\System.IO.Ports.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-25426-1\xmldocs\netcoreapp\1033\System.IO.Ports.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.IO.Ports\netstandard\System.IO.Ports.dll" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.IO.Ports\netstandard\System.IO.Ports.pdb" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="runtimes\win\lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Ports\netfx\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Ports\netfx\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Ports\netfx\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Ports\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Ports\netstandard\SR.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Ports\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Ports\netstandard\System.IO.Ports.notsupported.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Ports\netstandard\System.IO.Ports.notsupported.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Ports\netstandard\_AssemblyInfo.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.IO.Ports\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.IO.Ports\4.0.1.0\netfx\_AssemblyInfo.cs" target="src\bin\obj\ref\System.IO.Ports\4.0.1.0\netfx\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\ref\System.IO.Ports\4.0.1.0\netstandard\_AssemblyInfo.cs" target="src\bin\obj\ref\System.IO.Ports\4.0.1.0\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.IO.Ports\netstandard\SR.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.IO.Ports\netstandard\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.IO.Ports\netstandard\_AssemblyInfo.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.IO.Ports\netstandard\_AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.BOOL.cs" target="src\src\Common\src\Interop\Windows\Interop.BOOL.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Errors.cs" target="src\src\Common\src\Interop\Windows\Interop.Errors.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.ClearCommBreak.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.ClearCommBreak.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.ClearCommError.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.ClearCommError.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.CloseHandle.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.CloseHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.COMMPROP.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.COMMPROP.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.COMMTIMEOUTS.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.COMMTIMEOUTS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.COMSTAT.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.COMSTAT.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.CreateFile.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.CreateFile.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.DCB.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.DCB.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.EscapeCommFunction.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.EscapeCommFunction.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FileTypes.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FileTypes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FlushFileBuffers.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FlushFileBuffers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GenericOperations.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GenericOperations.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetCommModemStatus.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetCommModemStatus.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetCommProperties.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetCommProperties.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetCommState.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetCommState.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetFileType_SafeHandle.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetFileType_SafeHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetOverlappedResult.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetOverlappedResult.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.PurgeComm.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.PurgeComm.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.ReadFile_SafeHandle_IntPtr.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.ReadFile_SafeHandle_IntPtr.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.ReadFile_SafeHandle_NativeOverlapped.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.ReadFile_SafeHandle_NativeOverlapped.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.SECURITY_ATTRIBUTES.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.SECURITY_ATTRIBUTES.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.SetCommBreak.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.SetCommBreak.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.SetCommMask.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.SetCommMask.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.SetCommState.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.SetCommState.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.SetCommTimeouts.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.SetCommTimeouts.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.SetupComm.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.SetupComm.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.WaitCommEvent.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.WaitCommEvent.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.WriteFile_SafeHandle_IntPtr.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.WriteFile_SafeHandle_IntPtr.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.WriteFile_SafeHandle_NativeOverlapped.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.WriteFile_SafeHandle_NativeOverlapped.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\IO\PathInternal.Windows.cs" target="src\src\Common\src\System\IO\PathInternal.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\ref\System.IO.Ports.cs" target="src\src\System.IO.Ports\ref\System.IO.Ports.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\Handshake.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\Handshake.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\InternalResources.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\InternalResources.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\NativeMethods.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\NativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\Parity.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\Parity.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialData.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialDataReceivedEventArgs.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialDataReceivedEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialDataReceivedEventHandler.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialDataReceivedEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialError.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialError.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialErrorReceivedEventArgs.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialErrorReceivedEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialErrorReceivedEventHandler.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialErrorReceivedEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialPinChange.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialPinChange.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialPinChangedEventArgs.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialPinChangedEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialPinChangedEventHandler.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialPinChangedEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialPort.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialPort.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialPort.Win32.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialPort.Win32.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialStream.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\SerialStream.Win32.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\SerialStream.Win32.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Ports\src\System\IO\Ports\StopBits.cs" target="src\src\System.IO.Ports\src\System\IO\Ports\StopBits.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\BlockReflectionAttribute.cs" target="src\Tools\BlockReflectionAttribute.cs" exclude="" />
+  </files>
+</package>

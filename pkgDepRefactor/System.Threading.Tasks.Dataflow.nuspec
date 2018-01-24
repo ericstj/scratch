@@ -31,7 +31,7 @@ e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
     <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
     <serviceable>true</serviceable>
     <dependencies>
-      <group targetFramework=".NETFramework4.5.1" />
+      <group targetFramework=".NETFramework4.5" />
       <group targetFramework=".NETStandard1.0">
         <dependency id="NETStandard.Library" version="1.6.1" />
         <dependency id="System.Dynamic.Runtime" version="4.3.0" />
@@ -43,6 +43,7 @@ e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
       <group targetFramework=".NETStandard2.0" />
       <group targetFramework=".NETPortable4.5-Profile259" />
       <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhone8.0" />
       <group targetFramework="WindowsPhoneApp8.1" />
     </dependencies>
   </metadata>

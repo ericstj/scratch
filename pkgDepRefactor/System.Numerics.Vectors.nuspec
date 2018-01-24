@@ -30,12 +30,16 @@ e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
     <dependencies>
       <group targetFramework="MonoAndroid1.0" />
       <group targetFramework="MonoTouch1.0" />
+      <group targetFramework=".NETFramework4.5" />
       <group targetFramework=".NETFramework4.6" />
       <group targetFramework=".NETStandard1.0">
         <dependency id="NETStandard.Library" version="1.6.1" />
       </group>
       <group targetFramework=".NETStandard2.0" />
       <group targetFramework=".NETPortable4.5-Profile259" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhone8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
       <group targetFramework="Xamarin.iOS1.0" />
       <group targetFramework="Xamarin.Mac2.0" />
       <group targetFramework="Xamarin.TVOS1.0" />

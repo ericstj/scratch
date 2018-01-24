@@ -20,6 +20,7 @@ e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
     <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
     <serviceable>true</serviceable>
     <dependencies>
+      <group targetFramework=".NETFramework4.5" />
       <group targetFramework=".NETCoreApp2.0" />
       <group targetFramework=".NETStandard1.0">
         <dependency id="System.Collections" version="4.3.0" exclude="Compile" />
@@ -30,6 +31,9 @@ e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
       <group targetFramework=".NETStandard2.0" />
       <group targetFramework=".NETPortable4.5-Profile259" />
       <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhone8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
     </dependencies>
   </metadata>
   <files>

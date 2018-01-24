@@ -42,6 +42,8 @@ e9a0dc6cc08639385ca89500ef6d02672a5fb294</description>
       </group>
       <group targetFramework=".NETStandard2.0" />
       <group targetFramework=".NETPortable4.5-Profile111" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />

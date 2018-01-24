@@ -71,6 +71,12 @@ When using NuGet 3.x this package requires at least version 3.4.</description>
         <dependency id="System.Data.Common" version="4.3.0" />
       </group>
       <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Windows8.1">
+        <dependency id="System.Data.Common" version="4.3.0" />
+      </group>
+      <group targetFramework="WindowsPhoneApp8.1">
+        <dependency id="System.Data.Common" version="4.3.0" />
+      </group>
       <group targetFramework="Xamarin.iOS1.0" />
       <group targetFramework="Xamarin.Mac2.0" />
       <group targetFramework="Xamarin.TVOS1.0" />

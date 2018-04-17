@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.DirectoryServices</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.DirectoryServices</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides easy access to Active Directory Domain Services.
+
+Commonly Used Types:
+System.DirectoryServices.DirectoryEntry
+System.DirectoryServices.DirectorySearcher
+System.DirectoryServices.ActiveDirectory.ActiveDirectorySite
+System.DirectoryServices.ActiveDirectory.ApplicationPartition
+System.DirectoryServices.ActiveDirectory.DirectoryContext
+System.DirectoryServices.ActiveDirectory.DirectoryServer
+System.DirectoryServices.ActiveDirectory.Domain
+System.DirectoryServices.ActiveDirectory.DomainController
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="System.IO.FileSystem.AccessControl" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.IO.FileSystem.AccessControl" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="UAP10.0.16299">
+        <dependency id="System.IO.FileSystem.AccessControl" version="4.5.0-preview3-26417-0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.DirectoryServices" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.DirectoryServices\netstandard\System.DirectoryServices.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.DirectoryServices\netstandard\System.DirectoryServices.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.DirectoryServices\4.0.0.0\netstandard\System.DirectoryServices.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.DirectoryServices\4.0.0.0\netstandard\System.DirectoryServices.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.DirectoryServices.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="runtimes\win\lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.DirectoryServices\netcoreapp2.0\System.DirectoryServices.dll" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.DirectoryServices\netcoreapp2.0\System.DirectoryServices.pdb" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\ref\System.DirectoryServices.cs" target="src\src\System.DirectoryServices\ref\System.DirectoryServices.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsAuthentication.cs" target="src\src\System.DirectoryServices\src\Interop\AdsAuthentication.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsOptions.cs" target="src\src\System.DirectoryServices\src\Interop\AdsOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsPropertyOperation.cs" target="src\src\System.DirectoryServices\src\Interop\AdsPropertyOperation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsSearchColumn.cs" target="src\src\System.DirectoryServices\src\Interop\AdsSearchColumn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsSearchPreferenceInfo.cs" target="src\src\System.DirectoryServices\src\Interop\AdsSearchPreferenceInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsSearchPreferences.cs" target="src\src\System.DirectoryServices\src\Interop\AdsSearchPreferences.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsSortKey.cs" target="src\src\System.DirectoryServices\src\Interop\AdsSortKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsStatus.cs" target="src\src\System.DirectoryServices\src\Interop\AdsStatus.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsType.cs" target="src\src\System.DirectoryServices\src\Interop\AdsType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsValue2.cs" target="src\src\System.DirectoryServices\src\Interop\AdsValue2.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\AdsValueHelper2.cs" target="src\src\System.DirectoryServices\src\Interop\AdsValueHelper2.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\NativeMethods.cs" target="src\src\System.DirectoryServices\src\Interop\NativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\SafeNativeMethods.cs" target="src\src\System.DirectoryServices\src\Interop\SafeNativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\Interop\UnsafeNativeMethods.cs" target="src\src\System.DirectoryServices\src\Interop\UnsafeNativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectorySecurity.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectorySecurity.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectoryInterSiteTransport.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectoryInterSiteTransport.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectoryPartition.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectoryPartition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectoryReplicationMetaData.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectoryReplicationMetaData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchedule.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchedule.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchema.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchema.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchemaClass.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchemaClass.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchemaClassCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchemaClassCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchemaProperty.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchemaProperty.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchemaPropertyCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySchemaPropertyCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySite.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySite.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySiteCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySiteCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySiteLink.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySiteLink.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySiteLinkBridge.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySiteLinkBridge.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySiteLinkCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySiteLinkCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySubnet.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySubnet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySubnetCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySubnetCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySyntax.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ActiveDirectorySyntax.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ADAMInstance.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ADAMInstance.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ADAMInstanceCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ADAMInstanceCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ADSearcher.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ADSearcher.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ApplicationPartition.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ApplicationPartition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ApplicationPartitionCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ApplicationPartitionCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\AttributeMetaData.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\AttributeMetaData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\AttributeMetadataCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\AttributeMetadataCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ConfigSet.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ConfigSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DirectoryContext.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DirectoryContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DirectoryEntryManager.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DirectoryEntryManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DirectoryServer.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DirectoryServer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DirectoryServerCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DirectoryServerCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\Domain.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\Domain.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DomainCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DomainCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DomainController.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DomainController.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DomainControllerCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\DomainControllerCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\Exception.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\Exception.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\Forest.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\Forest.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ForestTrustCollision.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ForestTrustCollision.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ForestTrustDomainInfoCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ForestTrustDomainInfoCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ForestTrustDomainInformation.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ForestTrustDomainInformation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ForestTrustRelationshipInformation.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ForestTrustRelationshipInformation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\GlobalCatalog.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\GlobalCatalog.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\GlobalCatalogCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\GlobalCatalogCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\Locator.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\Locator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\LocatorFlag.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\LocatorFlag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\NativeMethods.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\NativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\PropertyManager.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\PropertyManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlyActiveDirectorySchemaClassCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlyActiveDirectorySchemaClassCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlyActiveDirectorySchemaPropertyCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlyActiveDirectorySchemaPropertyCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlyDirectoryServerCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlyDirectoryServerCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlySiteCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlySiteCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlySiteLinkBridgeCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlySiteLinkBridgeCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlySiteLinkCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlySiteLinkCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlyStringCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReadOnlyStringCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationConnection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationConnection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationConnectionCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationConnectionCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationCursor.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationCursor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationCursorCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationCursorCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationFailure.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationFailure.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationFailureCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationFailureCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationNeighbor.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationNeighbor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationNeighborCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationNeighborCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationOperation.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationOperation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationOperationCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationOperationCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationOperationInformation.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\ReplicationOperationInformation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\RoleOwner.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\RoleOwner.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\RoleOwnerCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\RoleOwnerCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\SafeHandle.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\SafeHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\SecurityLevel.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\SecurityLevel.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\SystemFlag.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\SystemFlag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\TopLevelName.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\TopLevelName.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\TopLevelNameCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\TopLevelNameCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\TrustHelper.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\TrustHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\TrustRelationshipInformation.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\TrustRelationshipInformation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\TrustRelationshipInformationCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\TrustRelationshipInformationCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\UnsafeNativeMethods.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\UnsafeNativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\Utils.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\Utils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\WellKnownDN.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ActiveDirectory\WellKnownDN.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\AdsVLV.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\AdsVLV.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\AuthenticationTypes.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\AuthenticationTypes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\DerefAlias.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\DerefAlias.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\Design\DirectoryEntryConverter.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\Design\DirectoryEntryConverter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryEntries.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryEntries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryEntry.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryEntry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryEntryConfiguration.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryEntryConfiguration.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\DirectorySearcher.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\DirectorySearcher.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryServicesCOMException.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryServicesCOMException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\DirectorySynchronization.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\DirectorySynchronization.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\DirectorySynchronizationFlags.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\DirectorySynchronizationFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryVirtualListView.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryVirtualListView.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryVirtualListViewContext.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\DirectoryVirtualListViewContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ExtendedDn.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ExtendedDn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ExternDll.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ExternDll.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\PasswordEncodingMethod.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\PasswordEncodingMethod.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\PropertyCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\PropertyCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\PropertyValueCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\PropertyValueCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ReferalChasingOption.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ReferalChasingOption.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ResultPropertyCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ResultPropertyCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\ResultPropertyValueCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\ResultPropertyValueCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\SchemaNameCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\SchemaNameCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\SearchResult.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\SearchResult.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\SearchResultCollection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\SearchResultCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\SearchScope.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\SearchScope.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\SecurityMasks.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\SecurityMasks.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\SortDirection.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\SortDirection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices\src\System\DirectoryServices\SortOption.cs" target="src\src\System.DirectoryServices\src\System\DirectoryServices\SortOption.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

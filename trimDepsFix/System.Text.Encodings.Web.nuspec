@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Text.Encodings.Web</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Text.Encodings.Web</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides types for encoding and escaping strings for use in JavaScript, HyperText Markup Language (HTML), and uniform resource locators (URL).
+
+Commonly Used Types:
+System.Text.Encodings.Web.HtmlEncoder
+System.Text.Encodings.Web.UrlEncoder
+System.Text.Encodings.Web.JavaScriptEncoder
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETPortable4.5-Profile259" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhone8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Text.Encodings.Web\netstandard1.0\System.Text.Encodings.Web.dll" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Text.Encodings.Web\netstandard1.0\System.Text.Encodings.Web.pdb" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Text.Encodings.Web.xml" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Text.Encodings.Web.xml" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Text.Encodings.Web\netstandard\System.Text.Encodings.Web.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Text.Encodings.Web\netstandard\System.Text.Encodings.Web.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\Properties\AssemblyInfo.cs" target="src\src\System.Text.Encodings.Web\src\Properties\AssemblyInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\Properties\GlobalSuppressions.cs" target="src\src\System.Text.Encodings.Web\src\Properties\GlobalSuppressions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\AllowedCharactersBitmap.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\AllowedCharactersBitmap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\BufferInternal.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\BufferInternal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\HexUtil.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\HexUtil.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\HtmlEncoder.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\HtmlEncoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\JavaScriptEncoder.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\JavaScriptEncoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\TextEncoder.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\TextEncoder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\TextEncoderSettings.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\TextEncoderSettings.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\UnicodeHelpers.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\UnicodeHelpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\UnicodeRange.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\UnicodeRange.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\UnicodeRanges.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\UnicodeRanges.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\UnicodeRanges.generated.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\UnicodeRanges.generated.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\UrlEncoder.cs" target="src\src\System.Text.Encodings.Web\src\System\Text\Encodings\Web\UrlEncoder.cs" exclude="" />
+  </files>
+</package>

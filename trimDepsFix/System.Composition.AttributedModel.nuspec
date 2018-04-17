@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Composition.AttributedModel</id>
+    <version>1.2.0-preview3-26417-0</version>
+    <title>System.Composition.AttributedModel</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides common attributes used by System.Composition types.
+
+Commonly Used Types:
+System.Composition.ExportAttribute
+System.Composition.ImportAttribute
+System.Composition.Convention.AttributedModelProvider
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETPortable4.5-Profile259" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhone8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.AttributedModel\netstandard1.0\System.Composition.AttributedModel.dll" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.AttributedModel\netstandard1.0\System.Composition.AttributedModel.pdb" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.AttributedModel\netstandard\System.Composition.AttributedModel.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.AttributedModel\netstandard\System.Composition.AttributedModel.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.AttributedModel\netstandard1.0\System.Composition.AttributedModel.dll" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.AttributedModel\netstandard1.0\System.Composition.AttributedModel.pdb" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\Convention\AttributedModelProvider.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\Convention\AttributedModelProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\ExportAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\ExportAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\ExportMetadataAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\ExportMetadataAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\ImportAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\ImportAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\ImportingConstructorAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\ImportingConstructorAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\ImportManyAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\ImportManyAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\ImportMetadataConstraintAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\ImportMetadataConstraintAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\MetadataAttributeAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\MetadataAttributeAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\OnImportsSatisfiedAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\OnImportsSatisfiedAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\PartMetadataAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\PartMetadataAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\PartNotDiscoverableAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\PartNotDiscoverableAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\SharedAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\SharedAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.AttributedModel\src\System\Composition\SharingBoundaryAttribute.cs" target="src\src\System.Composition.AttributedModel\src\System\Composition\SharingBoundaryAttribute.cs" exclude="" />
+  </files>
+</package>

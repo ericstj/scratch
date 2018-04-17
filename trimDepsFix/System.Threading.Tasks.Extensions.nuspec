@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.8.6">
+    <id>System.Threading.Tasks.Extensions</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Threading.Tasks.Extensions</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides additional types that simplify the work of writing concurrent and asynchronous code.
+
+Commonly Used Types:
+System.Threading.Tasks.ValueTask&lt;TResult&gt;
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1" />
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="System.Collections" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Diagnostics.Debug" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Runtime" version="4.3.0" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Threading.Tasks" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETPortable4.5-Profile259">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Windows8.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework="WindowsPhone8.0">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework="WindowsPhoneApp8.1">
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Extensions\netstandard1.0\System.Threading.Tasks.Extensions.dll" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Extensions\netstandard1.0\System.Threading.Tasks.Extensions.pdb" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Threading.Tasks.Extensions.xml" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Threading.Tasks.Extensions.xml" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Extensions\netstandard\System.Threading.Tasks.Extensions.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Extensions\netstandard\System.Threading.Tasks.Extensions.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Threading.Tasks.Extensions.xml" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Extensions\netstandard1.0\System.Threading.Tasks.Extensions.dll" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Extensions\netstandard1.0\System.Threading.Tasks.Extensions.pdb" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Threading.Tasks.Extensions\4.2.0.0\netstandard1.0\System.Threading.Tasks.Extensions.dll" target="ref\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Threading.Tasks.Extensions\4.2.0.0\netstandard1.0\System.Threading.Tasks.Extensions.pdb" target="ref\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Threading.Tasks.Extensions.xml" target="ref\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Threading.Tasks.Extensions.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Threading.Tasks.Extensions\4.2.0.0\netstandard\System.Threading.Tasks.Extensions.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Threading.Tasks.Extensions\4.2.0.0\netstandard\System.Threading.Tasks.Extensions.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Diagnostics\StackTraceHiddenAttribute.cs" target="src\src\Common\src\CoreLib\System\Diagnostics\StackTraceHiddenAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Runtime\CompilerServices\AsyncMethodBuilderAttribute.cs" target="src\src\Common\src\CoreLib\System\Runtime\CompilerServices\AsyncMethodBuilderAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Runtime\CompilerServices\AsyncValueTaskMethodBuilder.cs" target="src\src\Common\src\CoreLib\System\Runtime\CompilerServices\AsyncValueTaskMethodBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Runtime\CompilerServices\ConfiguredValueTaskAwaitable.cs" target="src\src\Common\src\CoreLib\System\Runtime\CompilerServices\ConfiguredValueTaskAwaitable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Runtime\CompilerServices\ValueTaskAwaiter.cs" target="src\src\Common\src\CoreLib\System\Runtime\CompilerServices\ValueTaskAwaiter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Threading\Tasks\Sources\IValueTaskSource.cs" target="src\src\Common\src\CoreLib\System\Threading\Tasks\Sources\IValueTaskSource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\CoreLib\System\Threading\Tasks\ValueTask.cs" target="src\src\Common\src\CoreLib\System\Threading\Tasks\ValueTask.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Extensions\ref\System.Threading.Tasks.Extensions.cs" target="src\src\System.Threading.Tasks.Extensions\ref\System.Threading.Tasks.Extensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Extensions\src\System\ThrowHelper.cs" target="src\src\System.Threading.Tasks.Extensions\src\System\ThrowHelper.cs" exclude="" />
+  </files>
+</package>

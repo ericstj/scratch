@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Runtime.Intrinsics.Experimental</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Runtime.Intrinsics.Experimental</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides APIs to processor specific instructions.
+
+Commonly Used Types:
+System.Runtime.Intrinsics.Vector128&lt;&gt;
+System.Runtime.Intrinsics.Vector256&lt;&gt;
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Runtime.Intrinsics.Experimental\4.0.0.0\netcoreapp\System.Runtime.Intrinsics.Experimental.dll" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Runtime.Intrinsics.Experimental\4.0.0.0\netcoreapp\System.Runtime.Intrinsics.Experimental.pdb" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Runtime.Intrinsics.Experimental\netcoreapp\System.Runtime.Intrinsics.Experimental.dll" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Runtime.Intrinsics.Experimental\netcoreapp\System.Runtime.Intrinsics.Experimental.pdb" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Runtime.Intrinsics.Experimental\netcoreapp\System.Runtime.Intrinsics.Experimental.dll" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Runtime.Intrinsics.Experimental\netcoreapp\System.Runtime.Intrinsics.Experimental.pdb" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Runtime.Intrinsics.Experimental\ref\System.Runtime.Intrinsics.cs" target="src\src\System.Runtime.Intrinsics.Experimental\ref\System.Runtime.Intrinsics.cs" exclude="" />
+  </files>
+</package>

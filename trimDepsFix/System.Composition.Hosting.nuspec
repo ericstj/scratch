@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Composition.Hosting</id>
+    <version>1.2.0-preview3-26417-0</version>
+    <title>System.Composition.Hosting</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides Managed Extensibility Framework types that are useful to developers of extensible applications, or hosts.
+
+Commonly Used Types:
+System.Composition.Hosting.CompositionHost
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="System.Composition.Runtime" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Composition.Runtime" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Composition.Runtime" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETPortable4.5-Profile259">
+        <dependency id="System.Composition.Runtime" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="Windows8.0">
+        <dependency id="System.Composition.Runtime" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="WindowsPhone8.0">
+        <dependency id="System.Composition.Runtime" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="WindowsPhoneApp8.1">
+        <dependency id="System.Composition.Runtime" version="1.2.0-preview3-26417-0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Hosting\netstandard1.0\System.Composition.Hosting.dll" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Hosting\netstandard1.0\System.Composition.Hosting.pdb" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Hosting\netstandard\System.Composition.Hosting.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Hosting\netstandard\System.Composition.Hosting.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Hosting\netstandard1.0\System.Composition.Hosting.dll" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Hosting\netstandard1.0\System.Composition.Hosting.pdb" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Internal\Assumes.cs" target="src\src\Common\src\Microsoft\Internal\Assumes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Internal\Assumes.InternalErrorException.cs" target="src\src\Common\src\Microsoft\Internal\Assumes.InternalErrorException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Internal\CommonStrings.Designer.cs" target="src\src\Common\src\Microsoft\Internal\CommonStrings.Designer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Internal\EmptyArray.cs" target="src\src\Common\src\Microsoft\Internal\EmptyArray.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Internal\Requires.cs" target="src\src\Common\src\Microsoft\Internal\Requires.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\Microsoft\Internal\ThrowHelper.cs" target="src\src\System.Composition.Hosting\src\Microsoft\Internal\ThrowHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\CompositionHost.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\CompositionHost.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\CompositeActivator.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\CompositeActivator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\CompositionDependency.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\CompositionDependency.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\CompositionOperation.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\CompositionOperation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\CycleBreakingExportDescriptor.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\CycleBreakingExportDescriptor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\CycleBreakingMetadataDictionary.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\CycleBreakingMetadataDictionary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\DependencyAccessor.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\DependencyAccessor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\DirectExportDescriptor.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\DirectExportDescriptor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\ExportDescriptor.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\ExportDescriptor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\ExportDescriptorPromise.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\ExportDescriptorPromise.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\ExportDescriptorProvider.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\ExportDescriptorProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\ExportDescriptorRegistry.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\ExportDescriptorRegistry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\ExportDescriptorRegistryUpdate.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\ExportDescriptorRegistryUpdate.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\LifetimeContext.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\LifetimeContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\UpdateResult.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Core\UpdateResult.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\Constants.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\Constants.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\CurrentScope\CurrentScopeExportDescriptorProvider.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\CurrentScope\CurrentScopeExportDescriptorProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\ExportFactory\ExportFactoryExportDescriptorProvider.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\ExportFactory\ExportFactoryExportDescriptorProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\ExportFactory\ExportFactoryWithMetadataExportDescriptorProvider.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\ExportFactory\ExportFactoryWithMetadataExportDescriptorProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\ImportMany\ImportManyExportDescriptorProvider.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\ImportMany\ImportManyExportDescriptorProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\Lazy\LazyExportDescriptorProvider.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\Lazy\LazyExportDescriptorProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\Lazy\LazyWithMetadataExportDescriptorProvider.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\Lazy\LazyWithMetadataExportDescriptorProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\Metadata\MetadataViewProvider.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Providers\Metadata\MetadataViewProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Util\Formatters.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Util\Formatters.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Util\MethodInfoExtensions.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Util\MethodInfoExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Hosting\src\System\Composition\Hosting\Util\SmallSparseInitonlyArray.cs" target="src\src\System.Composition.Hosting\src\System\Composition\Hosting\Util\SmallSparseInitonlyArray.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

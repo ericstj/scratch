@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Management</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Management</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides access to a rich set of management information and management events about the system, devices, and applications instrumented to the Windows Management Instrumentation (WMI) infrastructure.
+
+Commonly Used Types:
+System.Management.ManagementClass
+System.Management.ManagementObject
+System.Management.SelectQuery
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.CodeDom" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.CodeDom" version="4.5.0-preview3-26417-0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Management" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Management\netstandard\System.Management.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Management\netstandard\System.Management.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Management\4.0.0.0\netstandard\System.Management.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Management\4.0.0.0\netstandard\System.Management.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="runtimes\win\lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Management\netcoreapp2.0\System.Management.dll" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Management\netcoreapp2.0\System.Management.pdb" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetProcAddress.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetProcAddress.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibrary.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibrary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeLibraryHandle.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeLibraryHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\ref\System.Management.cs" target="src\src\System.Management\ref\System.Management.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\InteropClasses\WMIInterop.cs" target="src\src\System.Management\src\System\Management\InteropClasses\WMIInterop.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementBaseObject.cs" target="src\src\System.Management\src\System\Management\ManagementBaseObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementClass.cs" target="src\src\System.Management\src\System\Management\ManagementClass.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementDateTime.cs" target="src\src\System.Management\src\System\Management\ManagementDateTime.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementEventArgs.cs" target="src\src\System.Management\src\System\Management\ManagementEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementEventWatcher.cs" target="src\src\System.Management\src\System\Management\ManagementEventWatcher.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementException.cs" target="src\src\System.Management\src\System\Management\ManagementException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementNamedValueCollection.cs" target="src\src\System.Management\src\System\Management\ManagementNamedValueCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementObject.cs" target="src\src\System.Management\src\System\Management\ManagementObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementObjectCollection.cs" target="src\src\System.Management\src\System\Management\ManagementObjectCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementObjectSearcher.cs" target="src\src\System.Management\src\System\Management\ManagementObjectSearcher.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementOperationWatcher.cs" target="src\src\System.Management\src\System\Management\ManagementOperationWatcher.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementOptions.cs" target="src\src\System.Management\src\System\Management\ManagementOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementPath.cs" target="src\src\System.Management\src\System\Management\ManagementPath.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementQuery.cs" target="src\src\System.Management\src\System\Management\ManagementQuery.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\ManagementScope.cs" target="src\src\System.Management\src\System\Management\ManagementScope.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\Method.cs" target="src\src\System.Management\src\System\Management\Method.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\MethodSet.cs" target="src\src\System.Management\src\System\Management\MethodSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\Property.cs" target="src\src\System.Management\src\System\Management\Property.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\PropertySet.cs" target="src\src\System.Management\src\System\Management\PropertySet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\Qualifier.cs" target="src\src\System.Management\src\System\Management\Qualifier.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\QualifierSet.cs" target="src\src\System.Management\src\System\Management\QualifierSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\WmiEventSink.cs" target="src\src\System.Management\src\System\Management\WmiEventSink.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\WMIGenerator.cs" target="src\src\System.Management\src\System\Management\WMIGenerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Management\src\System\Management\wmiutil.cs" target="src\src\System.Management\src\System\Management\wmiutil.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

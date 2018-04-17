@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>Microsoft.Win32.SystemEvents</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>Microsoft.Win32.SystemEvents</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides access to Windows system event notifications.
+
+Commonly Used Types:
+Microsoft.Win32.SystemEvents
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\Microsoft.Win32.SystemEvents\netfx\Microsoft.Win32.SystemEvents.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\Microsoft.Win32.SystemEvents\netfx\Microsoft.Win32.SystemEvents.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\Microsoft.Win32.SystemEvents\netstandard\Microsoft.Win32.SystemEvents.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\Microsoft.Win32.SystemEvents\netstandard\Microsoft.Win32.SystemEvents.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.Win32.SystemEvents\4.0.0.0\netfx\Microsoft.Win32.SystemEvents.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.Win32.SystemEvents\4.0.0.0\netstandard\Microsoft.Win32.SystemEvents.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\Microsoft.Win32.SystemEvents\4.0.0.0\netstandard\Microsoft.Win32.SystemEvents.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Win32.SystemEvents\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\Microsoft.Win32.SystemEvents\netcoreapp2.0\Microsoft.Win32.SystemEvents.pdb" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Errors.cs" target="src\src\Common\src\Interop\Windows\Interop.Errors.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetCurrentThreadId.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetCurrentThreadId.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetModuleHandle.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetModuleHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetProcAddress.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetProcAddress.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibrary.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibrary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.SetConsoleCtrlHandler.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.SetConsoleCtrlHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.Constants.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.Constants.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.CreateWindowEx.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.CreateWindowEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.DefWindowProc.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.DefWindowProc.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.DestroyWindow.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.DestroyWindow.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.DispatchMessage.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.DispatchMessage.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.GetClassInfo.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.GetClassInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.GetProcessWindowStation.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.GetProcessWindowStation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.GetUserObjectInformation.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.GetUserObjectInformation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.GetWindowThreadProcessId.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.GetWindowThreadProcessId.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.IsWindow.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.IsWindow.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.KillTimer.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.KillTimer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.MSG.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.MSG.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.MsgWaitForMultipleObjectsEx.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.MsgWaitForMultipleObjectsEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.PeekMessage.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.PeekMessage.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.PostMessage.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.PostMessage.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.RegisterClass.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.RegisterClass.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.RegisterWindowMessage.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.RegisterWindowMessage.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.SendMessage.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.SendMessage.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.SetClassLong.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.SetClassLong.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.SetClassLongPtr.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.SetClassLongPtr.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.SetTimer.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.SetTimer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.SetWindowLong.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.SetWindowLong.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.SetWindowLongPtr.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.SetWindowLongPtr.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.TranslateMessage.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.TranslateMessage.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.UnregisterClass.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.UnregisterClass.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.USEROBJECTFLAGS.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.USEROBJECTFLAGS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.WNDCLASS.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.WNDCLASS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\user32\Interop.WndProc.cs" target="src\src\Common\src\Interop\Windows\user32\Interop.WndProc.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\wtsapi32\Interop.Constants.cs" target="src\src\Common\src\Interop\Windows\wtsapi32\Interop.Constants.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\wtsapi32\Interop.WTSRegisterSessionNotification.cs" target="src\src\Common\src\Interop\Windows\wtsapi32\Interop.WTSRegisterSessionNotification.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\wtsapi32\Interop.WTSUnRegisterSessionNotification.cs" target="src\src\Common\src\Interop\Windows\wtsapi32\Interop.WTSUnRegisterSessionNotification.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeLibraryHandle.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeLibraryHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\ref\Microsoft.Win32.SystemEvents.cs" target="src\src\Microsoft.Win32.SystemEvents\ref\Microsoft.Win32.SystemEvents.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\PowerModeChangedEventArgs.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\PowerModeChangedEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\PowerModeChangedEventHandler.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\PowerModeChangedEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\PowerModes.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\PowerModes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionEndedEventArgs.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionEndedEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionEndedEventHandler.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionEndedEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionEndingEventArgs.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionEndingEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionEndingEventHandler.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionEndingEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionEndReasons.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionEndReasons.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionSwitchEventArgs.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionSwitchEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionSwitchEventHandler.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionSwitchEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionSwitchReason.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SessionSwitchReason.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SystemEvents.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\SystemEvents.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\TimerElapsedEventArgs.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\TimerElapsedEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\TimerElapsedEventHandler.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\TimerElapsedEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\UserPreferenceCategories.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\UserPreferenceCategories.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\UserPreferenceChangedEventArgs.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\UserPreferenceChangedEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\UserPreferenceChangedEventHandler.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\UserPreferenceChangedEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\UserPreferenceChangingEventArgs.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\UserPreferenceChangingEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\UserPreferenceChangingEventHandler.cs" target="src\src\Microsoft.Win32.SystemEvents\src\Microsoft\Win32\UserPreferenceChangingEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

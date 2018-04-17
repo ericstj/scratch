@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Reflection.DispatchProxy</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Reflection.DispatchProxy</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides a class to dynamically create proxy types that implement a specified interface and derive from a specified DispatchProxy type. Method invocations on the generated proxyinstance are dispatched to that DispatchProxy base type.
+
+Commonly Used Types:
+System.Reflection.DispatchProxy
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0" />
+      <group targetFramework="MonoTouch1.0" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCore5.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0" />
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Reflection.Emit" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Reflection.Emit.ILGeneration" version="4.3.0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework="UAP10.0.16299">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="System.Reflection.Emit" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Reflection.Emit.ILGeneration" version="4.3.0" exclude="Compile" />
+      </group>
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Xamarin.iOS1.0" />
+      <group targetFramework="Xamarin.Mac2.0" />
+      <group targetFramework="Xamarin.TVOS1.0" />
+      <group targetFramework="Xamarin.WatchOS1.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.DispatchProxy\netfx\System.Reflection.DispatchProxy.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.DispatchProxy\netfx\System.Reflection.DispatchProxy.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.DispatchProxy\netcoreapp2.0\System.Reflection.DispatchProxy.dll" target="lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.DispatchProxy\netcoreapp2.0\System.Reflection.DispatchProxy.pdb" target="lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\lib\netstandard1.3\System.Reflection.DispatchProxy.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.DispatchProxy\netstandard\System.Reflection.DispatchProxy.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Reflection.DispatchProxy\netstandard\System.Reflection.DispatchProxy.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\System.Reflection.DispatchProxy.dll" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\System.Reflection.DispatchProxy.xml" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\de\System.Reflection.DispatchProxy.xml" target="ref\netstandard1.3\de" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\es\System.Reflection.DispatchProxy.xml" target="ref\netstandard1.3\es" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\fr\System.Reflection.DispatchProxy.xml" target="ref\netstandard1.3\fr" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\it\System.Reflection.DispatchProxy.xml" target="ref\netstandard1.3\it" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\ja\System.Reflection.DispatchProxy.xml" target="ref\netstandard1.3\ja" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\ko\System.Reflection.DispatchProxy.xml" target="ref\netstandard1.3\ko" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\ru\System.Reflection.DispatchProxy.xml" target="ref\netstandard1.3\ru" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\zh-hans\System.Reflection.DispatchProxy.xml" target="ref\netstandard1.3\zh-hans" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\ref\netstandard1.3\zh-hant\System.Reflection.DispatchProxy.xml" target="ref\netstandard1.3\zh-hant" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Reflection.DispatchProxy\4.0.4.0\netstandard\System.Reflection.DispatchProxy.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Reflection.DispatchProxy\4.0.4.0\netstandard\System.Reflection.DispatchProxy.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Reflection.DispatchProxy.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Reflection.DispatchProxy.xml" target="ref\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Reflection.DispatchProxy\4.0.4.0\uap10.0.16299\System.Reflection.DispatchProxy.dll" target="ref\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Reflection.DispatchProxy\4.0.4.0\uap10.0.16299\System.Reflection.DispatchProxy.pdb" target="ref\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Reflection.DispatchProxy.xml" target="ref\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Reflection.DispatchProxy\4.0.4.0\uap\System.Reflection.DispatchProxy.dll" target="ref\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Reflection.DispatchProxy\4.0.4.0\uap\System.Reflection.DispatchProxy.pdb" target="ref\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Reflection.DispatchProxy\4.4.0\runtimes\aot\lib\netcore50\System.Reflection.DispatchProxy.dll" target="runtimes\aot\lib\netcore50" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Reflection.DispatchProxy\uap10.0.16299aot\System.Reflection.DispatchProxy.dll" target="runtimes\win-aot\lib\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Reflection.DispatchProxy\uap10.0.16299aot\System.Reflection.DispatchProxy.pdb" target="runtimes\win-aot\lib\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Reflection.DispatchProxy\uap10.0.16299\System.Reflection.DispatchProxy.dll" target="runtimes\win\lib\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Reflection.DispatchProxy\uap10.0.16299\System.Reflection.DispatchProxy.pdb" target="runtimes\win\lib\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.DispatchProxy\ref\System.Reflection.DispatchProxy.cs" target="src\src\System.Reflection.DispatchProxy\ref\System.Reflection.DispatchProxy.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.DispatchProxy\src\System\Reflection\DispatchProxy.cs" target="src\src\System.Reflection.DispatchProxy\src\System\Reflection\DispatchProxy.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Reflection.DispatchProxy\src\System\Reflection\DispatchProxyGenerator.cs" target="src\src\System.Reflection.DispatchProxy\src\System\Reflection\DispatchProxyGenerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

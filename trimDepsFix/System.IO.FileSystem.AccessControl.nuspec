@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.IO.FileSystem.AccessControl</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.IO.FileSystem.AccessControl</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides types for managing access and audit control lists for files and directories.
+
+Commonly Used Types:
+System.Security.AccessControl.DirectoryObjectSecurity
+System.Security.AccessControl.DirectorySecurity
+System.Security.AccessControl.FileSecurity
+System.Security.AccessControl.FileSystemAccessRule
+System.Security.AccessControl.FileSystemAuditRule
+System.Security.AccessControl.FileSystemRights
+System.Security.AccessControl.FileSystemSecurity
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="System.IO.FileSystem" version="4.3.0" />
+        <dependency id="System.Security.AccessControl" version="4.4.0" />
+        <dependency id="System.Security.Principal.Windows" version="4.4.0" />
+      </group>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="System.IO.FileSystem" version="4.3.0" />
+        <dependency id="System.Resources.ResourceManager" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Runtime" version="4.3.0" />
+        <dependency id="System.Runtime.Extensions" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Runtime.Handles" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Security.AccessControl" version="4.4.0" />
+        <dependency id="System.Security.Principal.Windows" version="4.4.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="UAP10.0.16299" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\lib\net46\System.IO.FileSystem.AccessControl.dll" target="lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.IO.FileSystem.AccessControl\netfx\System.IO.FileSystem.AccessControl.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.IO.FileSystem.AccessControl\netfx\System.IO.FileSystem.AccessControl.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\lib\netstandard1.3\System.IO.FileSystem.AccessControl.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.FileSystem.AccessControl\netstandard\System.IO.FileSystem.AccessControl.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.FileSystem.AccessControl\netstandard\System.IO.FileSystem.AccessControl.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\net46\System.IO.FileSystem.AccessControl.dll" target="ref\net46" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.IO.FileSystem.AccessControl.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.FileSystem.AccessControl\4.0.3.0\netfx\System.IO.FileSystem.AccessControl.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\System.IO.FileSystem.AccessControl.dll" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\de\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard1.3\de" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\es\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard1.3\es" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\fr\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard1.3\fr" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\it\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard1.3\it" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\ja\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard1.3\ja" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\ko\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard1.3\ko" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\ru\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard1.3\ru" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\zh-hans\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard1.3\zh-hans" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\ref\netstandard1.3\zh-hant\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard1.3\zh-hant" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.FileSystem.AccessControl\4.0.3.0\netstandard\System.IO.FileSystem.AccessControl.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.FileSystem.AccessControl\4.0.3.0\netstandard\System.IO.FileSystem.AccessControl.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.IO.FileSystem.AccessControl.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\runtimes\win\lib\net46\System.IO.FileSystem.AccessControl.dll" target="runtimes\win\lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.IO.FileSystem.AccessControl\netfx\System.IO.FileSystem.AccessControl.dll" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.IO.FileSystem.AccessControl\netfx\System.IO.FileSystem.AccessControl.pdb" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.IO.FileSystem.AccessControl\4.4.0\runtimes\win\lib\netstandard1.3\System.IO.FileSystem.AccessControl.dll" target="runtimes\win\lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.IO.FileSystem.AccessControl\netstandard\System.IO.FileSystem.AccessControl.dll" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.IO.FileSystem.AccessControl\netstandard\System.IO.FileSystem.AccessControl.pdb" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Errors.cs" target="src\src\Common\src\Interop\Windows\Interop.Errors.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\NotImplemented.cs" target="src\src\Common\src\System\NotImplemented.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.FileSystem.AccessControl\ref\System.IO.FileSystem.AccessControl.cs" target="src\src\System.IO.FileSystem.AccessControl\ref\System.IO.FileSystem.AccessControl.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.FileSystem.AccessControl\src\System\IO\FileSystemAclExtensions.cs" target="src\src\System.IO.FileSystem.AccessControl\src\System\IO\FileSystemAclExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.FileSystem.AccessControl\src\System\IO\FileSystemAclExtensions.net46.cs" target="src\src\System.IO.FileSystem.AccessControl\src\System\IO\FileSystemAclExtensions.net46.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.FileSystem.AccessControl\src\System\Security\AccessControl\DirectoryObjectSecurity.cs" target="src\src\System.IO.FileSystem.AccessControl\src\System\Security\AccessControl\DirectoryObjectSecurity.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.FileSystem.AccessControl\src\System\Security\AccessControl\FileSecurity.cs" target="src\src\System.IO.FileSystem.AccessControl\src\System\Security\AccessControl\FileSecurity.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

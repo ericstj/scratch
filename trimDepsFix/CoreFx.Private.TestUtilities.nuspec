@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>CoreFx.Private.TestUtilities</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>CoreFx.Private.TestUtilities</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Private package, which provides testing utility classes. The package is meant to be used when running CoreFX tests on a runtime. 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="xunit.assert" version="2.2.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="xunit.core" version="2.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.DotNet.PlatformAbstractions" version="2.0.4-preview3-26417-0" exclude="Compile" />
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="xunit.assert" version="2.2.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="xunit.core" version="2.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.DotNet.PlatformAbstractions" version="2.0.4-preview3-26417-0" exclude="Compile" />
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="xunit.assert" version="2.2.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="xunit.core" version="2.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="xunit.core" version="2.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="UAP10.0.16300">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="xunit.assert" version="2.2.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="xunit.core" version="2.2.0-preview3-26417-0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\netfx\CoreFx.Private.TestUtilities.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\netfx\CoreFx.Private.TestUtilities.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\CoreFx.Private.TestUtilities\netstandard\CoreFx.Private.TestUtilities.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\CoreFx.Private.TestUtilities\netstandard\CoreFx.Private.TestUtilities.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\CoreFx.Private.TestUtilities\1.0.0.0\netstandard\CoreFx.Private.TestUtilities.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\CoreFx.Private.TestUtilities\1.0.0.0\netstandard\CoreFx.Private.TestUtilities.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\CoreFx.Private.TestUtilities\netcoreapp2.0\CoreFx.Private.TestUtilities.dll" target="runtimes\unix\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\CoreFx.Private.TestUtilities\netcoreapp2.0\CoreFx.Private.TestUtilities.pdb" target="runtimes\unix\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\CoreFx.Private.TestUtilities\netcoreapp\CoreFx.Private.TestUtilities.dll" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\CoreFx.Private.TestUtilities\netcoreapp\CoreFx.Private.TestUtilities.pdb" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\uapaot\CoreFx.Private.TestUtilities.dll" target="runtimes\win-aot\lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\uapaot\CoreFx.Private.TestUtilities.pdb" target="runtimes\win-aot\lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\netfx\CoreFx.Private.TestUtilities.dll" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\netfx\CoreFx.Private.TestUtilities.pdb" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\netcoreapp2.0\CoreFx.Private.TestUtilities.dll" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\netcoreapp2.0\CoreFx.Private.TestUtilities.pdb" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\netcoreapp\CoreFx.Private.TestUtilities.dll" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\netcoreapp\CoreFx.Private.TestUtilities.pdb" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\uap\CoreFx.Private.TestUtilities.dll" target="runtimes\win\lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\CoreFx.Private.TestUtilities\uap\CoreFx.Private.TestUtilities.pdb" target="runtimes\win\lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\Interop.Libraries.cs" target="src\src\Common\src\Interop\Unix\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Native\Interop.GetEUid.cs" target="src\src\Common\src\Interop\Unix\System.Native\Interop.GetEUid.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.OpenSslVersion.cs" target="src\src\Common\src\Interop\Unix\System.Security.Cryptography.Native\Interop.OpenSslVersion.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.GetTokenInformation_void.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.GetTokenInformation_void.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.OpenProcessToken_SafeAccessTokenHandle.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.OpenProcessToken_SafeAccessTokenHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.TOKEN_ELEVATION.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.TOKEN_ELEVATION.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.TOKEN_INFORMATION_CLASS.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.TOKEN_INFORMATION_CLASS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.BOOL.cs" target="src\src\Common\src\Interop\Windows\Interop.BOOL.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.CloseHandle.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.CloseHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetCurrentProcess_IntPtr.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetCurrentProcess_IntPtr.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\PasteArguments.cs" target="src\src\Common\src\System\PasteArguments.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\PasteArguments.Unix.cs" target="src\src\Common\src\System\PasteArguments.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\PasteArguments.Windows.cs" target="src\src\Common\src\System\PasteArguments.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\ref\CoreFx.Private.TestUtilities.cs" target="src\src\CoreFx.Private.TestUtilities\ref\CoreFx.Private.TestUtilities.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\AdminHelpers.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\AdminHelpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\AdminHelpers.Unix.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\AdminHelpers.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\AdminHelpers.Windows.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\AdminHelpers.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\AssertExtensions.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\AssertExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.netcore.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.netcore.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.netfx.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.netfx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.Process.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.Process.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.uap.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.uap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.uapaot.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\Diagnostics\RemoteExecutorTestBase.uapaot.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\IO\FileCleanupTestBase.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\IO\FileCleanupTestBase.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\Net\PlatformDetection.Networking.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\Net\PlatformDetection.Networking.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\PlatformDetection.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\PlatformDetection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\PlatformDetection.NetFx.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\PlatformDetection.NetFx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\PlatformDetection.NonNetFx.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\PlatformDetection.NonNetFx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\PlatformDetection.Unix.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\PlatformDetection.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\PlatformDetection.Windows.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\PlatformDetection.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\TestEnvironment.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\TestEnvironment.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\CoreFx.Private.TestUtilities\src\System\TheoryExtensions.cs" target="src\src\CoreFx.Private.TestUtilities\src\System\TheoryExtensions.cs" exclude="" />
+  </files>
+</package>

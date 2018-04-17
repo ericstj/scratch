@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Data.SqlClient</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Data.SqlClient</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides the data provider for SQL Server. These classes provide access to versions of SQL Server and encapsulate database-specific protocols, including tabular data stream (TDS)
+
+Commonly Used Types:
+System.Data.SqlClient.SqlConnection
+System.Data.SqlClient.SqlException
+System.Data.SqlClient.SqlParameter
+System.Data.SqlDbType
+System.Data.SqlClient.SqlDataReader
+System.Data.SqlClient.SqlCommand
+System.Data.SqlClient.SqlTransaction
+System.Data.SqlClient.SqlParameterCollection
+System.Data.SqlClient.SqlClientFactory
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0" />
+      <group targetFramework="MonoTouch1.0" />
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="System.Data.Common" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="System.Data.Common" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="runtime.native.System.Data.SqlClient.sni" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Diagnostics.DiagnosticSource" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Text.Encoding.CodePages" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="runtime.native.System.Data.SqlClient.sni" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Text.Encoding.CodePages" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard1.2">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Data.Common" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="runtime.native.System.Data.SqlClient.sni" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Data.Common" version="4.3.0" />
+        <dependency id="System.Diagnostics.DiagnosticSource" version="4.4.1" exclude="Compile" />
+        <dependency id="System.IO.Pipes" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Net.NameResolution" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Net.Security" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Security.Principal" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Security.Principal.Windows" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Text.Encoding.CodePages" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Threading.Thread" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Threading.ThreadPool" version="4.3.0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="runtime.native.System.Data.SqlClient.sni" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Buffers" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Diagnostics.DiagnosticSource" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Text.Encoding.CodePages" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETPortable4.6-Profile151">
+        <dependency id="System.Data.Common" version="4.3.0" />
+      </group>
+      <group targetFramework="UAP10.0.16299">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="System.Diagnostics.DiagnosticSource" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework="UAP10.0.16300">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="System.Diagnostics.DiagnosticSource" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework="Windows8.1">
+        <dependency id="System.Data.Common" version="4.3.0" />
+      </group>
+      <group targetFramework="WindowsPhoneApp8.1">
+        <dependency id="System.Data.Common" version="4.3.0" />
+      </group>
+      <group targetFramework="Xamarin.iOS1.0" />
+      <group targetFramework="Xamarin.Mac2.0" />
+      <group targetFramework="Xamarin.TVOS1.0" />
+      <group targetFramework="Xamarin.WatchOS1.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5.1" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\lib\net451\System.Data.SqlClient.dll" target="lib\net451" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\lib\net46\System.Data.SqlClient.dll" target="lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netfx\System.Data.SqlClient.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netfx\System.Data.SqlClient.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\System.Data.SqlClient.dll" target="lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\System.Data.SqlClient.pdb" target="lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard1.2\System.Data.SqlClient.dll" target="lib\netstandard1.2" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard1.2\System.Data.SqlClient.pdb" target="lib\netstandard1.2" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard1.3\System.Data.SqlClient.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard1.3\System.Data.SqlClient.pdb" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard\System.Data.SqlClient.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard\System.Data.SqlClient.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\net451\System.Data.SqlClient.dll" target="ref\net451" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\net46\System.Data.SqlClient.dll" target="ref\net46" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Data.SqlClient.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Data.SqlClient\4.4.0.0\netfx\System.Data.SqlClient.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Data.SqlClient.xml" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Data.SqlClient\4.4.0.0\netcoreapp\System.Data.SqlClient.dll" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Data.SqlClient\4.4.0.0\netcoreapp\System.Data.SqlClient.pdb" target="ref\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\System.Data.SqlClient.dll" target="ref\netstandard1.2" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\System.Data.SqlClient.xml" target="ref\netstandard1.2" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\de\System.Data.SqlClient.xml" target="ref\netstandard1.2\de" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\es\System.Data.SqlClient.xml" target="ref\netstandard1.2\es" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\fr\System.Data.SqlClient.xml" target="ref\netstandard1.2\fr" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\it\System.Data.SqlClient.xml" target="ref\netstandard1.2\it" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\ja\System.Data.SqlClient.xml" target="ref\netstandard1.2\ja" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\ko\System.Data.SqlClient.xml" target="ref\netstandard1.2\ko" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\ru\System.Data.SqlClient.xml" target="ref\netstandard1.2\ru" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\zh-hans\System.Data.SqlClient.xml" target="ref\netstandard1.2\zh-hans" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.2\zh-hant\System.Data.SqlClient.xml" target="ref\netstandard1.2\zh-hant" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\System.Data.SqlClient.dll" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\System.Data.SqlClient.xml" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\de\System.Data.SqlClient.xml" target="ref\netstandard1.3\de" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\es\System.Data.SqlClient.xml" target="ref\netstandard1.3\es" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\fr\System.Data.SqlClient.xml" target="ref\netstandard1.3\fr" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\it\System.Data.SqlClient.xml" target="ref\netstandard1.3\it" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\ja\System.Data.SqlClient.xml" target="ref\netstandard1.3\ja" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\ko\System.Data.SqlClient.xml" target="ref\netstandard1.3\ko" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\ru\System.Data.SqlClient.xml" target="ref\netstandard1.3\ru" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\zh-hans\System.Data.SqlClient.xml" target="ref\netstandard1.3\zh-hans" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\ref\netstandard1.3\zh-hant\System.Data.SqlClient.xml" target="ref\netstandard1.3\zh-hant" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Data.SqlClient\4.4.0.0\netstandard\System.Data.SqlClient.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Data.SqlClient\4.4.0.0\netstandard\System.Data.SqlClient.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Data.SqlClient.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\System.Data.SqlClient.dll" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\System.Data.SqlClient.pdb" target="runtimes\unix\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\runtimes\unix\lib\netstandard1.3\System.Data.SqlClient.dll" target="runtimes\unix\lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Data.SqlClient\netstandard\System.Data.SqlClient.dll" target="runtimes\unix\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Unix.AnyCPU.Debug\System.Data.SqlClient\netstandard\System.Data.SqlClient.pdb" target="runtimes\unix\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\runtimes\win\lib\net451\System.Data.SqlClient.dll" target="runtimes\win\lib\net451" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\runtimes\win\lib\net46\System.Data.SqlClient.dll" target="runtimes\win\lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netfx\System.Data.SqlClient.dll" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netfx\System.Data.SqlClient.pdb" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\System.Data.SqlClient.dll" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\System.Data.SqlClient.pdb" target="runtimes\win\lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Data.SqlClient\4.4.0\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll" target="runtimes\win\lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netstandard\System.Data.SqlClient.dll" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netstandard\System.Data.SqlClient.pdb" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\uap10.0.16299\System.Data.SqlClient.dll" target="runtimes\win\lib\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\uap10.0.16299\System.Data.SqlClient.pdb" target="runtimes\win\lib\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\uap\System.Data.SqlClient.dll" target="runtimes\win\lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\uap\System.Data.SqlClient.pdb" target="runtimes\win\lib\uap10.0.16300" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\ThisAssembly.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\ThisAssembly.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard1.2\ThisAssembly.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard1.2\ThisAssembly.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard1.3\ThisAssembly.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard1.3\ThisAssembly.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard\ThisAssembly.cs" target="src\bin\obj\AnyOS.AnyCPU.Debug\System.Data.SqlClient\netstandard\ThisAssembly.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Unix.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\ThisAssembly.cs" target="src\bin\obj\Unix.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\ThisAssembly.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Unix.AnyCPU.Debug\System.Data.SqlClient\netstandard\ThisAssembly.cs" target="src\bin\obj\Unix.AnyCPU.Debug\System.Data.SqlClient\netstandard\ThisAssembly.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\ThisAssembly.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netcoreapp\ThisAssembly.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netstandard\ThisAssembly.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\netstandard\ThisAssembly.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\uap10.0.16299\ThisAssembly.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\uap10.0.16299\ThisAssembly.cs" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\uap\ThisAssembly.cs" target="src\bin\obj\Windows_NT.AnyCPU.Debug\System.Data.SqlClient\uap\ThisAssembly.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\Interop.Libraries.cs" target="src\src\Common\src\Interop\Unix\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Net.Security.Native\Interop.GssApiException.cs" target="src\src\Common\src\Interop\Unix\System.Net.Security.Native\Interop.GssApiException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Net.Security.Native\Interop.GssBuffer.cs" target="src\src\Common\src\Interop\Unix\System.Net.Security.Native\Interop.GssBuffer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Unix\System.Net.Security.Native\Interop.NetSecurityNative.cs" target="src\src\Common\src\Interop\Unix\System.Net.Security.Native\Interop.NetSecurityNative.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Crypt32\Interop.certificates.cs" target="src\src\Common\src\Interop\Windows\Crypt32\Interop.certificates.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Crypt32\Interop.certificates_types.cs" target="src\src\Common\src\Interop\Windows\Crypt32\Interop.certificates_types.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.CloseHandle.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.CloseHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetProcAddress.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetProcAddress.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibraryEx.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibraryEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\SChannel\Interop.SecPkgContext_ApplicationProtocol.cs" target="src\src\Common\src\Interop\Windows\SChannel\Interop.SecPkgContext_ApplicationProtocol.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\SChannel\Interop.SECURITY_STATUS.cs" target="src\src\Common\src\Interop\Windows\SChannel\Interop.SECURITY_STATUS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\SChannel\SecPkgContext_ConnectionInfo.cs" target="src\src\Common\src\Interop\Windows\SChannel\SecPkgContext_ConnectionInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\GlobalSSPI.cs" target="src\src\Common\src\Interop\Windows\sspicli\GlobalSSPI.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\Interop.SSPI.cs" target="src\src\Common\src\Interop\Windows\sspicli\Interop.SSPI.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\NegotiationInfoClass.cs" target="src\src\Common\src\Interop\Windows\sspicli\NegotiationInfoClass.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SafeDeleteContext.cs" target="src\src\Common\src\Interop\Windows\sspicli\SafeDeleteContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SecPkgContext_Bindings.cs" target="src\src\Common\src\Interop\Windows\sspicli\SecPkgContext_Bindings.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SecPkgContext_NegotiationInfoW.cs" target="src\src\Common\src\Interop\Windows\sspicli\SecPkgContext_NegotiationInfoW.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SecPkgContext_Sizes.cs" target="src\src\Common\src\Interop\Windows\sspicli\SecPkgContext_Sizes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SecPkgContext_StreamSizes.cs" target="src\src\Common\src\Interop\Windows\sspicli\SecPkgContext_StreamSizes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SecurityPackageInfo.cs" target="src\src\Common\src\Interop\Windows\sspicli\SecurityPackageInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SecurityPackageInfoClass.cs" target="src\src\Common\src\Interop\Windows\sspicli\SecurityPackageInfoClass.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SecuritySafeHandles.cs" target="src\src\Common\src\Interop\Windows\sspicli\SecuritySafeHandles.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SSPIAuthType.cs" target="src\src\Common\src\Interop\Windows\sspicli\SSPIAuthType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SSPIInterface.cs" target="src\src\Common\src\Interop\Windows\sspicli\SSPIInterface.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SSPISecureChannelType.cs" target="src\src\Common\src\Interop\Windows\sspicli\SSPISecureChannelType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\sspicli\SSPIWrapper.cs" target="src\src\Common\src\Interop\Windows\sspicli\SSPIWrapper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\GssSafeHandles.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\GssSafeHandles.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeLibraryHandle.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeLibraryHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Collections\Generic\BidirectionalDictionary.cs" target="src\src\Common\src\System\Collections\Generic\BidirectionalDictionary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\Common\AdapterUtil.cs" target="src\src\Common\src\System\Data\Common\AdapterUtil.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\Common\AdapterUtil.Drivers.cs" target="src\src\Common\src\System\Data\Common\AdapterUtil.Drivers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\Common\BasicFieldNameLookup.cs" target="src\src\Common\src\System\Data\Common\BasicFieldNameLookup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\Common\DbConnectionOptions.Common.cs" target="src\src\Common\src\System\Data\Common\DbConnectionOptions.Common.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\Common\DbConnectionPoolKey.cs" target="src\src\Common\src\System\Data\Common\DbConnectionPoolKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\Common\FieldNameLookup.cs" target="src\src\Common\src\System\Data\Common\FieldNameLookup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\Common\MultipartIdentifier.cs" target="src\src\Common\src\System\Data\Common\MultipartIdentifier.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\Common\NameValuePair.cs" target="src\src\Common\src\System\Data\Common\NameValuePair.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\Common\SQLResource.cs" target="src\src\Common\src\System\Data\Common\SQLResource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\ProviderBase\DbConnectionClosed.cs" target="src\src\Common\src\System\Data\ProviderBase\DbConnectionClosed.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\ProviderBase\DbConnectionFactory.cs" target="src\src\Common\src\System\Data\ProviderBase\DbConnectionFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\ProviderBase\DbConnectionInternal.cs" target="src\src\Common\src\System\Data\ProviderBase\DbConnectionInternal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\ProviderBase\DbConnectionPoolGroup.cs" target="src\src\Common\src\System\Data\ProviderBase\DbConnectionPoolGroup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\ProviderBase\DbMetaDataFactory.cs" target="src\src\Common\src\System\Data\ProviderBase\DbMetaDataFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\ProviderBase\DbReferenceCollection.cs" target="src\src\Common\src\System\Data\ProviderBase\DbReferenceCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Data\ProviderBase\TimeoutTimer.cs" target="src\src\Common\src\System\Data\ProviderBase\TimeoutTimer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\ContextFlagsAdapterPal.Unix.cs" target="src\src\Common\src\System\Net\ContextFlagsAdapterPal.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\ContextFlagsAdapterPal.Windows.cs" target="src\src\Common\src\System\Net\ContextFlagsAdapterPal.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\ContextFlagsPal.cs" target="src\src\Common\src\System\Net\ContextFlagsPal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\DebugCriticalHandleMinusOneIsInvalid.cs" target="src\src\Common\src\System\Net\DebugCriticalHandleMinusOneIsInvalid.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\DebugCriticalHandleZeroOrMinusOneIsInvalid.cs" target="src\src\Common\src\System\Net\DebugCriticalHandleZeroOrMinusOneIsInvalid.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\DebugSafeHandle.cs" target="src\src\Common\src\System\Net\DebugSafeHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\InternalException.cs" target="src\src\Common\src\System\Net\InternalException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Logging\DebugThreadTracking.cs" target="src\src\Common\src\System\Net\Logging\DebugThreadTracking.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Logging\NetEventSource.Common.cs" target="src\src\Common\src\System\Net\Logging\NetEventSource.Common.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\NegotiationInfoClass.cs" target="src\src\Common\src\System\Net\NegotiationInfoClass.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\SecurityStatusAdapterPal.Windows.cs" target="src\src\Common\src\System\Net\SecurityStatusAdapterPal.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\SecurityStatusPal.cs" target="src\src\Common\src\System\Net\SecurityStatusPal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\NegotiateStreamPal.Unix.cs" target="src\src\Common\src\System\Net\Security\NegotiateStreamPal.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\NegotiateStreamPal.Windows.cs" target="src\src\Common\src\System\Net\Security\NegotiateStreamPal.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\NetEventSource.Security.cs" target="src\src\Common\src\System\Net\Security\NetEventSource.Security.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\NetEventSource.Security.Windows.cs" target="src\src\Common\src\System\Net\Security\NetEventSource.Security.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\SecurityBuffer.cs" target="src\src\Common\src\System\Net\Security\SecurityBuffer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\SecurityBufferType.cs" target="src\src\Common\src\System\Net\Security\SecurityBufferType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\SecurityContextTokenHandle.cs" target="src\src\Common\src\System\Net\Security\SecurityContextTokenHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\Unix\SafeDeleteContext.cs" target="src\src\Common\src\System\Net\Security\Unix\SafeDeleteContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\Unix\SafeDeleteNegoContext.cs" target="src\src\Common\src\System\Net\Security\Unix\SafeDeleteNegoContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\Unix\SafeFreeCredentials.cs" target="src\src\Common\src\System\Net\Security\Unix\SafeFreeCredentials.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Net\Security\Unix\SafeFreeNegoCredentials.cs" target="src\src\Common\src\System\Net\Security\Unix\SafeFreeNegoCredentials.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\NotImplemented.cs" target="src\src\Common\src\System\NotImplemented.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\Threading\Tasks\TaskToApm.cs" target="src\src\Common\src\System\Threading\Tasks\TaskToApm.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\ref\System.Data.SqlClient.cs" target="src\src\System.Data.SqlClient\ref\System.Data.SqlClient.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\ref\System.Data.SqlClient.Manual.cs" target="src\src\System.Data.SqlClient\ref\System.Data.SqlClient.Manual.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\ref\System.Data.SqlClient.NetCoreApp.cs" target="src\src\System.Data.SqlClient\ref\System.Data.SqlClient.NetCoreApp.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Interop\SNINativeMethodWrapper.Common.cs" target="src\src\System.Data.SqlClient\src\Interop\SNINativeMethodWrapper.Common.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Interop\SNINativeMethodWrapper.Unix.cs" target="src\src\System.Data.SqlClient\src\Interop\SNINativeMethodWrapper.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Interop\SNINativeMethodWrapper.Windows.cs" target="src\src\System.Data.SqlClient\src\Interop\SNINativeMethodWrapper.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ExtendedClrTypeCode.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ExtendedClrTypeCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ITypedGetters.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ITypedGetters.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ITypedGettersV3.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ITypedGettersV3.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ITypedSetters.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ITypedSetters.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ITypedSettersV3.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ITypedSettersV3.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\MemoryRecordBuffer.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\MemoryRecordBuffer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\MetadataUtilsSmi.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\MetadataUtilsSmi.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiEventSink.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiEventSink.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiEventSink_Default.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiEventSink_Default.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiGettersStream.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiGettersStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiMetaData.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiMetaData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiMetaDataProperty.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiMetaDataProperty.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiRecordBuffer.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiRecordBuffer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiSettersStream.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiSettersStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiTypedGetterSetter.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiTypedGetterSetter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiXetterAccessMap.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiXetterAccessMap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiXetterTypeCode.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SmiXetterTypeCode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SqlDataRecord.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SqlDataRecord.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SqlRecordBuffer.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\SqlRecordBuffer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ValueUtilsSmi.cs" target="src\src\System.Data.SqlClient\src\Microsoft\SqlServer\Server\ValueUtilsSmi.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System.Data.SqlClient.TypeForwards.cs" target="src\src\System.Data.SqlClient\src\System.Data.SqlClient.TypeForwards.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Common\ActivityCorrelator.cs" target="src\src\System.Data.SqlClient\src\System\Data\Common\ActivityCorrelator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Common\AdapterUtil.SqlClient.cs" target="src\src\System.Data.SqlClient\src\System\Data\Common\AdapterUtil.SqlClient.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Common\DbConnectionOptions.cs" target="src\src\System.Data.SqlClient\src\System\Data\Common\DbConnectionOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Common\DbConnectionStringCommon.cs" target="src\src\System.Data.SqlClient\src\System\Data\Common\DbConnectionStringCommon.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Common\SR.cs" target="src\src\System.Data.SqlClient\src\System\Data\Common\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\DataException.cs" target="src\src\System.Data.SqlClient\src\System\Data\DataException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\OperationAbortedException.cs" target="src\src\System.Data.SqlClient\src\System\Data\OperationAbortedException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionClosed.cs" target="src\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionClosed.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionFactory.cs" target="src\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionInternal.cs" target="src\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionInternal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPool.cs" target="src\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPool.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolGroupProviderInfo.cs" target="src\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolGroupProviderInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolIdentity.cs" target="src\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolIdentity.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolIdentity.Unix.cs" target="src\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolIdentity.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolIdentity.Windows.cs" target="src\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolIdentity.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolOptions.cs" target="src\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolProviderInfo.cs" target="src\src\System.Data.SqlClient\src\System\Data\ProviderBase\DbConnectionPoolProviderInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\ApplicationIntent.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\ApplicationIntent.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\LocalDBAPI.Common.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\LocalDBAPI.Common.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\LocalDBAPI.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\LocalDBAPI.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\LocalDBAPI.uap.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\LocalDBAPI.uap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\LocalDBAPI.Unix.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\LocalDBAPI.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\LocalDBAPI.Windows.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\LocalDBAPI.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\OnChangedEventHandler.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\OnChangedEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\ParameterPeekAheadValue.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\ParameterPeekAheadValue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\RowsCopiedEventArgs.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\RowsCopiedEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\RowsCopiedEventHandler.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\RowsCopiedEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\LocalDB.uap.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\LocalDB.uap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\LocalDB.Unix.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\LocalDB.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\LocalDB.Windows.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\LocalDB.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNICommon.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNICommon.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIError.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIError.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIHandle.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNILoadHandle.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNILoadHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIMarsConnection.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIMarsConnection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIMarsHandle.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIMarsHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIMarsQueuedPacket.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIMarsQueuedPacket.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNINpHandle.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNINpHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIPacket.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIPacket.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIProxy.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNIProxy.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNITcpHandle.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SNITcpHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SslOverTdsStream.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SslOverTdsStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SspiClientContextStatus.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SspiClientContextStatus.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SSRP.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SNI\SSRP.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SortOrder.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SortOrder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlBuffer.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlBuffer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlBulkCopy.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlBulkCopy.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlBulkCopyColumnMapping.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlBulkCopyColumnMapping.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlBulkCopyColumnMappingCollection.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlBulkCopyColumnMappingCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlBulkCopyOptions.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlBulkCopyOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlCachedBuffer.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlCachedBuffer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlClientDiagnosticListenerExtensions.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlClientDiagnosticListenerExtensions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlClientFactory.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlClientFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlClientMetaDataCollectionNames.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlClientMetaDataCollectionNames.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlCommand.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlCommand.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlCommandBuilder.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlCommandBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlCommandSet.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlCommandSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnection.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionFactory.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionHelper.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionPoolGroupProviderInfo.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionPoolGroupProviderInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionPoolKey.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionPoolKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionPoolProviderInfo.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionPoolProviderInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionString.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionString.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionStringBuilder.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionStringBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionTimeoutErrorInternal.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlConnectionTimeoutErrorInternal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlCredential.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlCredential.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDataAdapter.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDataAdapter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDataReader.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDataReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDbColumn.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDbColumn.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDelegatedTransaction.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDelegatedTransaction.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDependency.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDependency.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDependencyListener.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDependencyListener.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDependencyUtils.AppDomain.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDependencyUtils.AppDomain.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDependencyUtils.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlDependencyUtils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlEnums.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlEnums.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlError.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlError.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlErrorCollection.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlErrorCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlException.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlInfoMessageEvent.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlInfoMessageEvent.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlInfoMessageEventHandler.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlInfoMessageEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlInternalConnection.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlInternalConnection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlInternalConnectionTds.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlInternalConnectionTds.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlInternalTransaction.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlInternalTransaction.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlMetadataFactory.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlMetadataFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlNotificationEventArgs.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlNotificationEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlNotificationInfo.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlNotificationInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlNotificationSource.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlNotificationSource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlNotificationType.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlNotificationType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlParameter.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlParameter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlParameterCollection.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlParameterCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlParameterCollectionHelper.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlParameterCollectionHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlParameterHelper.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlParameterHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlReferenceCollection.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlReferenceCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlRowUpdatedEvent.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlRowUpdatedEvent.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlRowUpdatedEventHandler.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlRowUpdatedEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlRowUpdatingEvent.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlRowUpdatingEvent.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlRowUpdatingEventHandler.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlRowUpdatingEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlSequentialStream.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlSequentialStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlSequentialTextReader.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlSequentialTextReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlStatistics.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlStatistics.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlStream.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlStream.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlTransaction.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlTransaction.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlUdtInfo.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlUdtInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlUtil.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\SqlUtil.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsEnums.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsEnums.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParameterSetter.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParameterSetter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParser.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParser.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParser.RegisterEncoding.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParser.RegisterEncoding.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParser.Unix.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParser.Unix.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParser.Windows.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParser.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserHelperClasses.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserHelperClasses.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserSafeHandles.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserSafeHandles.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserSessionPool.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserSessionPool.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStateObject.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStateObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStateObjectFactory.Managed.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStateObjectFactory.Managed.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStateObjectFactory.Windows.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStateObjectFactory.Windows.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStateObjectManaged.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStateObjectManaged.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStateObjectNative.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStateObjectNative.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStaticMethods.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsParserStaticMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsRecordBufferSetter.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsRecordBufferSetter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsValueSetter.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlClient\TdsValueSetter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\SqlTypes\SqlTypeWorkarounds.cs" target="src\src\System.Data.SqlClient\src\System\Data\SqlTypes\SqlTypeWorkarounds.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Sql\IBinarySerialize.cs" target="src\src\System.Data.SqlClient\src\System\Data\Sql\IBinarySerialize.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Sql\InvalidUdtException.cs" target="src\src\System.Data.SqlClient\src\System\Data\Sql\InvalidUdtException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Sql\SqlFunctionAttribute.cs" target="src\src\System.Data.SqlClient\src\System\Data\Sql\SqlFunctionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Sql\SqlMetaData.cs" target="src\src\System.Data.SqlClient\src\System\Data\Sql\SqlMetaData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Sql\SqlMethodAttribute.cs" target="src\src\System.Data.SqlClient\src\System\Data\Sql\SqlMethodAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Sql\SqlNorm.cs" target="src\src\System.Data.SqlClient\src\System\Data\Sql\SqlNorm.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Sql\SqlNotificationRequest.cs" target="src\src\System.Data.SqlClient\src\System\Data\Sql\SqlNotificationRequest.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Sql\SqlSer.cs" target="src\src\System.Data.SqlClient\src\System\Data\Sql\SqlSer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Sql\SqlUserDefinedAggregateAttribute.cs" target="src\src\System.Data.SqlClient\src\System\Data\Sql\SqlUserDefinedAggregateAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Data.SqlClient\src\System\Data\Sql\SqlUserDefinedTypeAttribute.cs" target="src\src\System.Data.SqlClient\src\System\Data\Sql\SqlUserDefinedTypeAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

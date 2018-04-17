@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.CodeDom</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.CodeDom</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides types that can be used to model the structure of a source code document and to output source code for that model in a supported language.
+
+Commonly Used Types:
+System.CodeDom.CodeObject
+System.CodeDom.Compiler.CodeDomProvider
+Microsoft.CSharp.CSharpCodeProvider
+Microsoft.VisualBasic.VBCodeProvider
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.CodeDom\netfx\System.CodeDom.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.CodeDom\netfx\System.CodeDom.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.CodeDom\netstandard\System.CodeDom.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.CodeDom\netstandard\System.CodeDom.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.CodeDom.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.CodeDom\4.0.1.0\netfx\System.CodeDom.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.CodeDom\4.0.1.0\netstandard\System.CodeDom.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.CodeDom\4.0.1.0\netstandard\System.CodeDom.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.CodeDom.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\CodeDom\CodeObject.cs" target="src\src\Common\src\System\CodeDom\CodeObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\CodeDom\CodeTypeReference.cs" target="src\src\Common\src\System\CodeDom\CodeTypeReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\CodeDom\CodeTypeReferenceCollection.cs" target="src\src\Common\src\System\CodeDom\CodeTypeReferenceCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\CSharpHelpers.cs" target="src\src\Common\src\System\CSharpHelpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\IO\TempFileCollection.cs" target="src\src\Common\src\System\IO\TempFileCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\ref\System.CodeDom.cs" target="src\src\System.CodeDom\ref\System.CodeDom.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\CSharp\CSharpCodeGenerator.cs" target="src\src\System.CodeDom\src\Microsoft\CSharp\CSharpCodeGenerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\CSharp\CSharpCodeGenerator.PlatformNotSupported.cs" target="src\src\System.CodeDom\src\Microsoft\CSharp\CSharpCodeGenerator.PlatformNotSupported.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\CSharp\CSharpCodeProvider.cs" target="src\src\System.CodeDom\src\Microsoft\CSharp\CSharpCodeProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\CSharp\CSharpMemberAttributeConverter.cs" target="src\src\System.CodeDom\src\Microsoft\CSharp\CSharpMemberAttributeConverter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\CSharp\CSharpModifierAttributeConverter.cs" target="src\src\System.CodeDom\src\Microsoft\CSharp\CSharpModifierAttributeConverter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\CSharp\CSharpTypeAttributeConverter.cs" target="src\src\System.CodeDom\src\Microsoft\CSharp\CSharpTypeAttributeConverter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\VisualBasic\VBCodeGenerator.cs" target="src\src\System.CodeDom\src\Microsoft\VisualBasic\VBCodeGenerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\VisualBasic\VBCodeGenerator.PlatformNotSupported.cs" target="src\src\System.CodeDom\src\Microsoft\VisualBasic\VBCodeGenerator.PlatformNotSupported.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\VisualBasic\VBCodeProvider.cs" target="src\src\System.CodeDom\src\Microsoft\VisualBasic\VBCodeProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\VisualBasic\VBMemberAttributeConverter.cs" target="src\src\System.CodeDom\src\Microsoft\VisualBasic\VBMemberAttributeConverter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\VisualBasic\VBModiferAttributeConverter.cs" target="src\src\System.CodeDom\src\Microsoft\VisualBasic\VBModiferAttributeConverter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\Microsoft\VisualBasic\VBTypeAttributeConverter.cs" target="src\src\System.CodeDom\src\Microsoft\VisualBasic\VBTypeAttributeConverter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeArgumentReferenceExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeArgumentReferenceExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeArrayCreateExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeArrayCreateExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeArrayIndexerExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeArrayIndexerExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeAssignStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeAssignStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeAttachEventStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeAttachEventStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeAttributeArgument.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeAttributeArgument.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeAttributeArgumentCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeAttributeArgumentCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeAttributeDeclaration.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeAttributeDeclaration.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeAttributeDeclarationCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeAttributeDeclarationCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeBaseReferenceExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeBaseReferenceExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeBinaryOperatorExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeBinaryOperatorExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeBinaryOperatorType.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeBinaryOperatorType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeCastExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeCastExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeCatchClause.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeCatchClause.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeCatchClauseCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeCatchClauseCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeChecksumPragma.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeChecksumPragma.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeComment.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeComment.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeCommentStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeCommentStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeCommentStatementCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeCommentStatementCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeCompileUnit.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeCompileUnit.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeConditionStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeConditionStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeConstructor.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeConstructor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeDefaultValueExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeDefaultValueExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeDelegateCreateExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeDelegateCreateExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeDelegateInvokeExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeDelegateInvokeExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeDirectionExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeDirectionExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeDirective.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeDirective.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeDirectiveCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeDirectiveCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeEntryPointMethod.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeEntryPointMethod.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeEventReferenceExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeEventReferenceExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeExpressionCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeExpressionCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeExpressionStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeExpressionStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeFieldReferenceExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeFieldReferenceExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeGotoStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeGotoStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeIndexerExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeIndexerExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeIterationStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeIterationStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeLabeledStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeLabeledStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeLinePragma.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeLinePragma.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeMemberEvent.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeMemberEvent.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeMemberField.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeMemberField.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeMemberMethod.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeMemberMethod.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeMemberProperty.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeMemberProperty.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeMethodInvokeExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeMethodInvokeExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\codemethodreferenceexpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\codemethodreferenceexpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeMethodReturnStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeMethodReturnStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeNamespace.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeNamespace.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeNamespaceCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeNamespaceCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeNamespaceImport.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeNamespaceImport.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeNamespaceImportCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeNamespaceImportCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeObjectCreateExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeObjectCreateExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeParameterDeclarationExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeParameterDeclarationExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeParameterDeclarationExpressionCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeParameterDeclarationExpressionCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodePrimitiveExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodePrimitiveExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodePropertyReferenceExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodePropertyReferenceExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodePropertySetValueReferenceExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodePropertySetValueReferenceExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeRegionDirective.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeRegionDirective.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeRegionMode.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeRegionMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeRemoveEventStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeRemoveEventStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeSnippetCompileUnit.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeSnippetCompileUnit.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeSnippetExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeSnippetExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeSnippetStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeSnippetStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeSnippetTypeMember.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeSnippetTypeMember.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeStatementCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeStatementCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeThisReferenceExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeThisReferenceExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeThrowExceptionStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeThrowExceptionStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTryCatchFinallyStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTryCatchFinallyStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTypeConstructor.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTypeConstructor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTypeDeclaration.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTypeDeclaration.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTypeDeclarationCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTypeDeclarationCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTypeDelegate.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTypeDelegate.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTypeMember.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTypeMember.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTypeMemberCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTypeMemberCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTypeOfExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTypeOfExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTypeParameter.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTypeParameter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTypeParameterCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTypeParameterCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeTypeReferenceExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeTypeReferenceExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeVariableDeclarationStatement.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeVariableDeclarationStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\CodeVariableReferenceExpression.cs" target="src\src\System.CodeDom\src\System\CodeDom\CodeVariableReferenceExpression.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CodeCompiler.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CodeCompiler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CodeDomProvider.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CodeDomProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CodeGenerator.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CodeGenerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CodeGeneratorOptions.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CodeGeneratorOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CodeParser.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CodeParser.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CodeValidator.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CodeValidator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CompilerError.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CompilerError.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CompilerErrorCollection.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CompilerErrorCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CompilerInfo.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CompilerInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CompilerParameters.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CompilerParameters.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\CompilerResults.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\CompilerResults.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\Executor.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\Executor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\ExposedTabStringIndentedTextWriter.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\ExposedTabStringIndentedTextWriter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\GeneratorSupport.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\GeneratorSupport.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\ICodeCompiler.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\ICodeCompiler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\ICodeGenerator.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\ICodeGenerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\ICodeParser.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\ICodeParser.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\Compiler\LanguageOptions.cs" target="src\src\System.CodeDom\src\System\CodeDom\Compiler\LanguageOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\FieldDirection.cs" target="src\src\System.CodeDom\src\System\CodeDom\FieldDirection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\CodeDom\MemberAttributes.cs" target="src\src\System.CodeDom\src\System\CodeDom\MemberAttributes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.CodeDom\src\System\Collections\Specialized\FixedStringLookup.cs" target="src\src\System.CodeDom\src\System\Collections\Specialized\FixedStringLookup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

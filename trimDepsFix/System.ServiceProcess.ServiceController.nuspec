@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.ServiceProcess.ServiceController</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.ServiceProcess.ServiceController</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides the System.ServiceProcess.ServiceContainer class, which allows you to connect to a running or stopped service, manipulate it, or get information about it.
+
+Commonly Used Types:
+System.ServiceProcess.ServiceController
+System.ServiceProcess.ServiceControllerStatus
+System.ServiceProcess.ServiceType
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Diagnostics.EventLog" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard1.4">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETStandard1.5">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Diagnostics.EventLog" version="4.5.0-preview3-26417-0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.ServiceProcess" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.ServiceProcess.ServiceController\netfx\System.ServiceProcess.ServiceController.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.ServiceProcess.ServiceController\netfx\System.ServiceProcess.ServiceController.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\lib\netstandard1.4\System.ServiceProcess.ServiceController.dll" target="lib\netstandard1.4" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.ServiceProcess.ServiceController\netstandard\System.ServiceProcess.ServiceController.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.ServiceProcess.ServiceController\netstandard\System.ServiceProcess.ServiceController.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.ServiceProcess.ServiceController.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.ServiceProcess.ServiceController\4.2.1.0\netfx\System.ServiceProcess.ServiceController.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\System.ServiceProcess.ServiceController.dll" target="ref\netstandard1.4" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\System.ServiceProcess.ServiceController.xml" target="ref\netstandard1.4" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\de\System.ServiceProcess.ServiceController.xml" target="ref\netstandard1.4\de" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\es\System.ServiceProcess.ServiceController.xml" target="ref\netstandard1.4\es" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\fr\System.ServiceProcess.ServiceController.xml" target="ref\netstandard1.4\fr" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\it\System.ServiceProcess.ServiceController.xml" target="ref\netstandard1.4\it" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\ja\System.ServiceProcess.ServiceController.xml" target="ref\netstandard1.4\ja" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\ko\System.ServiceProcess.ServiceController.xml" target="ref\netstandard1.4\ko" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\ru\System.ServiceProcess.ServiceController.xml" target="ref\netstandard1.4\ru" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\zh-hans\System.ServiceProcess.ServiceController.xml" target="ref\netstandard1.4\zh-hans" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\ref\netstandard1.4\zh-hant\System.ServiceProcess.ServiceController.xml" target="ref\netstandard1.4\zh-hant" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.ServiceProcess.ServiceController\4.2.1.0\netstandard\System.ServiceProcess.ServiceController.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.ServiceProcess.ServiceController\4.2.1.0\netstandard\System.ServiceProcess.ServiceController.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.ServiceProcess.ServiceController.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.ServiceProcess.ServiceController\netfx\System.ServiceProcess.ServiceController.dll" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.ServiceProcess.ServiceController\netfx\System.ServiceProcess.ServiceController.pdb" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.ServiceProcess.ServiceController\4.4.0\runtimes\win\lib\netstandard1.5\System.ServiceProcess.ServiceController.dll" target="runtimes\win\lib\netstandard1.5" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.ServiceProcess.ServiceController\netstandard\System.ServiceProcess.ServiceController.dll" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.ServiceProcess.ServiceController\netstandard\System.ServiceProcess.ServiceController.pdb" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.CloseServiceHandle.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.CloseServiceHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.ControlService.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.ControlService.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.EnumDependentServices.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.EnumDependentServices.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.EnumServicesStatusEx.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.EnumServicesStatusEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.ENUM_SERVICE_STATUS.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.ENUM_SERVICE_STATUS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.ENUM_SERVICE_STATUS_PROCESS.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.ENUM_SERVICE_STATUS_PROCESS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.OpenSCManager.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.OpenSCManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.OpenService.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.OpenService.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.QueryServiceConfig.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.QueryServiceConfig.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.QueryServiceStatus.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.QueryServiceStatus.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.QUERY_SERVICE_CONFIG.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.QUERY_SERVICE_CONFIG.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegisterServiceCtrlHandler.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegisterServiceCtrlHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.RegisterServiceCtrlHandlerEx.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.RegisterServiceCtrlHandlerEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.ServiceControlDelegates.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.ServiceControlDelegates.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.ServiceProcessOptions.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.ServiceProcessOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.SERVICE_STATUS.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.SERVICE_STATUS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.SERVICE_TABLE_ENTRY.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.SERVICE_TABLE_ENTRY.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.SetServiceStatus.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.SetServiceStatus.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.StartService.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.StartService.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.StartServiceCtrlDispatcher.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.StartServiceCtrlDispatcher.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.WTSSESSION_NOTIFICATION.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.WTSSESSION_NOTIFICATION.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Errors.cs" target="src\src\Common\src\Interop\Windows\Interop.Errors.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\ref\System.ServiceProcess.ServiceController.cs" target="src\src\System.ServiceProcess.ServiceController\ref\System.ServiceProcess.ServiceController.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\Microsoft\Win32\SafeHandles\SafeServiceHandle.cs" target="src\src\System.ServiceProcess.ServiceController\src\Microsoft\Win32\SafeHandles\SafeServiceHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\PowerBroadcastStatus.cs" target="src\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\PowerBroadcastStatus.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceBase.cs" target="src\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceBase.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceController.cs" target="src\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceController.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceControllerStatus.cs" target="src\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceControllerStatus.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceProcessDescriptionAttribute.cs" target="src\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceProcessDescriptionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceStartMode.cs" target="src\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceStartMode.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceType.cs" target="src\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\ServiceType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\SessionChangeDescription.cs" target="src\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\SessionChangeDescription.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\SessionChangeReason.cs" target="src\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\SessionChangeReason.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\TimeoutException.cs" target="src\src\System.ServiceProcess.ServiceController\src\System\ServiceProcess\TimeoutException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

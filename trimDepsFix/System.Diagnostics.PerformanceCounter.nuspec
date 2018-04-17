@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Diagnostics.PerformanceCounter</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Diagnostics.PerformanceCounter</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides the System.Diagnostics.PerformanceCounter class, which allows access to Windows performance counters.
+
+Commonly Used Types:
+System.Diagnostics.PerformanceCounter
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0" />
+      <group targetFramework="MonoTouch1.0" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework="Xamarin.iOS1.0" />
+      <group targetFramework="Xamarin.Mac2.0" />
+      <group targetFramework="Xamarin.TVOS1.0" />
+      <group targetFramework="Xamarin.WatchOS1.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.PerformanceCounter\netfx\System.Diagnostics.PerformanceCounter.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.PerformanceCounter\netfx\System.Diagnostics.PerformanceCounter.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.PerformanceCounter\netstandard\System.Diagnostics.PerformanceCounter.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.PerformanceCounter\netstandard\System.Diagnostics.PerformanceCounter.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Diagnostics.PerformanceCounter\4.0.0.0\netfx\System.Diagnostics.PerformanceCounter.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Diagnostics.PerformanceCounter.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Diagnostics.PerformanceCounter.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Diagnostics.PerformanceCounter\4.0.0.0\netstandard\System.Diagnostics.PerformanceCounter.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Diagnostics.PerformanceCounter\4.0.0.0\netstandard\System.Diagnostics.PerformanceCounter.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Diagnostics.PerformanceCounter\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Diagnostics.PerformanceCounter\netcoreapp2.0\System.Diagnostics.PerformanceCounter.pdb" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.ConvertStringSecurityDescriptorToSecurityDescriptor.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.ConvertStringSecurityDescriptorToSecurityDescriptor.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.GetTokenInformation.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.GetTokenInformation.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.PERF_INFO.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.PERF_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.ProcessOptions.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.ProcessOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\advapi32\Interop.TOKEN_INFORMATION_CLASS.cs" target="src\src\Common\src\Interop\Windows\advapi32\Interop.TOKEN_INFORMATION_CLASS.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.BOOL.cs" target="src\src\Common\src\Interop\Windows\Interop.BOOL.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Errors.cs" target="src\src\Common\src\Interop\Windows\Interop.Errors.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.CreateFileMapping.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.CreateFileMapping.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.DuplicateHandle_SafeProcessHandle.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.DuplicateHandle_SafeProcessHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetComputerName.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetComputerName.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetCurrentProcessId.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetCurrentProcessId.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetCurrentProcess_SafeProcessHandle.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetCurrentProcess_SafeProcessHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.GetProcessTimes.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.GetProcessTimes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.HandleOptions.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.HandleOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibrary.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibrary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.LocalAlloc.Constants.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.LocalAlloc.Constants.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.LocalAlloc.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.LocalAlloc.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.LocalFree.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.LocalFree.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.MapViewOfFile.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.MapViewOfFile.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.MemOptions.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.MemOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.MEMORY_BASIC_INFO.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.MEMORY_BASIC_INFO.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.OpenFileMapping.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.OpenFileMapping.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.OpenProcess.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.OpenProcess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.PerformanceCounterOptions.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.PerformanceCounterOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.ProcessWaitHandle.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.ProcessWaitHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.SECURITY_ATTRIBUTES.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.SECURITY_ATTRIBUTES.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.UnmapViewOfFile.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.UnmapViewOfFile.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.VirtualQuery.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.VirtualQuery.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.WaitForSingleObject.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.WaitForSingleObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\perfcounter\Interop.FormatFromRawValue.cs" target="src\src\Common\src\Interop\Windows\perfcounter\Interop.FormatFromRawValue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeLocalAllocHandle.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeLocalAllocHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeLocalMemHandle.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeLocalMemHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\ref\System.Diagnostics.PerformanceCounter.cs" target="src\src\System.Diagnostics.PerformanceCounter\ref\System.Diagnostics.PerformanceCounter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\misc\EnvironmentHelpers.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\misc\EnvironmentHelpers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\CounterCreationData.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\CounterCreationData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\CounterCreationDataCollection.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\CounterCreationDataCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\CounterSample.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\CounterSample.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\CounterSampleCalculator.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\CounterSampleCalculator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\DiagnosticsConfiguration.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\DiagnosticsConfiguration.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\ICollectData.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\ICollectData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\InstanceData.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\InstanceData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\InstanceDataCollection.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\InstanceDataCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\InstanceDataCollectionCollection.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\InstanceDataCollectionCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerfCounterSection.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerfCounterSection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounter.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterCategory.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterCategory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterCategoryType.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterCategoryType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterInstanceLifetime.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterInstanceLifetime.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterLib.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterLib.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterManager.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterType.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\PerformanceCounterType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\SharedPerformanceCounter.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\SharedPerformanceCounter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\SharedUtils.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\SharedUtils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\SystemDiagnosticsSection.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\SystemDiagnosticsSection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\TraceInternal.cs" target="src\src\System.Diagnostics.PerformanceCounter\src\System\Diagnostics\TraceInternal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

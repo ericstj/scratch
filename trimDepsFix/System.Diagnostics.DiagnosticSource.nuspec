@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Diagnostics.DiagnosticSource</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Diagnostics.DiagnosticSource</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides Classes that allow you to decouple code logging rich (unserializable) diagnostics/telemetry (e.g. framework) from code that consumes it (e.g. tools)
+
+Commonly Used Types:
+System.Diagnostics.DiagnosticListener
+System.Diagnostics.DiagnosticSource
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="System.Collections" version="4.3.0" />
+        <dependency id="System.Diagnostics.Debug" version="4.3.0" />
+        <dependency id="System.Diagnostics.Tracing" version="4.3.0" />
+        <dependency id="System.Reflection" version="4.3.0" />
+        <dependency id="System.Runtime" version="4.3.0" />
+        <dependency id="System.Threading" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="System.Collections" version="4.3.0" />
+        <dependency id="System.Diagnostics.Debug" version="4.3.0" />
+        <dependency id="System.Diagnostics.Tracing" version="4.3.0" />
+        <dependency id="System.Reflection" version="4.3.0" />
+        <dependency id="System.Runtime" version="4.3.0" />
+        <dependency id="System.Runtime.Extensions" version="4.3.0" />
+        <dependency id="System.Threading" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETPortable4.5-Profile111" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Diagnostics.DiagnosticSource.xml" target="lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.DiagnosticSource\net45\System.Diagnostics.DiagnosticSource.dll" target="lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.DiagnosticSource\net45\System.Diagnostics.DiagnosticSource.pdb" target="lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Diagnostics.DiagnosticSource.xml" target="lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.DiagnosticSource\net46\System.Diagnostics.DiagnosticSource.dll" target="lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.DiagnosticSource\net46\System.Diagnostics.DiagnosticSource.pdb" target="lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.DiagnosticSource\netstandard1.1\System.Diagnostics.DiagnosticSource.dll" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.DiagnosticSource\netstandard1.1\System.Diagnostics.DiagnosticSource.pdb" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Diagnostics.DiagnosticSource.xml" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Diagnostics.DiagnosticSource.xml" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.DiagnosticSource\netstandard1.3\System.Diagnostics.DiagnosticSource.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.DiagnosticSource\netstandard1.3\System.Diagnostics.DiagnosticSource.pdb" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.DiagnosticSource\netstandard1.1\System.Diagnostics.DiagnosticSource.dll" target="lib\portable-net45+win8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.DiagnosticSource\netstandard1.1\System.Diagnostics.DiagnosticSource.pdb" target="lib\portable-net45+win8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Diagnostics.DiagnosticSource.xml" target="lib\portable-net45+win8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\AssemblyInfo.netfx.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\AssemblyInfo.netfx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\Activity.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\Activity.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\Activity.Current.net45.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\Activity.Current.net45.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\Activity.Current.net46.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\Activity.Current.net46.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\Activity.DateTime.corefx.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\Activity.DateTime.corefx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\Activity.DateTime.netfx.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\Activity.DateTime.netfx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\DiagnosticListener.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\DiagnosticListener.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\DiagnosticSource.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\DiagnosticSource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\DiagnosticSourceActivity.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\DiagnosticSourceActivity.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\DiagnosticSourceEventSource.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\DiagnosticSourceEventSource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\HttpHandlerDiagnosticListener.cs" target="src\src\System.Diagnostics.DiagnosticSource\src\System\Diagnostics\HttpHandlerDiagnosticListener.cs" exclude="" />
+  </files>
+</package>

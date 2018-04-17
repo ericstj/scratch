@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Diagnostics.EventLog</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Diagnostics.EventLog</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides the System.Diagnostics.EventLog class, which allows the applications to use the windows event log service.
+
+Commonly Used Types:
+System.Diagnostics.EventLog
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Security.Permissions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Security.Permissions" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Threading.AccessControl" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.Permissions" version="4.5.0-preview3-26417-0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.EventLog\netfx\System.Diagnostics.EventLog.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.EventLog\netfx\System.Diagnostics.EventLog.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.EventLog\netstandard\System.Diagnostics.EventLog.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Diagnostics.EventLog\netstandard\System.Diagnostics.EventLog.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Diagnostics.EventLog\4.0.0.0\netfx\System.Diagnostics.EventLog.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Diagnostics.EventLog\4.0.0.0\netstandard\System.Diagnostics.EventLog.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Diagnostics.EventLog\4.0.0.0\netstandard\System.Diagnostics.EventLog.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Diagnostics.EventLog\netcoreapp2.0\System.Diagnostics.EventLog.dll" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Diagnostics.EventLog\netcoreapp2.0\System.Diagnostics.EventLog.pdb" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.CloseHandle.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.CloseHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FormatMessage_SafeLibraryHandle.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FormatMessage_SafeLibraryHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FreeLibrary.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibraryEx.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.LoadLibraryEx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.LookupAccountSid.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.LookupAccountSid.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.WaitForSingleObject.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.WaitForSingleObject.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Win32\SafeHandles\SafeLibraryHandle.cs" target="src\src\Common\src\Microsoft\Win32\SafeHandles\SafeLibraryHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\ref\System.Diagnostics.EventLog.cs" target="src\src\System.Diagnostics.EventLog\ref\System.Diagnostics.EventLog.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\CompModSwitches.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\CompModSwitches.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\EntryWrittenEventArgs.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\EntryWrittenEventArgs.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\EntryWrittenEventHandler.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\EntryWrittenEventHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventData.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventLog.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventLog.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventLogEntry.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventLogEntry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventLogEntryCollection.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventLogEntryCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventLogEntryType.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventLogEntryType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventLogInternal.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventLogInternal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventSourceCreationData.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\EventSourceCreationData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\NativeMethods.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\NativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\OverflowAction.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\OverflowAction.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\SafeEventLogReadHandle.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\SafeEventLogReadHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\SafeEventLogWriteHandle.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\SafeEventLogWriteHandle.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\SharedUtils.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\SharedUtils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Diagnostics.EventLog\src\System\Diagnostics\UnsafeNativeMethods.cs" target="src\src\System.Diagnostics.EventLog\src\System\Diagnostics\UnsafeNativeMethods.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

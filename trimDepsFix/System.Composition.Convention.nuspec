@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Composition.Convention</id>
+    <version>1.2.0-preview3-26417-0</version>
+    <title>System.Composition.Convention</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides types that support using Managed Extensibility Framework with a convention-based configuration model.
+
+Commonly Used Types:
+System.Composition.Convention.ConventionBuilder
+System.Composition.Convention.ExportConventionBuilder
+System.Composition.Convention.ImportConventionBuilder
+System.Composition.Convention.PartConventionBuilder
+System.Composition.Convention.ParameterImportConventionBuilder
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="System.Composition.AttributedModel" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Composition.AttributedModel" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Composition.AttributedModel" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETPortable4.5-Profile259">
+        <dependency id="System.Composition.AttributedModel" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="Windows8.0">
+        <dependency id="System.Composition.AttributedModel" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="WindowsPhone8.0">
+        <dependency id="System.Composition.AttributedModel" version="1.2.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="WindowsPhoneApp8.1">
+        <dependency id="System.Composition.AttributedModel" version="1.2.0-preview3-26417-0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Convention\netstandard1.0\System.Composition.Convention.dll" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Convention\netstandard1.0\System.Composition.Convention.pdb" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Convention\netstandard\System.Composition.Convention.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Convention\netstandard\System.Composition.Convention.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Convention\netstandard1.0\System.Composition.Convention.dll" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Composition.Convention\netstandard1.0\System.Composition.Convention.pdb" target="lib\portable-net45+win8+wp8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Internal\Assumes.cs" target="src\src\Common\src\Microsoft\Internal\Assumes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Internal\Assumes.InternalErrorException.cs" target="src\src\Common\src\Microsoft\Internal\Assumes.InternalErrorException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Internal\CommonStrings.Designer.cs" target="src\src\Common\src\Microsoft\Internal\CommonStrings.Designer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Internal\EmptyArray.cs" target="src\src\Common\src\Microsoft\Internal\EmptyArray.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Microsoft\Internal\Requires.cs" target="src\src\Common\src\Microsoft\Internal\Requires.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\CompositionTrace.cs" target="src\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\CompositionTrace.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\CompositionTraceId.cs" target="src\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\CompositionTraceId.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\CompositionTraceSource.cs" target="src\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\CompositionTraceSource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\DebuggerTraceWriter.cs" target="src\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\DebuggerTraceWriter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\TraceSourceTraceWriter.cs" target="src\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\TraceSourceTraceWriter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\TraceWriter.cs" target="src\src\System.Composition.Convention\src\Microsoft\Composition\Diagnostics\TraceWriter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\Microsoft\Internal\AttributeServices.cs" target="src\src\System.Composition.Convention\src\Microsoft\Internal\AttributeServices.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\Microsoft\Internal\ReflectionServices.cs" target="src\src\System.Composition.Convention\src\Microsoft\Internal\ReflectionServices.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\System\Composition\Convention\ConventionBuilder.cs" target="src\src\System.Composition.Convention\src\System\Composition\Convention\ConventionBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\System\Composition\Convention\ExportConventionBuilder.cs" target="src\src\System.Composition.Convention\src\System\Composition\Convention\ExportConventionBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\System\Composition\Convention\ImportConventionBuilder.cs" target="src\src\System.Composition.Convention\src\System\Composition\Convention\ImportConventionBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\System\Composition\Convention\ParameterImportConventionBuilder.cs" target="src\src\System.Composition.Convention\src\System\Composition\Convention\ParameterImportConventionBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\System\Composition\Convention\PartConventionBuilder.cs" target="src\src\System.Composition.Convention\src\System\Composition\Convention\PartConventionBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\System\Composition\Convention\PartConventionBuilderOfT.cs" target="src\src\System.Composition.Convention\src\System\Composition\Convention\PartConventionBuilderOfT.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Composition.Convention\src\System\Composition\ExceptionBuilder.cs" target="src\src\System.Composition.Convention\src\System\Composition\ExceptionBuilder.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

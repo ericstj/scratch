@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Security.Cryptography.ProtectedData</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Security.Cryptography.ProtectedData</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides access to Windows Data Protection Api.
+
+Commonly Used Types:
+System.Security.Cryptography.DataProtectionScope
+System.Security.Cryptography.ProtectedData
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0" />
+      <group targetFramework="MonoTouch1.0" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETCoreApp2.1" />
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" exclude="Compile" />
+      </group>
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Xamarin.iOS1.0" />
+      <group targetFramework="Xamarin.Mac2.0" />
+      <group targetFramework="Xamarin.TVOS1.0" />
+      <group targetFramework="Xamarin.WatchOS1.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.6" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.ProtectedData\4.4.0\lib\net46\System.Security.Cryptography.ProtectedData.dll" target="lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.ProtectedData\netfx\System.Security.Cryptography.ProtectedData.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.ProtectedData\netfx\System.Security.Cryptography.ProtectedData.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.ProtectedData\4.4.0\lib\netstandard1.3\System.Security.Cryptography.ProtectedData.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.ProtectedData\netstandard\System.Security.Cryptography.ProtectedData.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Cryptography.ProtectedData\netstandard\System.Security.Cryptography.ProtectedData.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoAndroid10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\MonoTouch10" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.ProtectedData\4.4.0\ref\net46\System.Security.Cryptography.ProtectedData.dll" target="ref\net46" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Security.Cryptography.ProtectedData.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.ProtectedData\4.0.3.0\netfx\System.Security.Cryptography.ProtectedData.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.ProtectedData\4.4.0\ref\netstandard1.3\System.Security.Cryptography.ProtectedData.dll" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.ProtectedData\4.0.3.0\netstandard\System.Security.Cryptography.ProtectedData.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Cryptography.ProtectedData\4.0.3.0\netstandard\System.Security.Cryptography.ProtectedData.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Security.Cryptography.ProtectedData.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinios10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinmac20" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarintvos10" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\xamarinwatchos10" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.ProtectedData\4.4.0\runtimes\win\lib\net46\System.Security.Cryptography.ProtectedData.dll" target="runtimes\win\lib\net46" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.ProtectedData\netfx\System.Security.Cryptography.ProtectedData.dll" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.ProtectedData\netfx\System.Security.Cryptography.ProtectedData.pdb" target="runtimes\win\lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\packages\System.Security.Cryptography.ProtectedData\4.4.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.ProtectedData.dll" target="runtimes\win\lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.ProtectedData\netstandard\System.Security.Cryptography.ProtectedData.dll" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.Security.Cryptography.ProtectedData\netstandard\System.Security.Cryptography.ProtectedData.pdb" target="runtimes\win\lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Internal\Cryptography\Windows\CryptoThrowHelper.cs" target="src\src\Common\src\Internal\Cryptography\Windows\CryptoThrowHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Crypt32\Interop.CryptProtectData.cs" target="src\src\Common\src\Interop\Windows\Crypt32\Interop.CryptProtectData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Crypt32\Interop.CryptProtectDataFlags.cs" target="src\src\Common\src\Interop\Windows\Crypt32\Interop.CryptProtectDataFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Crypt32\Interop.CryptUnprotectData.cs" target="src\src\Common\src\Interop\Windows\Crypt32\Interop.CryptUnprotectData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Crypt32\Interop.DATA_BLOB.cs" target="src\src\Common\src\Interop\Windows\Crypt32\Interop.DATA_BLOB.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Errors.cs" target="src\src\Common\src\Interop\Windows\Interop.Errors.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\Interop.Libraries.cs" target="src\src\Common\src\Interop\Windows\Interop.Libraries.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\Interop\Windows\kernel32\Interop.FormatMessage.cs" target="src\src\Common\src\Interop\Windows\kernel32\Interop.FormatMessage.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.ProtectedData\ref\System.Security.Cryptography.ProtectedData.cs" target="src\src\System.Security.Cryptography.ProtectedData\ref\System.Security.Cryptography.ProtectedData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.ProtectedData\src\System\Security\Cryptography\DataProtectionScope.cs" target="src\src\System.Security.Cryptography.ProtectedData\src\System\Security\Cryptography\DataProtectionScope.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Cryptography.ProtectedData\src\System\Security\Cryptography\ProtectedData.cs" target="src\src\System.Security.Cryptography.ProtectedData\src\System\Security\Cryptography\ProtectedData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

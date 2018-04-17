@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.IO.Pipelines</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.IO.Pipelines</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Single producer single consumer byte buffer management.
+
+Commonly Used Types:
+System.IO.Pipelines.Pipe
+System.IO.Pipelines.PipeWriter
+System.IO.Pipelines.PipeReader
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0">
+        <dependency id="System.Buffers" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="MonoTouch1.0">
+        <dependency id="System.Buffers" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="System.Buffers" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1" />
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Buffers" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Buffers" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="UAP10.0.16299">
+        <dependency id="System.Memory" version="4.5.0-preview3-26417-0" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="UAP10.0.16300" />
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="System.Buffers" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="Xamarin.Mac2.0">
+        <dependency id="System.Buffers" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="Xamarin.TVOS1.0">
+        <dependency id="System.Buffers" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="Xamarin.WatchOS1.0">
+        <dependency id="System.Buffers" version="4.4.0" exclude="Compile" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.0-preview3-26417-0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Pipelines\netcoreapp\System.IO.Pipelines.xml" target="lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Pipelines\netcoreapp\System.IO.Pipelines.dll" target="lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Pipelines\netcoreapp\System.IO.Pipelines.pdb" target="lib\netcoreapp2.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Pipelines\netstandard1.3\System.IO.Pipelines.dll" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Pipelines\netstandard1.3\System.IO.Pipelines.pdb" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Pipelines\netstandard1.3\System.IO.Pipelines.xml" target="lib\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Pipelines\netstandard\System.IO.Pipelines.xml" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Pipelines\netstandard\System.IO.Pipelines.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.IO.Pipelines\netstandard\System.IO.Pipelines.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Pipelines\4.0.0.0\netstandard1.3\System.IO.Pipelines.dll" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.IO.Pipelines\4.0.0.0\netstandard1.3\System.IO.Pipelines.pdb" target="ref\netstandard1.3" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\ref\System.IO.Pipelines.cs" target="src\src\System.IO.Pipelines\ref\System.IO.Pipelines.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\Properties\InternalsVisibleTo.cs" target="src\src\System.IO.Pipelines\src\Properties\InternalsVisibleTo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\BufferSegment.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\BufferSegment.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\CompletionData.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\CompletionData.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\FlushResult.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\FlushResult.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\IDuplexPipe.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\IDuplexPipe.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\InlineScheduler.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\InlineScheduler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\Pipe.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\Pipe.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\Pipe.DefaultPipeReader.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\Pipe.DefaultPipeReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\Pipe.DefaultPipeWriter.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\Pipe.DefaultPipeWriter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeAwaitable.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeAwaitable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeCompletion.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeCompletion.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeCompletionCallback.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeCompletionCallback.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeCompletionCallbacks.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeCompletionCallbacks.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeOptions.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeReader.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeReader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeReaderState.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeReaderState.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeScheduler.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeScheduler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeWriter.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\PipeWriter.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\ReadResult.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\ReadResult.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\ResultFlags.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\ResultFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\ThreadPoolScheduler.netcoreapp.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\ThreadPoolScheduler.netcoreapp.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\ThreadPoolScheduler.netstandard.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\ThreadPoolScheduler.netstandard.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\ThreadPoolScheduler.netstandard1.3.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\ThreadPoolScheduler.netstandard1.3.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.IO.Pipelines\src\System\IO\Pipelines\ThrowHelper.cs" target="src\src\System.IO.Pipelines\src\System\IO\Pipelines\ThrowHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

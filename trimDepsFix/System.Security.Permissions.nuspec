@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Security.Permissions</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Security.Permissions</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides types supporting Code Access Security (CAS). 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="UAP10.0.16299" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data.OracleClient" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Net" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.ServiceProcess" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Transactions" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Permissions\netfx\System.Security.Permissions.dll" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Permissions\netfx\System.Security.Permissions.pdb" target="lib\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Permissions\netstandard\System.Security.Permissions.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Security.Permissions\netstandard\System.Security.Permissions.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Security.Permissions.xml" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Permissions\4.0.1.0\netfx\System.Security.Permissions.dll" target="ref\net461" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Permissions\4.0.1.0\netstandard\System.Security.Permissions.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Security.Permissions\4.0.1.0\netstandard\System.Security.Permissions.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Security.Permissions.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\ref\System.Security.Permissions.cs" target="src\src\System.Security.Permissions\ref\System.Security.Permissions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\ApplicationIdentity.cs" target="src\src\System.Security.Permissions\src\System\ApplicationIdentity.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Data\Common\DBDataPermission.cs" target="src\src\System.Security.Permissions\src\System\Data\Common\DBDataPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Data\Common\DBDataPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Data\Common\DBDataPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Data\Odbc\OdbcPermission.cs" target="src\src\System.Security.Permissions\src\System\Data\Odbc\OdbcPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Data\Odbc\OdbcPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Data\Odbc\OdbcPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Data\OleDb\OleDbPermission.cs" target="src\src\System.Security.Permissions\src\System\Data\OleDb\OleDbPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Data\OleDb\OleDbPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Data\OleDb\OleDbPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Data\OracleClient\OraclePermission.cs" target="src\src\System.Security.Permissions\src\System\Data\OracleClient\OraclePermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Data\OracleClient\OraclePermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Data\OracleClient\OraclePermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Data\SqlClient\SqlClientPermission.cs" target="src\src\System.Security.Permissions\src\System\Data\SqlClient\SqlClientPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Data\SqlClient\SqlClientPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Data\SqlClient\SqlClientPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Diagnostics\EventLogPermission.cs" target="src\src\System.Security.Permissions\src\System\Diagnostics\EventLogPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Diagnostics\EventLogPermissionAccess.cs" target="src\src\System.Security.Permissions\src\System\Diagnostics\EventLogPermissionAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Diagnostics\EventLogPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Diagnostics\EventLogPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Diagnostics\EventLogPermissionEntry.cs" target="src\src\System.Security.Permissions\src\System\Diagnostics\EventLogPermissionEntry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Diagnostics\EventLogPermissionEntryCollection.cs" target="src\src\System.Security.Permissions\src\System\Diagnostics\EventLogPermissionEntryCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Diagnostics\PerformanceCounterPermission.cs" target="src\src\System.Security.Permissions\src\System\Diagnostics\PerformanceCounterPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Diagnostics\PerformanceCounterPermissionAccess.cs" target="src\src\System.Security.Permissions\src\System\Diagnostics\PerformanceCounterPermissionAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Diagnostics\PerformanceCounterPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Diagnostics\PerformanceCounterPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Diagnostics\PerformanceCounterPermissionEntry.cs" target="src\src\System.Security.Permissions\src\System\Diagnostics\PerformanceCounterPermissionEntry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Diagnostics\PerformanceCounterPermissionEntryCollection.cs" target="src\src\System.Security.Permissions\src\System\Diagnostics\PerformanceCounterPermissionEntryCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Drawing\Printing\PrintingPermission.cs" target="src\src\System.Security.Permissions\src\System\Drawing\Printing\PrintingPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Drawing\Printing\PrintingPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Drawing\Printing\PrintingPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Drawing\Printing\PrintingPermissionLevel.cs" target="src\src\System.Security.Permissions\src\System\Drawing\Printing\PrintingPermissionLevel.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\DnsPermission.cs" target="src\src\System.Security.Permissions\src\System\Net\DnsPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\DnsPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Net\DnsPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\EndpointPermission.cs" target="src\src\System.Security.Permissions\src\System\Net\EndpointPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\Mail\SmtpAccess.cs" target="src\src\System.Security.Permissions\src\System\Net\Mail\SmtpAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\Mail\SmtpPermission.cs" target="src\src\System.Security.Permissions\src\System\Net\Mail\SmtpPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\Mail\SmtpPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Net\Mail\SmtpPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\NetworkAccess.cs" target="src\src\System.Security.Permissions\src\System\Net\NetworkAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\NetworkInformation\NetworkInformationAccess.cs" target="src\src\System.Security.Permissions\src\System\Net\NetworkInformation\NetworkInformationAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\NetworkInformation\NetworkInformationPermission.cs" target="src\src\System.Security.Permissions\src\System\Net\NetworkInformation\NetworkInformationPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\NetworkInformation\NetworkInformationPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Net\NetworkInformation\NetworkInformationPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\PeerToPeer\Collaboration\PeerCollaborationPermission.cs" target="src\src\System.Security.Permissions\src\System\Net\PeerToPeer\Collaboration\PeerCollaborationPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\PeerToPeer\Collaboration\PeerCollaborationPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Net\PeerToPeer\Collaboration\PeerCollaborationPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\PeerToPeer\PnrpPermission.cs" target="src\src\System.Security.Permissions\src\System\Net\PeerToPeer\PnrpPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\PeerToPeer\PnrpPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Net\PeerToPeer\PnrpPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\PeerToPeer\PnrpScope.cs" target="src\src\System.Security.Permissions\src\System\Net\PeerToPeer\PnrpScope.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\SocketPermission.cs" target="src\src\System.Security.Permissions\src\System\Net\SocketPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\SocketPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Net\SocketPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\TransportType.cs" target="src\src\System.Security.Permissions\src\System\Net\TransportType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\WebPermission.cs" target="src\src\System.Security.Permissions\src\System\Net\WebPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Net\WebPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Net\WebPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\CodeAccessPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\CodeAccessPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\HostProtectionException.cs" target="src\src\System.Security.Permissions\src\System\Security\HostProtectionException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\HostSecurityManager.cs" target="src\src\System.Security.Permissions\src\System\Security\HostSecurityManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\HostSecurityManagerOptions.cs" target="src\src\System.Security.Permissions\src\System\Security\HostSecurityManagerOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\IEvidenceFactory.cs" target="src\src\System.Security.Permissions\src\System\Security\IEvidenceFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\ISecurityPolicyEncodable.cs" target="src\src\System.Security.Permissions\src\System\Security\ISecurityPolicyEncodable.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\IStackWalk.cs" target="src\src\System.Security.Permissions\src\System\Security\IStackWalk.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\NamedPermissionSet.cs" target="src\src\System.Security.Permissions\src\System\Security\NamedPermissionSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\PermissionSet.cs" target="src\src\System.Security.Permissions\src\System\Security\PermissionSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\EnvironmentPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\EnvironmentPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\EnvironmentPermissionAccess.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\EnvironmentPermissionAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\EnvironmentPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\EnvironmentPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\FileDialogPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\FileDialogPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\FileDialogPermissionAccess.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\FileDialogPermissionAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\FileDialogPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\FileDialogPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\FileIOPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\FileIOPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\FileIOPermissionAccess.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\FileIOPermissionAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\FileIOPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\FileIOPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\GacIdentityPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\GacIdentityPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\GacIdentityPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\GacIdentityPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\HostProtectionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\HostProtectionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\HostProtectionResource.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\HostProtectionResource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\IDRole.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\IDRole.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\IsolatedStorageContainment.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\IsolatedStorageContainment.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\IsolatedStorageFilePermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\IsolatedStorageFilePermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\IsolatedStorageFilePermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\IsolatedStorageFilePermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\IsolatedStoragePermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\IsolatedStoragePermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\IsolatedStoragePermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\IsolatedStoragePermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\IUnrestrictedPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\IUnrestrictedPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermissionAccessEntry.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermissionAccessEntry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermissionAccessEntryCollection.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermissionAccessEntryCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermissionAccessEntryEnumerator.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermissionAccessEntryEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermissionFlags.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\KeyContainerPermissionFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\PermissionSetAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\PermissionSetAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\PermissionState.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\PermissionState.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\PrincipalPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\PrincipalPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\PrincipalPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\PrincipalPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\PublisherIdentityPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\PublisherIdentityPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\PublisherIdentityPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\PublisherIdentityPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\ReflectionPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\ReflectionPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\ReflectionPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\ReflectionPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\ReflectionPermissionFlag.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\ReflectionPermissionFlag.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\RegistryPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\RegistryPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\RegistryPermissionAccess.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\RegistryPermissionAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\RegistryPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\RegistryPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\ResourcePermissionBase.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\ResourcePermissionBase.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\ResourcePermissionBaseEntry.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\ResourcePermissionBaseEntry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\SecurityPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\SecurityPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\SiteIdentityPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\SiteIdentityPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\SiteIdentityPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\SiteIdentityPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\StorePermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\StorePermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\StorePermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\StorePermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\StorePermissionFlags.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\StorePermissionFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\StrongNameIdentityPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\StrongNameIdentityPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\StrongNameIdentityPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\StrongNameIdentityPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\StrongNamePublicKeyBlob.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\StrongNamePublicKeyBlob.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\TypeDescriptorPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\TypeDescriptorPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\TypeDescriptorPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\TypeDescriptorPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\TypeDescriptorPermissionFlags.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\TypeDescriptorPermissionFlags.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\UIPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\UIPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\UIPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\UIPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\UIPermissionClipboard.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\UIPermissionClipboard.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\UIPermissionWindow.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\UIPermissionWindow.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\UrlIdentityPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\UrlIdentityPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\UrlIdentityPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\UrlIdentityPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\ZoneIdentityPermission.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\ZoneIdentityPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Permissions\ZoneIdentityPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Permissions\ZoneIdentityPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\PolicyLevelType.cs" target="src\src\System.Security.Permissions\src\System\Security\PolicyLevelType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\AllMembershipCondition.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\AllMembershipCondition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\ApplicationDirectory.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\ApplicationDirectory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\ApplicationDirectoryMembershipCondition.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\ApplicationDirectoryMembershipCondition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\ApplicationTrust.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\ApplicationTrust.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\ApplicationTrustCollection.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\ApplicationTrustCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\ApplicationTrustEnumerator.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\ApplicationTrustEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\ApplicationVersionMatch.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\ApplicationVersionMatch.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\CodeConnectAccess.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\CodeConnectAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\CodeGroup.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\CodeGroup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\Evidence.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\Evidence.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\EvidenceBase.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\EvidenceBase.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\FileCodeGroup.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\FileCodeGroup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\FirstMatchCodeGroup.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\FirstMatchCodeGroup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\GacInstalled.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\GacInstalled.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\GacMembershipCondition.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\GacMembershipCondition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\Hash.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\Hash.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\HashMembershipCondition.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\HashMembershipCondition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\IIdentityPermissionFactory.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\IIdentityPermissionFactory.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\IMembershipCondition.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\IMembershipCondition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\NetCodeGroup.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\NetCodeGroup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\PermissionRequestEvidence.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\PermissionRequestEvidence.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\PolicyException.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\PolicyException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\PolicyLevel.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\PolicyLevel.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\PolicyStatement.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\PolicyStatement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\PolicyStatementAttribute.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\PolicyStatementAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\Publisher.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\Publisher.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\PublisherMembershipCondition.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\PublisherMembershipCondition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\Site.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\Site.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\SiteMembershipCondition.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\SiteMembershipCondition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\StrongName.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\StrongName.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\StrongNameMembershipCondition.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\StrongNameMembershipCondition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\TrustManagerContext.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\TrustManagerContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\UnionCodeGroup.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\UnionCodeGroup.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\Url.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\Url.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\UrlMembershipCondition.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\UrlMembershipCondition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\Zone.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\Zone.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\Policy\ZoneMembershipCondition.cs" target="src\src\System.Security.Permissions\src\System\Security\Policy\ZoneMembershipCondition.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\SecurityContext.cs" target="src\src\System.Security.Permissions\src\System\Security\SecurityContext.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\SecurityContextSource.cs" target="src\src\System.Security.Permissions\src\System\Security\SecurityContextSource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\SecurityManager.cs" target="src\src\System.Security.Permissions\src\System\Security\SecurityManager.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\SecurityState.cs" target="src\src\System.Security.Permissions\src\System\Security\SecurityState.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\SecurityZone.cs" target="src\src\System.Security.Permissions\src\System\Security\SecurityZone.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Security\XmlSyntaxException.cs" target="src\src\System.Security.Permissions\src\System\Security\XmlSyntaxException.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\ServiceProcess\ServiceControllerPermission.cs" target="src\src\System.Security.Permissions\src\System\ServiceProcess\ServiceControllerPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\ServiceProcess\ServiceControllerPermissionAccess.cs" target="src\src\System.Security.Permissions\src\System\ServiceProcess\ServiceControllerPermissionAccess.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\ServiceProcess\ServiceControllerPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\ServiceProcess\ServiceControllerPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\ServiceProcess\ServiceControllerPermissionEntry.cs" target="src\src\System.Security.Permissions\src\System\ServiceProcess\ServiceControllerPermissionEntry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\ServiceProcess\ServiceControllerPermissionEntryCollection.cs" target="src\src\System.Security.Permissions\src\System\ServiceProcess\ServiceControllerPermissionEntryCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Transactions\DistributedTransactionPermission.cs" target="src\src\System.Security.Permissions\src\System\Transactions\DistributedTransactionPermission.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Security.Permissions\src\System\Transactions\DistributedTransactionPermissionAttribute.cs" target="src\src\System.Security.Permissions\src\System\Transactions\DistributedTransactionPermissionAttribute.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

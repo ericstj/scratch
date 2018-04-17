@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Threading.Tasks.Dataflow</id>
+    <version>4.9.0-preview3-26417-0</version>
+    <title>System.Threading.Tasks.Dataflow</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>TPL Dataflow promotes actor/agent-oriented designs through primitives for in-process message passing, dataflow, and pipelining. TDF builds upon the APIs and scheduling infrastructure provided by the Task Parallel Library (TPL), and integrates with the language support for asynchrony provided by C#, Visual Basic, and F#.
+
+Commonly Used Types:
+System.Threading.Tasks.Dataflow.ActionBlock&lt;TInput&gt;
+System.Threading.Tasks.Dataflow.BatchBlock&lt;T&gt;
+System.Threading.Tasks.Dataflow.BatchedJoinBlock&lt;T1, T2&gt;
+System.Threading.Tasks.Dataflow.BatchedJoinBlock&lt;T1, T2, T3&gt;
+System.Threading.Tasks.Dataflow.BroadcastBlock&lt;T&gt;
+System.Threading.Tasks.Dataflow.BufferBlock&lt;T&gt;
+System.Threading.Tasks.Dataflow.DataflowBlock
+System.Threading.Tasks.Dataflow.JoinBlock&lt;T1, T2&gt;
+System.Threading.Tasks.Dataflow.JoinBlock&lt;T1, T2, T3&gt;
+System.Threading.Tasks.Dataflow.TransformBlock&lt;TInput, TOutput&gt;
+System.Threading.Tasks.Dataflow.TransformManyBlock&lt;TInput, TOutput&gt;
+System.Threading.Tasks.Dataflow.WriteOnceBlock&lt;T&gt;
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Dynamic.Runtime" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Dynamic.Runtime" version="4.3.0" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETPortable4.5-Profile259" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhone8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Dataflow\netstandard1.0\System.Threading.Tasks.Dataflow.dll" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Dataflow\netstandard1.0\System.Threading.Tasks.Dataflow.pdb" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Threading.Tasks.Dataflow.xml" target="lib\netstandard1.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Threading.Tasks.Dataflow.xml" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Dataflow\netstandard1.1\System.Threading.Tasks.Dataflow.dll" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Dataflow\netstandard1.1\System.Threading.Tasks.Dataflow.pdb" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Threading.Tasks.Dataflow.xml" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Dataflow\netstandard\System.Threading.Tasks.Dataflow.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Dataflow\netstandard\System.Threading.Tasks.Dataflow.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Threading.Tasks.Dataflow.xml" target="lib\portable-net45+win8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Dataflow\netstandard1.1\System.Threading.Tasks.Dataflow.dll" target="lib\portable-net45+win8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Threading.Tasks.Dataflow\netstandard1.1\System.Threading.Tasks.Dataflow.pdb" target="lib\portable-net45+win8+wpa81" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Base\DataflowBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Base\DataflowBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Base\DataflowBlockOptions.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Base\DataflowBlockOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Base\DataflowLinkOptions.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Base\DataflowLinkOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Base\DataflowMessageHeader.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Base\DataflowMessageHeader.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Base\DataflowMessageStatus.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Base\DataflowMessageStatus.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Base\IDataflowBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Base\IDataflowBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Base\IPropagatorBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Base\IPropagatorBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Base\IReceivableSourceBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Base\IReceivableSourceBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Base\ISourceBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Base\ISourceBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Base\ITargetBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Base\ITargetBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Blocks\ActionBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Blocks\ActionBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Blocks\BatchBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Blocks\BatchBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Blocks\BatchedJoinBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Blocks\BatchedJoinBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Blocks\BroadcastBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Blocks\BroadcastBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Blocks\BufferBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Blocks\BufferBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Blocks\JoinBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Blocks\JoinBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Blocks\TransformBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Blocks\TransformBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Blocks\TransformManyBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Blocks\TransformManyBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Blocks\WriteOnceBlock.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Blocks\WriteOnceBlock.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\ActionOnDispose.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\ActionOnDispose.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\Common.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\Common.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\ConcurrentQueue.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\ConcurrentQueue.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\DataflowEtwProvider.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\DataflowEtwProvider.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\EnumerableDebugView.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\EnumerableDebugView.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\IDebuggerDisplay.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\IDebuggerDisplay.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\ImmutableArray.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\ImmutableArray.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\IProducerConsumerCollection.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\IProducerConsumerCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\Padding.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\Padding.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\ProducerConsumerQueues.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\ProducerConsumerQueues.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\QueuedMap.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\QueuedMap.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\ReorderingBuffer.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\ReorderingBuffer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\SourceCore.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\SourceCore.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\SpscTargetCore.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\SpscTargetCore.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\TargetCore.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\TargetCore.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\TargetRegistry.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\TargetRegistry.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Threading.Tasks.Dataflow\src\Internal\Threading.cs" target="src\src\System.Threading.Tasks.Dataflow\src\Internal\Threading.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

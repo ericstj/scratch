@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Buffers</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.Buffers</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides resource pooling of any type for performance-critical applications that allocate and deallocate objects frequently.
+
+Commonly Used Types:
+System.Buffers.ArrayPool&lt;T&gt;
+ 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETCoreApp2.0" />
+      <group targetFramework=".NETStandard1.1">
+        <dependency id="System.Diagnostics.Debug" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Diagnostics.Tracing" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Resources.ResourceManager" version="4.3.0" exclude="Compile" />
+        <dependency id="System.Runtime" version="4.3.0" />
+        <dependency id="System.Threading" version="4.3.0" exclude="Compile" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETPortable4.5-Profile111" />
+      <group targetFramework="UAP10.0.16299" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhoneApp8.1" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Buffers.xml" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Buffers\netstandard1.1\System.Buffers.dll" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Buffers\netstandard1.1\System.Buffers.pdb" target="lib\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Buffers\netstandard\System.Buffers.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.Buffers\netstandard\System.Buffers.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Buffers.xml" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Buffers.xml" target="ref\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Buffers\4.0.3.0\net45\System.Buffers.dll" target="ref\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Buffers\4.0.3.0\net45\System.Buffers.pdb" target="ref\net45" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Buffers.xml" target="ref\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Buffers\4.0.2.0\netstandard1.1\System.Buffers.dll" target="ref\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Buffers\4.0.2.0\netstandard1.1\System.Buffers.pdb" target="ref\netstandard1.1" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Buffers\4.0.2.0\netstandard\System.Buffers.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.Buffers\4.0.2.0\netstandard\System.Buffers.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.Buffers.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\uap10.0.16299" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Buffers\ref\System.Buffers.cs" target="src\src\System.Buffers\ref\System.Buffers.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Buffers\src\System\Buffers\ArrayPool.cs" target="src\src\System.Buffers\src\System\Buffers\ArrayPool.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Buffers\src\System\Buffers\ArrayPoolEventSource.cs" target="src\src\System.Buffers\src\System\Buffers\ArrayPoolEventSource.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Buffers\src\System\Buffers\DefaultArrayPool.cs" target="src\src\System.Buffers\src\System\Buffers\DefaultArrayPool.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Buffers\src\System\Buffers\DefaultArrayPoolBucket.cs" target="src\src\System.Buffers\src\System\Buffers\DefaultArrayPoolBucket.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.Buffers\src\System\Buffers\Utilities.cs" target="src\src\System.Buffers\src\System\Buffers\Utilities.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

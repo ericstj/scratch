@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.DirectoryServices.AccountManagement</id>
+    <version>4.5.0-preview3-26417-0</version>
+    <title>System.DirectoryServices.AccountManagement</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,dotnetframework</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</licenseUrl>
+    <projectUrl>https://dot.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>Provides uniform access and manipulation of user, computer, and group security principals across the multiple principal stores: Active Directory Domain Services (AD DS), Active Directory Lightweight Directory Services (AD LDS), and Machine SAM (MSAM). 
+b2893f07cf61dae81d424dd676a0d903a36a10c2 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+    <releaseNotes>https://go.microsoft.com/fwlink/?LinkID=799421</releaseNotes>
+    <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.NETCore.Platforms" version="2.0.0" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.DirectoryServices" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.DirectoryServices.Protocols" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.IO.FileSystem.AccessControl" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Security.AccessControl" version="4.5.0-preview3-26417-0" exclude="Compile" />
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Security.Principal.Windows" version="4.5.0-preview3-26417-0" />
+      </group>
+      <group targetFramework="UAP10.0.16299" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.DirectoryServices.AccountManagement" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="F:\dotnet\corefx\LICENSE.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\THIRD-PARTY-NOTICES.TXT" target="" exclude="" />
+    <file src="F:\dotnet\corefx\bin\obj\version.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\pkg\useSharedDesignerContext.txt" target="" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.DirectoryServices.AccountManagement\netstandard\System.DirectoryServices.AccountManagement.dll" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\AnyOS.AnyCPU.Debug\System.DirectoryServices.AccountManagement\netstandard\System.DirectoryServices.AccountManagement.pdb" target="lib\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="ref\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.DirectoryServices.AccountManagement\4.0.0.0\netstandard\System.DirectoryServices.AccountManagement.dll" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\ref\System.DirectoryServices.AccountManagement\4.0.0.0\netstandard\System.DirectoryServices.AccountManagement.pdb" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\packages\microsoft.private.intellisense\2.0.0-preview3-26209-0\xmldocs\netcoreapp\1033\System.DirectoryServices.AccountManagement.xml" target="ref\netstandard2.0" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\_._" target="runtimes\win\lib\net45" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.DirectoryServices.AccountManagement\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\bin\Windows_NT.AnyCPU.Debug\System.DirectoryServices.AccountManagement\netcoreapp2.0\System.DirectoryServices.AccountManagement.pdb" target="runtimes\win\lib\netcoreapp2.0" exclude="" />
+    <file src="F:\dotnet\corefx\src\Common\src\System\SR.cs" target="src\src\Common\src\System\SR.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\ref\System.DirectoryServices.AccountManagement.cs" target="src\src\System.DirectoryServices.AccountManagement\ref\System.DirectoryServices.AccountManagement.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AccountInfo.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AccountInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AdvancedFilters.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AdvancedFilters.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADAMStoreCtx.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADAMStoreCtx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADDNConstraintLinkedAttrSet.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADDNConstraintLinkedAttrSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADDNLinkedAttrSet.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADDNLinkedAttrSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADEntriesSet.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADEntriesSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADStoreCtx.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADStoreCtx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADStoreCtx_LoadStore.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADStoreCtx_LoadStore.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADStoreCtx_Query.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADStoreCtx_Query.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADStoreKey.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADStoreKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADUtils.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\ADUtils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\DSPropertyCollection.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\DSPropertyCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\QBEMatchType.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\QBEMatchType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\RangeRetriever.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\RangeRetriever.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\SDSCache.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\SDSCache.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\SDSUtils.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\SDSUtils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\SidList.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\SidList.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\TokenGroupsSet.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AD\TokenGroupsSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AuthenticablePrincipal.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AuthenticablePrincipal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AuthZSet.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\AuthZSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Computer.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Computer.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ConfigurationHandler.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ConfigurationHandler.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\constants.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\constants.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Context.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Context.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ContextOptions.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ContextOptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ContextType.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ContextType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\CredentialTypes.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\CredentialTypes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\EmptySet.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\EmptySet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\exceptions.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\exceptions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ExtensionAttributes.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ExtensionAttributes.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ExtensionCache.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ExtensionCache.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ExtensionHelper.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ExtensionHelper.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ExternDll.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ExternDll.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\FindResult.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\FindResult.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\FindResultEnumerator.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\FindResultEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\GlobalConfig.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\GlobalConfig.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\GlobalDebug.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\GlobalDebug.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\GlobalSuppressions.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\GlobalSuppressions.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Group.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Group.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\GroupType.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\GroupType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\IdentityClaim.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\IdentityClaim.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\IdentityReference.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\IdentityReference.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\IdentityType.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\IdentityType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\interopt.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\interopt.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\MatchType.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\MatchType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\NetCred.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\NetCred.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Pair.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Pair.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\PasswordInfo.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\PasswordInfo.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Principal.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Principal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\PrincipalCollection.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\PrincipalCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\PrincipalCollectionEnumerator.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\PrincipalCollectionEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\PrincipalSearcher.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\PrincipalSearcher.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\QbeFilterDescription.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\QbeFilterDescription.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\RejectedClaimChange.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\RejectedClaimChange.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ResultSet.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ResultSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMGroupsSet.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMGroupsSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMMembersSet.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMMembersSet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMQuerySet.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMQuerySet.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMStoreCtx.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMStoreCtx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMStoreCtx_LoadStore.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMStoreCtx_LoadStore.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMStoreCtx_Query.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMStoreCtx_Query.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMStoreKey.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMStoreKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMUtils.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SAM\SAMUtils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SidType.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\SidType.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\StoreCtx.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\StoreCtx.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\StoreKey.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\StoreKey.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\TrackedCollection.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\TrackedCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\TrackedCollectionEnumerator.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\TrackedCollectionEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\UnknownPrincipal.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\UnknownPrincipal.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\UrnScheme.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\UrnScheme.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\User.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\User.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Utils.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\Utils.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ValueCollection.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ValueCollection.cs" exclude="" />
+    <file src="F:\dotnet\corefx\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ValueCollectionEnumerator.cs" target="src\src\System.DirectoryServices.AccountManagement\src\System\DirectoryServices\AccountManagement\ValueCollectionEnumerator.cs" exclude="" />
+    <file src="F:\dotnet\corefx\Tools\AssemblyInfoPartial.cs" target="src\Tools\AssemblyInfoPartial.cs" exclude="" />
+  </files>
+</package>

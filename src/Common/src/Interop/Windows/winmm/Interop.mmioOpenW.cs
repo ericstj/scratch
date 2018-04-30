@@ -9,7 +9,7 @@ internal partial class Interop
 {
     internal partial class WinMM
     {
-        [DllImport(Libraries.WinMM, ExactSpelling = true, CharSet=CharSet.Unicode)]
+        [DllImport(Libraries.WinMM, ExactSpelling = true, CharSet = CharSet.Unicode)]
         public static extern IntPtr mmioOpenW(string fileName, IntPtr lpmmioinfo, int flags);
     }
 }

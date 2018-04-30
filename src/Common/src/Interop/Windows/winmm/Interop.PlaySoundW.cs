@@ -9,7 +9,7 @@ internal partial class Interop
 {
     internal partial class WinMM
     {
-        [DllImport(Libraries.WinMM, ExactSpelling = true, CharSet=CharSet.Unicode)]
+        [DllImport(Libraries.WinMM, ExactSpelling = true, CharSet = CharSet.Unicode)]
         public static extern bool PlaySoundW(string soundName, IntPtr hmod, int soundFlags);
 
         [DllImport(Libraries.WinMM, ExactSpelling = true)]

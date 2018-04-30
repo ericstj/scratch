@@ -9,14 +9,15 @@ internal partial class Interop
     internal partial class WinMM
     {
         [StructLayout(LayoutKind.Sequential)]
-        public class WAVEFORMATEX {
-            internal short     wFormatTag;
-            internal short     nChannels;
-            internal int       nSamplesPerSec;
-            internal int       nAvgBytesPerSec;
-            internal short     nBlockAlign;
-            internal short     wBitsPerSample;
-            internal short     cbSize;
+        public class WAVEFORMATEX
+        {
+            internal short wFormatTag;
+            internal short nChannels;
+            internal int nSamplesPerSec;
+            internal int nAvgBytesPerSec;
+            internal short nBlockAlign;
+            internal short wBitsPerSample;
+            internal short cbSize;
         }
     }
 }

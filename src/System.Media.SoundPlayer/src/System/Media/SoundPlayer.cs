@@ -13,13 +13,11 @@ namespace System.Media {
     using System.Security;
     using System.Diagnostics.CodeAnalysis;
 
-    /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer"]/*' />
     [
     Serializable,
     ToolboxItem(false),
     SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes"), // This is the first class added to System.Media namespace.
     SuppressMessage("Microsoft.Usage", "CA2240:ImplementISerializableCorrectly"), // vsw 427356
-    HostProtection(UI = true)
     ]
     public class SoundPlayer : Component, ISerializable {
 
@@ -54,13 +52,11 @@ namespace System.Media {
         private static readonly object EventSoundLocationChanged = new object();
         private static readonly object EventStreamChanged = new object();
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.SoundPlayer"]/*' />
         public SoundPlayer() {
             loadAsyncOperationCompleted = 
                 new SendOrPostCallback(LoadAsyncOperationCompleted);
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.SoundPlayer1"]/*' />
         public SoundPlayer(string soundLocation) : this() {
             if(soundLocation == null) {
                 soundLocation = String.Empty;
@@ -68,7 +64,6 @@ namespace System.Media {
             SetupSoundLocation(soundLocation);
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.SoundPlayer2"]/*' />
         public SoundPlayer(Stream stream) : this() {
             this.stream = stream;
         }
@@ -76,7 +71,6 @@ namespace System.Media {
         /**
          * Constructor used in deserialization
          */
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.SoundPlayer4"]/*' />
         [
             SuppressMessage("Microsoft.Performance", "CA1808:AvoidCallsThatBoxValueTypes"), // SerializationInfo stores LoadTimeout as an object.
             SuppressMessage("Microsoft.Performance", "CA1801:AvoidUnusedParameters")        // Serialization constructor needs a Context parameter.
@@ -90,7 +84,6 @@ namespace System.Media {
                     case "Stream" :
                         stream = (Stream) entry.Value;
                         // when we deserialize a stream we have to reset its seek position
-                        // vsWhidbey 180361
                         if (stream.CanSeek) {
                             stream.Seek(0, SeekOrigin.Begin);
                         }
@@ -102,28 +95,21 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.LoadTimeout"]/*' />
         public int LoadTimeout {
             get {
                 return loadTimeout;
             }
             set {
                 if (value < 0) {
-                    throw new ArgumentOutOfRangeException("LoadTimeout", value, SR.GetString(SR.SoundAPILoadTimeout));
+                    throw new ArgumentOutOfRangeException("LoadTimeout", value, SR.SoundAPILoadTimeout);
                 }
 
                 loadTimeout = value;
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.Path"]/*' />
         public string SoundLocation {
             get {
-                if (uri != null && uri.IsFile) {
-                    FileIOPermission fiop = new FileIOPermission(PermissionState.None);
-                    fiop.AllFiles = FileIOPermissionAccess.PathDiscovery;
-                    fiop.Demand();
-                }
                 return soundLocation;
             }
             set {
@@ -139,7 +125,6 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.Stream"]/*' />
         public Stream Stream {
             get {
                 // if the path is set, we should return null
@@ -158,14 +143,12 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.IsLoadCompleted"]/*' />
         public bool IsLoadCompleted {
             get {
                 return isLoadCompleted;
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.Tag"]/*' />
         public object Tag {
             get {
                 return tag;
@@ -175,7 +158,6 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.LoadAsync"]/*' />
         public void LoadAsync() {
             // if we have a file there is nothing to load - we just pass the file to the PlaySound function
             // if we have a stream, then we start loading the stream async
@@ -186,7 +168,7 @@ namespace System.Media {
 
                 FileInfo fi = new FileInfo(uri.LocalPath);
                 if (!fi.Exists) {
-                    throw new FileNotFoundException(SR.GetString(SR.SoundAPIFileDoesNotExist), this.soundLocation);
+                    throw new FileNotFoundException(SR.SoundAPIFileDoesNotExist, this.soundLocation);
                 }
 
                 OnLoadCompleted(new AsyncCompletedEventArgs(null, false, null));
@@ -224,7 +206,6 @@ namespace System.Media {
             this.semaphore.Set();
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.Load"]/*' />
         public void Load() {
             // if we have a file there is nothing to load - we just pass the file to the PlaySound function
             // if we have a stream, then we start loading the stream sync
@@ -233,7 +214,7 @@ namespace System.Media {
                 Debug.Assert(stream == null, "we can't have a stream and a path at the same time");
                 FileInfo fi = new FileInfo(uri.LocalPath);
                 if (!fi.Exists) {
-                    throw new FileNotFoundException(SR.GetString(SR.SoundAPIFileDoesNotExist), this.soundLocation);
+                    throw new FileNotFoundException(SR.SoundAPIFileDoesNotExist, this.soundLocation);
                 }
                 isLoadCompleted = true;
                 OnLoadCompleted(new AsyncCompletedEventArgs(null, false, null));
@@ -243,58 +224,33 @@ namespace System.Media {
             LoadSync();
         }
 
-        [SuppressMessage("Microsoft.Security", "CA2103:ReviewImperativeSecurity")] // FileIOPermission based on URI path, but path isn't gonna change during scope of Demand
         private void LoadAndPlay(int flags) {
-            // bug 16794: when the user does not specify a sound location nor a stream, play Beep
+            // When the user does not specify a sound location nor a stream, play Beep
             if (String.IsNullOrEmpty(soundLocation) && stream == null) {
                 SystemSounds.Beep.Play();
                 return;
             }
 
             if (uri != null && uri.IsFile) {
-                // VSW 580992: With more than one thread, someone could call SoundPlayer::set_Location
-                // between the time LoadAndPlay demands FileIO and the time it calls PlaySound under elevation.
-                // 
-                // Another scenario is someone calling SoundPlayer::set_Location between the time
+                // Someone may call SoundPlayer::set_Location between the time
                 // LoadAndPlay validates the sound file and the time it calls PlaySound.
                 // The SoundPlayer will end up playing an un-validated sound file.
                 // The solution is to store the uri.LocalPath on a local variable
                 string localPath = uri.LocalPath;
 
-                // request permission to read the file:
-                // pass the full path to the FileIOPermission
-                FileIOPermission perm = new FileIOPermission(FileIOPermissionAccess.Read, localPath);
-                perm.Demand();
-
                 // play the path
                 isLoadCompleted = true;
-                System.Media.SoundPlayer.IntSecurity.SafeSubWindows.Demand();
 
-                System.ComponentModel.IntSecurity.UnmanagedCode.Assert();
-                // ValidateSoundFile calls into the MMIO API so we need UnmanagedCode permissions to do that.
-                // And of course we need UnmanagedCode permissions to all Win32::PlaySound method.
-                try {
-                    // don't use uri.AbsolutePath because that gives problems when there are whitespaces in file names
-                    ValidateSoundFile(localPath);
-                    UnsafeNativeMethods.PlaySound(localPath, IntPtr.Zero, NativeMethods.SND_NODEFAULT | flags);
-                } finally {
-                    System.Security.CodeAccessPermission.RevertAssert();
-                }
+                // don't use uri.AbsolutePath because that gives problems when there are whitespaces in file names
+                ValidateSoundFile(localPath);
+                Interop.WinMM.PlaySoundW(localPath, IntPtr.Zero, Interop.WinMM.SND_NODEFAULT | flags);
             } else {
                 LoadSync();
                 ValidateSoundData(streamData);
-                System.Media.SoundPlayer.IntSecurity.SafeSubWindows.Demand();
-
-                System.ComponentModel.IntSecurity.UnmanagedCode.Assert();
-                try {
-                    UnsafeNativeMethods.PlaySound(streamData, IntPtr.Zero, NativeMethods.SND_MEMORY | NativeMethods.SND_NODEFAULT | flags);
-                } finally {
-                    System.Security.CodeAccessPermission.RevertAssert();
-                }
+                Interop.WinMM.PlaySoundW(streamData, IntPtr.Zero, Interop.WinMM.SND_MEMORY | Interop.WinMM.SND_NODEFAULT | flags);
             }
         }
 
-        [SuppressMessage("Microsoft.Security", "CA2103:ReviewImperativeSecurity")] // WebPermission based on URI path, but path isn't gonna change during scope of Demand
         private void LoadSync() {
             
             Debug.Assert((uri == null || !uri.IsFile), "we only load streams");
@@ -304,7 +260,7 @@ namespace System.Media {
                 if (copyThread != null)
                     copyThread.Abort();
                 CleanupStreamData();
-                throw new TimeoutException(SR.GetString(SR.SoundAPILoadTimedOut));
+                throw new TimeoutException(SR.SoundAPILoadTimedOut);
             }
 
             // if we have data, then we are done
@@ -313,8 +269,6 @@ namespace System.Media {
 
             // setup the http stream
             if (uri != null && !uri.IsFile && stream == null) {
-                WebPermission webPerm = new WebPermission(NetworkAccess.Connect, uri.AbsolutePath);
-                webPerm.Demand();
                 WebRequest webRequest = WebRequest.Create(uri);
                 webRequest.Timeout = LoadTimeout;
 
@@ -338,7 +292,7 @@ namespace System.Media {
                     if (copyThread != null)
                         copyThread.Abort();
                     CleanupStreamData();
-                    throw new TimeoutException(SR.GetString(SR.SoundAPILoadTimedOut));
+                    throw new TimeoutException(SR.SoundAPILoadTimedOut);
                 }
 
                 doesLoadAppearSynchronous = false;
@@ -370,19 +324,16 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.Play"]/*' />
         public void Play() {
-            LoadAndPlay(NativeMethods.SND_ASYNC);
+            LoadAndPlay(Interop.WinMM.SND_ASYNC);
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.PlaySync"]/*' />
         public void PlaySync() {
-            LoadAndPlay(NativeMethods.SND_SYNC);
+            LoadAndPlay(Interop.WinMM.SND_SYNC);
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.PlayLooping"]/*' />
         public void PlayLooping() {
-            LoadAndPlay(NativeMethods.SND_LOOP | NativeMethods.SND_ASYNC);
+            LoadAndPlay(Interop.WinMM.SND_LOOP | Interop.WinMM.SND_ASYNC);
         }
 
         private static Uri ResolveUri(string partialUri) {
@@ -418,7 +369,7 @@ namespace System.Media {
             stream = null;
             if (uri == null) {
                 if (!String.IsNullOrEmpty(soundLocation))
-                    throw new UriFormatException(SR.GetString(SR.SoundAPIBadSoundLocation));
+                    throw new UriFormatException(SR.SoundAPIBadSoundLocation);
             } else {
                 if (!uri.IsFile) {
                     // we are referencing a web resource ...
@@ -449,15 +400,10 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.Stop"]/*' />
-        [ResourceExposure(ResourceScope.None)]
-        [ResourceConsumption(ResourceScope.Machine, ResourceScope.Machine)]
         public void Stop() {
-            IntSecurity.SafeSubWindows.Demand();
-            UnsafeNativeMethods.PlaySound((byte[]) null, IntPtr.Zero, NativeMethods.SND_PURGE);
+            Interop.WinMM.PlaySoundW((byte[]) null, IntPtr.Zero, Interop.WinMM.SND_PURGE);
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.LoadCompleted"]/*' />
         public event AsyncCompletedEventHandler LoadCompleted {
             add {
                 Events.AddHandler(EventLoadCompleted, value);
@@ -467,7 +413,6 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.SoundLocationChanged"]/*' />
         public event EventHandler SoundLocationChanged {
             add {
                 Events.AddHandler(EventSoundLocationChanged, value);
@@ -477,7 +422,6 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.StreamChanged"]/*' />
         public event EventHandler StreamChanged {
             add {
                 Events.AddHandler(EventStreamChanged, value);
@@ -487,7 +431,6 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.OnLoadCompleted"]/*' />
         protected virtual void OnLoadCompleted(AsyncCompletedEventArgs e) {
             AsyncCompletedEventHandler eh = (AsyncCompletedEventHandler) Events[EventLoadCompleted];
             if (eh != null)
@@ -496,7 +439,6 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.OnSoundLocationChanged"]/*' />
         protected virtual void OnSoundLocationChanged(EventArgs e) {
             EventHandler eh = (EventHandler) Events[EventSoundLocationChanged];
             if (eh != null)
@@ -505,7 +447,6 @@ namespace System.Media {
             }
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.OnStreamChanged"]/*' />
         protected virtual void OnStreamChanged(EventArgs e) {
             EventHandler eh = (EventHandler) Events[EventStreamChanged];
             if (eh != null)
@@ -564,35 +505,35 @@ namespace System.Media {
         }
 
         private unsafe void ValidateSoundFile(string fileName) {
-            NativeMethods.MMCKINFO ckRIFF = new NativeMethods.MMCKINFO();
-            NativeMethods.MMCKINFO ck = new NativeMethods.MMCKINFO();
-            NativeMethods.WAVEFORMATEX waveFormat = null;
+            Interop.WinMM.MMCKINFO ckRIFF = new Interop.WinMM.MMCKINFO();
+            Interop.WinMM.MMCKINFO ck = new Interop.WinMM.MMCKINFO();
+            Interop.WinMM.WAVEFORMATEX waveFormat = null;
             int dw;
 
-            IntPtr hMIO = UnsafeNativeMethods.mmioOpen(fileName, IntPtr.Zero, NativeMethods.MMIO_READ | NativeMethods.MMIO_ALLOCBUF);
+            IntPtr hMIO = Interop.WinMM.mmioOpenW(fileName, IntPtr.Zero, Interop.WinMM.MMIO_READ | Interop.WinMM.MMIO_ALLOCBUF);
 
             if (hMIO == IntPtr.Zero)
-                throw new FileNotFoundException(SR.GetString(SR.SoundAPIFileDoesNotExist), this.soundLocation);
+                throw new FileNotFoundException(SR.SoundAPIFileDoesNotExist, this.soundLocation);
 
             try {
                 ckRIFF.fccType = mmioFOURCC('W', 'A','V','E');
-                if (UnsafeNativeMethods.mmioDescend(hMIO, ckRIFF, null, NativeMethods.MMIO_FINDRIFF) != 0)
-                    throw new InvalidOperationException(SR.GetString(SR.SoundAPIInvalidWaveFile, this.soundLocation));
+                if (Interop.WinMM.mmioDescend(hMIO, ckRIFF, null, Interop.WinMM.MMIO_FINDRIFF) != 0)
+                    throw new InvalidOperationException(SR.Format(SR.SoundAPIInvalidWaveFile, this.soundLocation));
 
-                while (UnsafeNativeMethods.mmioDescend(hMIO, ck, ckRIFF, 0) == 0) {
+                while (Interop.WinMM.mmioDescend(hMIO, ck, ckRIFF, 0) == 0) {
                     if (ck.dwDataOffset + ck.cksize > ckRIFF.dwDataOffset + ckRIFF.cksize)
-                        throw new InvalidOperationException(SR.GetString(SR.SoundAPIInvalidWaveHeader));
+                        throw new InvalidOperationException(SR.SoundAPIInvalidWaveHeader);
 
                     if (ck.ckID == mmioFOURCC('f','m','t',' ')) {
                             if (waveFormat == null) {
                                 dw = ck.cksize;
-                                if (dw < Marshal.SizeOf(typeof(NativeMethods.WAVEFORMATEX)))
-                                    dw =  Marshal.SizeOf(typeof(NativeMethods.WAVEFORMATEX));
+                                if (dw < Marshal.SizeOf(typeof(Interop.WinMM.WAVEFORMATEX)))
+                                    dw =  Marshal.SizeOf(typeof(Interop.WinMM.WAVEFORMATEX));
 
-                                waveFormat = new NativeMethods.WAVEFORMATEX();
+                                waveFormat = new Interop.WinMM.WAVEFORMATEX();
                                 byte[] data = new byte[dw];
-                                if (UnsafeNativeMethods.mmioRead(hMIO, data, dw) != dw)
-                                    throw new InvalidOperationException(SR.GetString(SR.SoundAPIReadError, this.soundLocation));
+                                if (Interop.WinMM.mmioRead(hMIO, data, dw) != dw)
+                                    throw new InvalidOperationException(SR.Format(SR.SoundAPIReadError, this.soundLocation));
                                 fixed(byte* pdata = data) {
                                     Marshal.PtrToStructure((IntPtr) pdata, waveFormat);
                                 }
@@ -602,20 +543,20 @@ namespace System.Media {
                                 //
                             }
                     }
-                    UnsafeNativeMethods.mmioAscend(hMIO, ck, 0);
+                    Interop.WinMM.mmioAscend(hMIO, ck, 0);
                 }
 
                 if (waveFormat == null)
-                    throw new InvalidOperationException(SR.GetString(SR.SoundAPIInvalidWaveHeader));
+                    throw new InvalidOperationException(SR.SoundAPIInvalidWaveHeader);
 
-                if (waveFormat.wFormatTag != NativeMethods.WAVE_FORMAT_PCM &&
-                    waveFormat.wFormatTag != NativeMethods.WAVE_FORMAT_ADPCM &&
-                    waveFormat.wFormatTag != NativeMethods.WAVE_FORMAT_IEEE_FLOAT)
-                    throw new InvalidOperationException(SR.GetString(SR.SoundAPIFormatNotSupported));
+                if (waveFormat.wFormatTag != Interop.WinMM.WAVE_FORMAT_PCM &&
+                    waveFormat.wFormatTag != Interop.WinMM.WAVE_FORMAT_ADPCM &&
+                    waveFormat.wFormatTag != Interop.WinMM.WAVE_FORMAT_IEEE_FLOAT)
+                    throw new InvalidOperationException(SR.SoundAPIFormatNotSupported);
 
             } finally {
                     if (hMIO != IntPtr.Zero)
-                        UnsafeNativeMethods.mmioClose(hMIO, 0);
+                        Interop.WinMM.mmioClose(hMIO, 0);
             }
         }
 
@@ -626,13 +567,13 @@ namespace System.Media {
 
             // the RIFF header should be at least 12 bytes long.
             if (data.Length < 12)
-                throw new System.InvalidOperationException(SR.GetString(SR.SoundAPIInvalidWaveHeader));
+                throw new System.InvalidOperationException(SR.SoundAPIInvalidWaveHeader);
 
             // validate the RIFF header
             if (data[0] != 'R' || data[1] != 'I' || data[2] != 'F' || data[3] != 'F')
-                throw new System.InvalidOperationException(SR.GetString(SR.SoundAPIInvalidWaveHeader));
+                throw new System.InvalidOperationException(SR.SoundAPIInvalidWaveHeader);
             if (data[8] != 'W' || data[9] != 'A' || data[10] != 'V' || data[11] != 'E')
-                throw new System.InvalidOperationException(SR.GetString(SR.SoundAPIInvalidWaveHeader));
+                throw new System.InvalidOperationException(SR.SoundAPIInvalidWaveHeader);
 
             // we only care about "fmt " chunk
             position = 12;
@@ -656,17 +597,17 @@ namespace System.Media {
 
                         // make sure the buffer is big enough to store a short
                         if (len < position + 8 + sizeOfWAVEFORMATEX - 1)
-                            throw new System.InvalidOperationException(SR.GetString(SR.SoundAPIInvalidWaveHeader));
+                            throw new System.InvalidOperationException(SR.SoundAPIInvalidWaveHeader);
 
                         Int16 cbSize = BytesToInt16(data[position+8 + sizeOfWAVEFORMATEX - 1],
                                                     data[position+8 + sizeOfWAVEFORMATEX-2]);
                         if (cbSize + sizeOfWAVEFORMATEX != chunkSize)
-                            throw new System.InvalidOperationException(SR.GetString(SR.SoundAPIInvalidWaveHeader));
+                            throw new System.InvalidOperationException(SR.SoundAPIInvalidWaveHeader);
                     }
 
                     // make sure the buffer passed in is big enough to store a short
                     if(len < position + 9)
-                        throw new System.InvalidOperationException(SR.GetString(SR.SoundAPIInvalidWaveHeader));
+                        throw new System.InvalidOperationException(SR.SoundAPIInvalidWaveHeader);
                     wFormatTag = BytesToInt16(data[position+9], data[position+8]);
 
                     position += chunkSize + 8;
@@ -676,12 +617,12 @@ namespace System.Media {
             }
 
             if (!fmtChunkFound)
-                throw new System.InvalidOperationException(SR.GetString(SR.SoundAPIInvalidWaveHeader));
+                throw new System.InvalidOperationException(SR.SoundAPIInvalidWaveHeader);
 
-            if (wFormatTag != NativeMethods.WAVE_FORMAT_PCM &&
-                wFormatTag != NativeMethods.WAVE_FORMAT_ADPCM &&
-                wFormatTag != NativeMethods.WAVE_FORMAT_IEEE_FLOAT)
-                throw new System.InvalidOperationException(SR.GetString(SR.SoundAPIFormatNotSupported));
+            if (wFormatTag != Interop.WinMM.WAVE_FORMAT_PCM &&
+                wFormatTag != Interop.WinMM.WAVE_FORMAT_ADPCM &&
+                wFormatTag != Interop.WinMM.WAVE_FORMAT_IEEE_FLOAT)
+                throw new System.InvalidOperationException(SR.SoundAPIFormatNotSupported);
         }
 
         private static Int16 BytesToInt16(byte ch0, byte ch1) {
@@ -703,11 +644,8 @@ namespace System.Media {
             return result;
         }
 
-        /// <include file='doc\SoundPlayer.uex' path='docs/doc[@for="SoundPlayer.GetObjectData"]/*' />
-        [SecurityPermission(SecurityAction.LinkDemand, Flags=SecurityPermissionFlag.SerializationFormatter)]                
         [SuppressMessage("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")] // vsw 427356
-        [SuppressMessage("Microsoft.Security", "CA2123:OverrideLinkDemandsShouldBeIdenticalToBase", Justification = "System.dll is still using pre-v4 security model and needs this demand")]
-         void ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) {
+        void ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) {
             if (!String.IsNullOrEmpty(this.soundLocation)) {
                 info.AddValue("SoundLocation", this.soundLocation);
             }
@@ -717,101 +655,6 @@ namespace System.Media {
             }
 
             info.AddValue("LoadTimeout", this.loadTimeout);
-        }
-
-        private class IntSecurity {
-            // Constructor added because of FxCop rules
-            private IntSecurity() {}
-
-            private static volatile CodeAccessPermission safeSubWindows;
-
-            internal static CodeAccessPermission SafeSubWindows {
-                get {
-                    if (safeSubWindows == null) {
-                        safeSubWindows = new UIPermission(UIPermissionWindow.SafeSubWindows);
-                    }
-
-                    return safeSubWindows;
-                }
-            }
-        }
-
-        private class NativeMethods {
-            // Constructor added because of FxCop rules
-            private NativeMethods() {}
-
-            internal const int WAVE_FORMAT_PCM        = 0x0001,
-            WAVE_FORMAT_ADPCM                       = 0x0002,
-            WAVE_FORMAT_IEEE_FLOAT                  = 0x0003;
-
-            internal const int MMIO_READ              = 0x00000000,
-            MMIO_ALLOCBUF                           = 0x00010000,
-            MMIO_FINDRIFF                           = 0x00000020;
-
-            internal const int SND_SYNC = 0000,
-            SND_ASYNC = 0x0001,
-            SND_NODEFAULT = 0x0002,
-            SND_MEMORY = 0x0004,
-            SND_LOOP = 0x0008,
-            SND_PURGE = 0x0040,
-            SND_FILENAME = 0x00020000,
-            SND_NOSTOP = 0x0010;
-
-            [StructLayout(LayoutKind.Sequential, CharSet=CharSet.Auto)]
-            internal class MMCKINFO {
-                internal int      ckID;
-                internal int      cksize;
-                internal int      fccType;
-                internal int      dwDataOffset;
-                internal int      dwFlags;
-            }
-
-            [StructLayout(LayoutKind.Sequential, CharSet=CharSet.Auto)]
-            internal class WAVEFORMATEX {
-                internal System.Int16     wFormatTag;
-                internal System.Int16     nChannels;
-                internal int              nSamplesPerSec;
-                internal int              nAvgBytesPerSec;
-                internal System.Int16     nBlockAlign;
-                internal System.Int16     wBitsPerSample;
-                internal System.Int16     cbSize;
-            }
-        }
-
-        private class UnsafeNativeMethods {
-            // Constructor added because of FxCop rules
-            private UnsafeNativeMethods() {}
-
-            [DllImport(ExternDll.WinMM, CharSet=CharSet.Auto)]
-            [ResourceExposure(ResourceScope.Machine)]
-            internal static extern bool PlaySound([MarshalAs(UnmanagedType.LPWStr)] string soundName, IntPtr hmod, int soundFlags);
-        
-            [DllImport(ExternDll.WinMM, ExactSpelling=true, CharSet=CharSet.Auto)]
-            [ResourceExposure(ResourceScope.Machine)]
-            internal static extern bool PlaySound(byte[] soundName, IntPtr hmod, int soundFlags);
-       
-            [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Security", "CA2101:SpecifyMarshalingForPInvokeStringArguments")]
-            [DllImport(ExternDll.WinMM, CharSet=CharSet.Auto)]
-            [ResourceExposure(ResourceScope.Machine)]
-            internal static extern IntPtr mmioOpen(string fileName, IntPtr not_used, int flags);
-        
-            [DllImport(ExternDll.WinMM, CharSet=CharSet.Auto)]
-            [ResourceExposure(ResourceScope.None)]
-            internal static extern int mmioAscend(IntPtr hMIO, NativeMethods.MMCKINFO lpck, int flags);
-        
-            [DllImport(ExternDll.WinMM, CharSet=CharSet.Auto)]
-            [ResourceExposure(ResourceScope.None)]
-            internal static extern int mmioDescend(IntPtr hMIO,
-                                                   [MarshalAs(UnmanagedType.LPStruct)] NativeMethods.MMCKINFO lpck,
-                                                   [MarshalAs(UnmanagedType.LPStruct)] NativeMethods.MMCKINFO lcpkParent,
-                                                   int flags);
-            [DllImport(ExternDll.WinMM, CharSet=CharSet.Auto)]
-            [ResourceExposure(ResourceScope.None)]
-            internal static extern int mmioRead(IntPtr hMIO, [MarshalAs(UnmanagedType.LPArray)] byte[] wf, int cch);
-       
-            [DllImport(ExternDll.WinMM, CharSet=CharSet.Auto)]
-            [ResourceExposure(ResourceScope.None)]
-            internal static extern int mmioClose(IntPtr hMIO, int flags);
         }
     }
 }

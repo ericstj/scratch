@@ -1,0 +1,8 @@
+user32.dll!MessageBeep
+winmm.dll!mmioAscend
+winmm.dll!mmioClose
+winmm.dll!mmioDescend
+winmm.dll!mmioOpenW
+winmm.dll!mmioRead
+winmm.dll!PlaySoundW
+

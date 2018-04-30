@@ -2,7 +2,7 @@
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />
   <PropertyGroup>
-    <ProjectGuid>{91DD22C6-521E-49F9-84E8-1D65BAB97776}</ProjectGuid>
+    <ProjectGuid>{99929ED7-11D1-43FA-A9EF-62165A554912}</ProjectGuid>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <IsPartialFacadeAssembly Condition="'$(TargetGroup)' == 'netfx'">true</IsPartialFacadeAssembly>
     <GeneratePlatformNotSupportedAssemblyMessage Condition="'$(TargetGroup)' == 'netstandard' AND '$(OSGroup)' == 'AnyOS'">SR.PlatformNotSupported_SoundPlayer</GeneratePlatformNotSupportedAssemblyMessage>

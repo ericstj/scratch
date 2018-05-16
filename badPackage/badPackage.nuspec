@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>badPackage</id>
+    <version>1.0.0</version>
+    <authors>noone</authors>
+    <description>this package has duplicate files</description>
+  </metadata>
+  <files>
+    <file src="foo\*.dll" target="tools" />
+    <file src="bar\*.dll" target="tools" />
+  </files>
+</package>

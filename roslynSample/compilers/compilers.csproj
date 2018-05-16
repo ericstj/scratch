@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <!-- don't include this project's output -->
+    <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
+    <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\csc\csc.csproj" />
+    <ProjectReference Include="..\vbc\vbc.csproj" />
+  </ItemGroup>
+
+</Project>

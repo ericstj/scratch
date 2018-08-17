@@ -4,6 +4,7 @@
 
 using System.ComponentModel;
 using System.IO;
+using System.Reflection;
 using System.Threading;
 using Xunit;
 
@@ -66,6 +67,11 @@ namespace System.Media.SoundPlayerTests
                 eventArgs = e;
                 signal.Set();
             };
+            
+            var semaphoreField = player.GetType().GetField("_semaphore", BindingFlags.NonPublic | BindingFlags.Instance);
+            Assert.NotNull(semaphoreField);
+            ManualResetEvent internalSemaphore = (ManualResetEvent)semaphoreField.GetValue(player);
+            Assert.NotNull(internalSemaphore);
 
             player.LoadAsync();
             Assert.True(signal.WaitOne(loadWait));
@@ -74,6 +80,9 @@ namespace System.Media.SoundPlayerTests
             Assert.Null(eventArgs.Error);
             Assert.Null(eventArgs.UserState);
             Assert.Same(player, eventObject);
+
+            // IsLoadCompleted is set by a worker thread, which may still be running.  Wait for it to signal.
+            Assert.True(internalSemaphore.WaitOne(loadWait));
             Assert.True(player.IsLoadCompleted);
         }
 

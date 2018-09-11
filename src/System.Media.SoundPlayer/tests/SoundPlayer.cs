@@ -53,6 +53,15 @@ namespace System.Media.SoundPlayerTests
             Assert.True(player.IsLoadCompleted);
         }
 
+        private static ManualResetEvent GetInternalSemaphore(SoundPlayer player)
+        {
+            var semaphoreField = player.GetType().GetField("_semaphore", BindingFlags.NonPublic | BindingFlags.Instance);
+            Assert.NotNull(semaphoreField);
+            ManualResetEvent internalSemaphore = (ManualResetEvent)semaphoreField.GetValue(player);
+            Assert.NotNull(internalSemaphore);
+            return internalSemaphore;
+        }
+
         // async
         [Fact]
         public void LoadAsyncPath()
@@ -67,11 +76,6 @@ namespace System.Media.SoundPlayerTests
                 eventArgs = e;
                 signal.Set();
             };
-            
-            var semaphoreField = player.GetType().GetField("_semaphore", BindingFlags.NonPublic | BindingFlags.Instance);
-            Assert.NotNull(semaphoreField);
-            ManualResetEvent internalSemaphore = (ManualResetEvent)semaphoreField.GetValue(player);
-            Assert.NotNull(internalSemaphore);
 
             player.LoadAsync();
             Assert.True(signal.WaitOne(loadWait));
@@ -82,7 +86,7 @@ namespace System.Media.SoundPlayerTests
             Assert.Same(player, eventObject);
 
             // IsLoadCompleted is set by a worker thread, which may still be running.  Wait for it to signal.
-            Assert.True(internalSemaphore.WaitOne(loadWait));
+            Assert.True(GetInternalSemaphore(player).WaitOne(loadWait));
             Assert.True(player.IsLoadCompleted);
         }
 
@@ -134,6 +138,9 @@ namespace System.Media.SoundPlayerTests
                 Assert.Null(eventArgs.Error);
                 Assert.Null(eventArgs.UserState);
                 Assert.Same(player, eventObject);
+
+                // IsLoadCompleted is set by a worker thread, which may still be running.  Wait for it to signal.
+                Assert.True(GetInternalSemaphore(player).WaitOne(loadWait));
                 Assert.True(player.IsLoadCompleted);
             }
         }
@@ -228,6 +235,9 @@ namespace System.Media.SoundPlayerTests
             Assert.IsType<NotSupportedException>(eventArgs.Error);
             Assert.Null(eventArgs.UserState);
             Assert.Same(player, eventObject);
+
+            // IsLoadCompleted is set by a worker thread, which may still be running.  Wait for it to signal.
+            Assert.True(GetInternalSemaphore(player).WaitOne(loadWait));
             Assert.True(player.IsLoadCompleted);
         }
 

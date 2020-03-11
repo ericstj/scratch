@@ -1,0 +1,8 @@
+<Project TreatAsLocalProperty="PropA">
+  
+  <PropertyGroup>
+    <PropA Condition="'$(PropA)' == 'global'">local</PropA>
+  </PropertyGroup>
+
+
+</Project>

@@ -41,15 +41,15 @@ namespace Microsoft.VisualBasic
         public void Clear() { }
         public bool Contains(string Key) { throw null; }
         public System.Collections.IEnumerator GetEnumerator() { throw null; }
-        void ICollectionCopyTo(System.Array array, int index) { }
-        System.Collections.IEnumerator ICollectionGetEnumerator() { throw null; }
-        int IListAdd(object value) { throw null; }
-        void IListClear() { }
-        bool IListContains(object value) { throw null; }
-        int IListIndexOf(object value) { throw null; }
-        void IListInsert(int index, object value) { }
-        void IListRemove(object value) { }
-        void IListRemoveAt(int index) { }
+        void System.Collections.ICollection.CopyTo(System.Array array, int index) { }
+        System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() { throw null; }
+        int System.Collections.IList.Add(object value) { throw null; }
+        void System.Collections.IList.Clear() { }
+        bool System.Collections.IList.Contains(object value) { throw null; }
+        int System.Collections.IList.IndexOf(object value) { throw null; }
+        void System.Collections.IList.Insert(int index, object value) { }
+        void System.Collections.IList.Remove(object value) { }
+        void System.Collections.IList.RemoveAt(int index) { }
         public void Remove(int Index) { }
         public void Remove(string Key) { }
     }
@@ -1338,7 +1338,7 @@ namespace Microsoft.VisualBasic.FileIO
         public bool TrimWhiteSpace { get { throw null; } set { } }
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
         public void Close() { }
-        void Dispose() { }
+        void System.IDisposable.Dispose() { }
         protected virtual void Dispose(bool disposing) { }
         ~TextFieldParser() { }
         public string PeekChars(int numberOfChars) { throw null; }

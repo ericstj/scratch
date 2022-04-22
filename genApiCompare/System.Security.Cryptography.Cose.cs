@@ -39,7 +39,7 @@ namespace System.Security.Cryptography.Cose
         public void SetValue(System.Security.Cryptography.Cose.CoseHeaderLabel label, int value) { }
         public void SetValue(System.Security.Cryptography.Cose.CoseHeaderLabel label, System.ReadOnlySpan<byte> value) { }
         public void SetValue(System.Security.Cryptography.Cose.CoseHeaderLabel label, string value) { }
-        System.Collections.Generic.IEnumerator<(System.Security.Cryptography.Cose.CoseHeaderLabel Label, System.ReadOnlyMemory<byte> EncodedValue)> System.Collections.Generic.IEnumerable<(System.Security.Cryptography.Cose.CoseHeaderLabelLabel,System.ReadOnlyMemory<System.Byte>EncodedValue)>.GetEnumerator() { throw null; }
+        System.Collections.Generic.IEnumerator<(System.Security.Cryptography.Cose.CoseHeaderLabel Label, System.ReadOnlyMemory<byte> EncodedValue)> System.Collections.Generic.IEnumerable<(System.Security.Cryptography.Cose.CoseHeaderLabel, System.ReadOnlyMemory<byte>)>.GetEnumerator() { throw null; }
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() { throw null; }
         public bool TryGetEncodedValue(System.Security.Cryptography.Cose.CoseHeaderLabel label, out System.ReadOnlyMemory<byte> encodedValue) { throw null; }
         public partial struct Enumerator : System.Collections.Generic.IEnumerator<(System.Security.Cryptography.Cose.CoseHeaderLabel, System.ReadOnlyMemory<byte>)>, System.Collections.IEnumerator, System.IDisposable

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\app1\app1.csproj" />
+    <ProjectReference Include="..\app2\app2.csproj" />
+    <ProjectReference Include="..\webApp\webApp.csproj" />
+    <ProjectReference Include="..\wfApp\wfApp.csproj" />
+    <ProjectReference Include="..\wpfApp\wpfApp.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <SelfContained>true</SelfContained>
+
+  </PropertyGroup>
+
+</Project>

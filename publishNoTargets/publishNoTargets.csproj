@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.Build.NoTargets">
+
+  <ItemGroup>
+    <ProjectReference Include="..\app1\app1.csproj" />
+    <ProjectReference Include="..\app2\app2.csproj" />
+    <ProjectReference Include="..\webApp\webApp.csproj" />
+    <ProjectReference Include="..\wfApp\wfApp.csproj" />
+    <ProjectReference Include="..\wpfApp\wpfApp.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <SelfContained>true</SelfContained>
+
+    <!-- Re-enable some features disabled by NoTargets -->
+
+    <!-- We need a shared framework reference -->
+    <DisableImplicitFrameworkReferences>false</DisableImplicitFrameworkReferences>
+
+    <!-- We need ProjectReferences -->
+    <NoTargetsDoNotReferenceOutputAssemblies>false</NoTargetsDoNotReferenceOutputAssemblies>
+
+    <!-- We aren't actually building a .NETCore app -->
+    <ComputeNETCoreBuildOutputFiles>false</ComputeNETCoreBuildOutputFiles>
+  </PropertyGroup>
+
+</Project>

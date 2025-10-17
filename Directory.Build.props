@@ -6,6 +6,11 @@
     <NoWarn>$(NoWarn);NETSDK1206</NoWarn>
   </PropertyGroup>
 
+  <ItemGroup Condition="'$(TargetFrameworkIdentifier)' == '.NETCoreApp'">
+    <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
   <Target Name="CopyReferences" AfterTargets="ResolveReferences">
     <Message Importance="high" Text="Copying references to 'References' folder..." />
     <MakeDir Directories="$(TargetDir)\References" />

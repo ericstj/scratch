@@ -3,9 +3,9 @@
   <PropertyGroup>
     <!-- Pruning data has some downgrades -->
     <NoWarn>$(NoWarn);NU1605</NoWarn>
-    <RestoreEnablePackagePruning>false</RestoreEnablePackagePruning>
-    <NuGetAudit>false</NuGetAudit>
   </PropertyGroup>
+
+  <UsingTask TaskName="GetPackagesToPrune" AssemblyFile="C:\src\dotnet\sdk\artifacts\bin\Debug\Sdks\Microsoft.NET.Sdk\tools\net10.0\Microsoft.NET.Build.Tasks.dll" />
 
   <!-- Don't bring in any framework references, instead reference every package in the pruning list --> 
   <Target Name="AddPackageReferences" BeforeTargets="CollectPrunePackageReferences"

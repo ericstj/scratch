@@ -15,7 +15,7 @@
         <TestFile CompareTo="getRef\bin\Debug\$(TargetFramework)\References\%(FileName)%(Extension)" />
       </ItemGroup>
 
-      <Error Text="Prune file @(TestFile) is not present in reference set @(TestFile->'%(CompareTo)')"
+      <Error Text="Prune file %(TestFile.FileName) is not present in $(TargetFramework) reference set"
              Condition="!Exists('%(TestFile.CompareTo)')" 
              ContinueOnError="ErrorAndContinue" />
     </Target>

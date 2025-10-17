@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.Build.NoTargets">
+
+  <PropertyGroup>
+    <!-- Bring in framework references -->
+    <DisableImplicitFrameworkReferences>false</DisableImplicitFrameworkReferences>
+  </PropertyGroup>
+</Project>

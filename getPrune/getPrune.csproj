@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Pruning data has some downgrades -->
+    <NoWarn>$(NoWarn);NU1605</NoWarn>
+    <RestoreEnablePackagePruning>false</RestoreEnablePackagePruning>
+    <NuGetAudit>false</NuGetAudit>
+  </PropertyGroup>
+
+  <!-- Don't bring in any framework references, instead reference every package in the pruning list --> 
+  <Target Name="AddPackageReferences" BeforeTargets="CollectPrunePackageReferences"
+          DependsOnTargets="ProcessFrameworkReferences">
+
+    <PropertyGroup>
+      <PrunePackageDataRoot Condition="'$(PrunePackageDataRoot)' == ''">$(NetCoreRoot)\sdk\$(NETCoreSdkVersion)\PrunePackageData\</PrunePackageDataRoot>
+      <PrunePackageTargetingPackRoots Condition="'$(PrunePackageTargetingPackRoots)' == ''">$(NetCoreTargetingPackRoot)</PrunePackageTargetingPackRoots>
+      <AllowMissingPrunePackageData Condition="'$(AllowMissingPrunePackageData)' == ''">false</AllowMissingPrunePackageData>
+    </PropertyGroup>
+    
+    <GetPackagesToPrune TargetFrameworkIdentifier="$(TargetFrameworkIdentifier)"
+                        TargetFrameworkVersion="$(_TargetFrameworkVersionWithoutV)"
+                        FrameworkReferences="@(FrameworkReference)"
+                        TargetingPacks="@(TargetingPack)"
+                        TargetingPackRoots="$(PrunePackageTargetingPackRoots)"
+                        PrunePackageDataRoot="$(PrunePackageDataRoot)"
+                        AllowMissingPrunePackageData="$(AllowMissingPrunePackageData)">
+      <Output TaskParameter="PackagesToPrune" ItemName="_PackageReference" />
+    </GetPackagesToPrune>
+
+    <ItemGroup>
+      <PackageReference Include="%(_PackageReference.Identity)" Version="$([System.String]::new('%(_PackageReference.Version)').Replace('32767', '*'))" />
+    </ItemGroup>
+
+    <!-- We have some imaginary version in net9.0 & 10.0 -->
+    <ItemGroup Condition="'$(TargetFramework)' == 'net10.0' or '$(TargetFramework)' == 'net9.0'"  >
+      <PackageReference Condition="'%(Identity)' == 'System.Xml.XPath.XDocument'" Version="4.*" />
+      <PackageReference Condition="'%(Identity)' == 'Microsoft.VisualBasic'" Version="10.*" />
+      <PackageReference Condition="'%(Identity)' == 'System.Buffers'" Version="4.*" />
+      <PackageReference Condition="'%(Identity)' == 'System.Memory'" Version="4.*" />
+      <PackageReference Condition="'%(Identity)' == 'System.Numerics.Vectors'" Version="4.*" />
+      <PackageReference Condition="'%(Identity)' == 'System.Reflection.DispatchProxy'" Version="4.*" />
+      <PackageReference Condition="'%(Identity)' == 'System.Runtime.CompilerServices.Unsafe'" Version="6.*" />
+      <PackageReference Condition="'%(Identity)' == 'System.Threading.Tasks.Extensions'" Version="4.*" />
+      <PackageReference Remove="System.Formats.Tar" />
+    </ItemGroup>
+  </Target>
+</Project>

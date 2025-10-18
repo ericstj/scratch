@@ -9,29 +9,50 @@
       <ProjectReference Include="getRef\getRef.csproj" />
     </ItemGroup>
 
+    <PropertyGroup>
+      <!-- Missing dependency -->
+      <ApiCompatNoWarn>CP1002</ApiCompatNoWarn>
+      <!-- Changing generic constraint -->
+      <ApiCompatNoWarn>$(ApiCompatNoWarn);CP0021</ApiCompatNoWarn>
+      <!-- Remove virtual - https://github.com/dotnet/sdk/issues/50671 -->
+      <ApiCompatNoWarn>$(ApiCompatNoWarn);CP0012</ApiCompatNoWarn>
+      <!-- Sealing type -->
+      <ApiCompatNoWarn>$(ApiCompatNoWarn);CP0009</ApiCompatNoWarn>
+    </PropertyGroup>
+
     <Target Name="Test" AfterTargets="Compile">
       <ItemGroup>
         <TestFile Include="getPrune\bin\Debug\$(TargetFramework)\References\*.dll" />
-        <TestFile CompareTo="getRef\bin\Debug\$(TargetFramework)\References\%(FileName)%(Extension)" />
+        <TestFile Original="%(Identity)" CompareTo="getRef\bin\Debug\$(TargetFramework)\References\%(FileName)%(Extension)" />
+        <TestFileByName Include="@(TestFile->'%(FileName)')" />        
 
-        <MissingFile Include="@(TestFile)" Condition="!Exists('%(TestFile.CompareTo)')" />
-        <ExistingFile Include="@(TestFile)" Condition="Exists('%(TestFile.CompareTo)')" />
+        <MissingFile Include="@(TestFileByName)" Condition="!Exists('%(CompareTo)')" />
+        <ExistingFile Include="@(TestFileByName)" Condition="Exists('%(CompareTo)')" />
+
+        <!-- Remove NetFx facades from API Compat testing -->
+        <ExistingFile Remove="mscorlib;System;System.Core;System.Configuration;System.Data;System.Drawing;System.Net;System.Security;System.ServiceProcess;System.Transactions;WindowsBase" />
+
+        <ExistingFile ApiCompatCommand="-l %(ExistingFile.Original) -r %(ExistingFile.CompareTo)
+               --lref getRef\bin\Debug\$(TargetFramework)\References
+               --rref getRef\bin\Debug\$(TargetFramework)\References
+               --suppression-output-file Results\$(TargetFramework)\apicompat_%(ExistingFile.Identity).xml
+               --generate-suppression-file
+               --noWarn $([MSBuild]::Escape('$(ApiCompatNoWarn)'))"
+               ApiCompatRspFile="$(TargetDir)apiCompat_%(ExistingFile.Identity).rsp" />
       </ItemGroup>
 
+      <MakeDir Directories="Results\$(TargetFramework)" />
+
       <WriteLinesToFile
-        File="MissingFiles_$(TargetFramework).log"
-        Lines="@(MissingFile->'%(Identity)')"
+        File="Results\$(TargetFramework)\MissingFiles.log"
+        Lines="@(MissingFile)"
         Overwrite="true" />
 
       <WriteLinesToFile 
-        File="$(TargetDir)apiCompat.rsp"
-        Lines="@(ExistingFile->'-l %(Identity) -r %(CompareTo)');
-               --lref getRef\bin\Debug\$(TargetFramework)\References
-               --rref getRef\bin\Debug\$(TargetFramework)\References
-               --suppression-output-file apicompat_$(TargetFramework).xml
-               --generate-suppression-file"
-        Overwrite="true" /> 
+        File="%(ExistingFile.ApiCompatRspFile)"
+        Lines="%(ExistingFile.ApiCompatCommand)"
+        Overwrite="true" />
 
-        <Exec Command="apicompat @$(TargetDir)apiCompat.rsp" />
+      <Exec Command="apicompat @%(ExistingFile.ApiCompatRspFile)" />
     </Target>
 </Project>

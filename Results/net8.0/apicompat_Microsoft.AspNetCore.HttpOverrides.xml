@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://learn.microsoft.com/dotnet/fundamentals/package-validation/diagnostic-ids -->
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Microsoft.AspNetCore.HttpOverrides.Internal.IPEndPointParser</Target>
+    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.HttpOverrides.dll</Left>
+    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.HttpOverrides.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0011</DiagnosticId>
+    <Target>F:Microsoft.AspNetCore.HttpOverrides.ForwardedHeaders.All</Target>
+    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.HttpOverrides.dll</Left>
+    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.HttpOverrides.dll</Right>
+  </Suppression>
+</Suppressions>

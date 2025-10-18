@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://learn.microsoft.com/dotnet/fundamentals/package-validation/diagnostic-ids -->
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Microsoft.Extensions.Validation.SkipValidationAttribute</Target>
+    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.Extensions.Validation.dll</Left>
+    <Right>getRef\bin\Debug\net10.0\References\Microsoft.Extensions.Validation.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.Extensions.Validation.ValidatableTypeInfo.GetValidationAttributes</Target>
+    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.Extensions.Validation.dll</Left>
+    <Right>getRef\bin\Debug\net10.0\References\Microsoft.Extensions.Validation.dll</Right>
+  </Suppression>
+</Suppressions>

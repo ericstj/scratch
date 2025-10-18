@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://learn.microsoft.com/dotnet/fundamentals/package-validation/diagnostic-ids -->
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.FormattingUtilities</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.LoggerExtensions</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.MvcXmlDataContractSerializerMvcOptionsSetup</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.MvcXmlSerializerMvcOptionsSetup</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerInputFormatter.#ctor</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerInputFormatter.#ctor(System.Boolean)</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerInputFormatter.#ctor</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerInputFormatter.#ctor(System.Boolean)</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+  </Suppression>
+</Suppressions>

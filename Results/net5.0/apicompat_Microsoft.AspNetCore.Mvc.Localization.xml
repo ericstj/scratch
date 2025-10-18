@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://learn.microsoft.com/dotnet/fundamentals/package-validation/diagnostic-ids -->
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Microsoft.AspNetCore.Mvc.Localization.Internal.MvcLocalizationServices</Target>
+    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Localization.dll</Left>
+    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Localization.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Mvc.Localization.ViewLocalizer.#ctor(Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerFactory,Microsoft.AspNetCore.Hosting.IHostingEnvironment)</Target>
+    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Localization.dll</Left>
+    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Localization.dll</Right>
+  </Suppression>
+</Suppressions>

@@ -1,0 +1,151 @@
+Microsoft.Win32.Registry
+System.IO.FileSystem.AccessControl
+System.IO.Pipes.AccessControl
+System.Security.AccessControl
+System.Security.Cryptography.Cng
+System.Security.Cryptography.OpenSsl
+System.Security.Principal.Windows
+.
+------------------- NuGet Dependency Graphs -------------------
+.
+Project 'getPrune' has the following dependency graph(s) for 'Microsoft.Win32.Registry':
+
+  [netcoreapp2.1]
+   │  
+   ├─ Microsoft.Win32.Registry (v4.5.0)
+   ├─ System.Diagnostics.Process (v4.3.0)
+   │  └─ Microsoft.Win32.Registry (v4.5.0)
+   └─ System.Net.Ping (v4.3.0)
+      └─ System.Diagnostics.Process (v4.3.0)
+         └─ Microsoft.Win32.Registry (v4.5.0)
+
+Project 'getPrune' has the following dependency graph(s) for 'System.IO.FileSystem.AccessControl':
+
+  [netcoreapp2.1]
+   │  
+   └─ System.IO.FileSystem.AccessControl (v4.5.0)
+
+Project 'getPrune' has the following dependency graph(s) for 'System.IO.Pipes.AccessControl':
+
+  [netcoreapp2.1]
+   │  
+   └─ System.IO.Pipes.AccessControl (v4.5.1)
+
+Project 'getPrune' has the following dependency graph(s) for 'System.Security.AccessControl':
+
+  [netcoreapp2.1]
+   │  
+   ├─ Microsoft.Win32.Registry (v4.5.0)
+   │  └─ System.Security.AccessControl (v4.5.0)
+   ├─ System.Diagnostics.Process (v4.3.0)
+   │  └─ Microsoft.Win32.Registry (v4.5.0)
+   │     └─ System.Security.AccessControl (v4.5.0)
+   ├─ System.IO.FileSystem.AccessControl (v4.5.0)
+   │  └─ System.Security.AccessControl (v4.5.0)
+   ├─ System.IO.Pipes.AccessControl (v4.5.1)
+   │  └─ System.Security.AccessControl (v4.5.0)
+   ├─ System.Net.Ping (v4.3.0)
+   │  └─ System.Diagnostics.Process (v4.3.0)
+   │     └─ Microsoft.Win32.Registry (v4.5.0)
+   │        └─ System.Security.AccessControl (v4.5.0)
+   └─ System.Security.AccessControl (v4.5.0)
+
+Project 'getPrune' has the following dependency graph(s) for 'System.Security.Cryptography.Cng':
+
+  [netcoreapp2.1]
+   │  
+   ├─ System.Net.Http (v4.3.4)
+   │  └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+   │     └─ System.Security.Cryptography.Cng (v4.5.2)
+   ├─ System.Net.Requests (v4.3.0)
+   │  └─ System.Net.Http (v4.3.4)
+   │     └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+   │        └─ System.Security.Cryptography.Cng (v4.5.2)
+   ├─ System.Net.Security (v4.3.2)
+   │  └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+   │     └─ System.Security.Cryptography.Cng (v4.5.2)
+   ├─ System.Net.WebSockets.Client (v4.3.2)
+   │  ├─ System.Net.Security (v4.3.2)
+   │  │  └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+   │  │     └─ System.Security.Cryptography.Cng (v4.5.2)
+   │  └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+   │     └─ System.Security.Cryptography.Cng (v4.5.2)
+   ├─ System.Security.Cryptography.Cng (v4.5.2)
+   └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+      └─ System.Security.Cryptography.Cng (v4.5.2)
+
+Project 'getPrune' has the following dependency graph(s) for 'System.Security.Cryptography.OpenSsl':
+
+  [netcoreapp2.1]
+   │  
+   ├─ System.Net.Http (v4.3.4)
+   │  ├─ System.Security.Cryptography.OpenSsl (v4.5.1)
+   │  └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+   │     └─ System.Security.Cryptography.OpenSsl (v4.5.1)
+   ├─ System.Net.Requests (v4.3.0)
+   │  └─ System.Net.Http (v4.3.4)
+   │     ├─ System.Security.Cryptography.OpenSsl (v4.5.1)
+   │     └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+   │        └─ System.Security.Cryptography.OpenSsl (v4.5.1)
+   ├─ System.Net.Security (v4.3.2)
+   │  ├─ System.Security.Cryptography.OpenSsl (v4.5.1)
+   │  └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+   │     └─ System.Security.Cryptography.OpenSsl (v4.5.1)
+   ├─ System.Net.WebSockets.Client (v4.3.2)
+   │  ├─ System.Net.Security (v4.3.2)
+   │  │  ├─ System.Security.Cryptography.OpenSsl (v4.5.1)
+   │  │  └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+   │  │     └─ System.Security.Cryptography.OpenSsl (v4.5.1)
+   │  └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+   │     └─ System.Security.Cryptography.OpenSsl (v4.5.1)
+   ├─ System.Security.Cryptography.OpenSsl (v4.5.1)
+   └─ System.Security.Cryptography.X509Certificates (v4.3.2)
+      └─ System.Security.Cryptography.OpenSsl (v4.5.1)
+
+Project 'getPrune' has the following dependency graph(s) for 'System.Security.Principal.Windows':
+
+  [netcoreapp2.1]
+   │  
+   ├─ Microsoft.Win32.Registry (v4.5.0)
+   │  ├─ System.Security.AccessControl (v4.5.0)
+   │  │  └─ System.Security.Principal.Windows (v4.5.1)
+   │  └─ System.Security.Principal.Windows (v4.5.1)
+   ├─ runtime.unix.System.Net.Sockets (v4.3.0)
+   │  └─ System.Net.NameResolution (v4.3.0)
+   │     └─ System.Security.Principal.Windows (v4.5.1)
+   ├─ runtime.win.System.Net.Sockets (v4.3.0)
+   │  ├─ System.Net.NameResolution (v4.3.0)
+   │  │  └─ System.Security.Principal.Windows (v4.5.1)
+   │  └─ System.Security.Principal.Windows (v4.5.1)
+   ├─ System.Diagnostics.Process (v4.3.0)
+   │  └─ Microsoft.Win32.Registry (v4.5.0)
+   │     ├─ System.Security.AccessControl (v4.5.0)
+   │     │  └─ System.Security.Principal.Windows (v4.5.1)
+   │     └─ System.Security.Principal.Windows (v4.5.1)
+   ├─ System.IO.FileSystem.AccessControl (v4.5.0)
+   │  ├─ System.Security.AccessControl (v4.5.0)
+   │  │  └─ System.Security.Principal.Windows (v4.5.1)
+   │  └─ System.Security.Principal.Windows (v4.5.1)
+   ├─ System.IO.Pipes.AccessControl (v4.5.1)
+   │  ├─ System.Security.AccessControl (v4.5.0)
+   │  │  └─ System.Security.Principal.Windows (v4.5.1)
+   │  └─ System.Security.Principal.Windows (v4.5.1)
+   ├─ System.Net.NameResolution (v4.3.0)
+   │  └─ System.Security.Principal.Windows (v4.5.1)
+   ├─ System.Net.NetworkInformation (v4.3.0)
+   │  └─ System.Security.Principal.Windows (v4.5.1)
+   ├─ System.Net.Ping (v4.3.0)
+   │  ├─ System.Diagnostics.Process (v4.3.0)
+   │  │  └─ Microsoft.Win32.Registry (v4.5.0)
+   │  │     ├─ System.Security.AccessControl (v4.5.0)
+   │  │     │  └─ System.Security.Principal.Windows (v4.5.1)
+   │  │     └─ System.Security.Principal.Windows (v4.5.1)
+   │  └─ System.Net.NameResolution (v4.3.0)
+   │     └─ System.Security.Principal.Windows (v4.5.1)
+   ├─ System.Net.WebSockets.Client (v4.3.2)
+   │  └─ System.Net.NameResolution (v4.3.0)
+   │     └─ System.Security.Principal.Windows (v4.5.1)
+   ├─ System.Security.AccessControl (v4.5.0)
+   │  └─ System.Security.Principal.Windows (v4.5.1)
+   └─ System.Security.Principal.Windows (v4.5.1)
+

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://learn.microsoft.com/dotnet/fundamentals/package-validation/diagnostic-ids -->
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Authentication.AuthenticationService.#ctor(Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider,Microsoft.AspNetCore.Authentication.IAuthenticationHandlerProvider,Microsoft.AspNetCore.Authentication.IClaimsTransformation)</Target>
+    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Authentication.Core.dll</Left>
+    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Authentication.Core.dll</Right>
+  </Suppression>
+</Suppressions>

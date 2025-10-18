@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://learn.microsoft.com/dotnet/fundamentals/package-validation/diagnostic-ids -->
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Identity.IUserPasskeyStore`1.AddOrUpdatePasskeyAsync(`0,Microsoft.AspNetCore.Identity.UserPasskeyInfo,System.Threading.CancellationToken)</Target>
+    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Core.dll</Left>
+    <Right>getRef\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Core.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Identity.UserManager`1.AddOrUpdatePasskeyAsync(`0,Microsoft.AspNetCore.Identity.UserPasskeyInfo)</Target>
+    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Core.dll</Left>
+    <Right>getRef\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Core.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Identity.UserManager`1.get_ServiceProvider</Target>
+    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Core.dll</Left>
+    <Right>getRef\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Core.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Identity.UserPasskeyInfo.#ctor(System.Byte[],System.Byte[],System.DateTimeOffset,System.UInt32,System.String[],System.Boolean,System.Boolean,System.Boolean,System.Byte[],System.Byte[])</Target>
+    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Core.dll</Left>
+    <Right>getRef\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Core.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0006</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Identity.IUserPasskeyStore`1.SetPasskeyAsync(`0,Microsoft.AspNetCore.Identity.UserPasskeyInfo,System.Threading.CancellationToken)</Target>
+    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Core.dll</Left>
+    <Right>getRef\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Core.dll</Right>
+  </Suppression>
+</Suppressions>

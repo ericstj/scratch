@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://learn.microsoft.com/dotnet/fundamentals/package-validation/diagnostic-ids -->
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:Microsoft.AspNetCore.Authentication.Internal.RequestPathBaseCookieBuilder</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Authentication.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Authentication.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions.AddRemoteScheme``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.Action{``0})</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Authentication.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Authentication.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions.AddScheme``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Action{``0})</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Authentication.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Authentication.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions.AddScheme``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.Action{``0})</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Authentication.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Authentication.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions.AddScheme``2(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.Action{Microsoft.AspNetCore.Authentication.AuthenticationSchemeBuilder},System.Action{``0})</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Authentication.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Authentication.dll</Right>
+  </Suppression>
+</Suppressions>

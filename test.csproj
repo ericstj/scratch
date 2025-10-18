@@ -20,9 +20,9 @@
       <ApiCompatNoWarn>$(ApiCompatNoWarn);CP0009</ApiCompatNoWarn>
 
       <MissingFileSeparator>
-        .
-        ------------------- NuGet Dependency Graphs -------------------
-        .
+.
+------------------- NuGet Dependency Graphs -------------------
+.
       </MissingFileSeparator>
     </PropertyGroup>
 

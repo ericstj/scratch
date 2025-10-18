@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://learn.microsoft.com/dotnet/fundamentals/package-validation/diagnostic-ids -->
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0003</DiagnosticId>
+    <Target>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</Target>
+    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll</Left>
+    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll</Right>
+  </Suppression>
+</Suppressions>

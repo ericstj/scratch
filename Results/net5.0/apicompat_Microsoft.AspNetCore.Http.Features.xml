@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://learn.microsoft.com/dotnet/fundamentals/package-validation/diagnostic-ids -->
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Http.Features.FeatureCollection.#ctor(System.Int32)</Target>
+    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Http.Features.dll</Left>
+    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Http.Features.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0003</DiagnosticId>
+    <Target>Microsoft.AspNetCore.Http.Features, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</Target>
+    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Http.Features.dll</Left>
+    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Http.Features.dll</Right>
+  </Suppression>
+</Suppressions>

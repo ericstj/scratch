@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://learn.microsoft.com/dotnet/fundamentals/package-validation/diagnostic-ids -->
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.IISOptions},System.String,Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider,Microsoft.AspNetCore.Hosting.IApplicationLifetime)</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.IISIntegration.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.IISIntegration.dll</Right>
+  </Suppression>
+  <Suppression>
+    <DiagnosticId>CP0002</DiagnosticId>
+    <Target>M:Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.IISOptions},System.String,System.Boolean,Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider,Microsoft.AspNetCore.Hosting.IApplicationLifetime)</Target>
+    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.IISIntegration.dll</Left>
+    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.IISIntegration.dll</Right>
+  </Suppression>
+</Suppressions>

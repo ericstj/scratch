@@ -6,7 +6,7 @@
     <NoWarn>$(NoWarn);NETSDK1206</NoWarn>
   </PropertyGroup>
 
-  <ItemGroup Condition="'$(TargetFrameworkIdentifier)' == '.NETCoreApp'">
+  <ItemGroup Condition="'$(TargetFrameworkIdentifier)' == '.NETCoreApp' and $([MSBuild]::VersionGreaterThanOrEquals('$(TargetFrameworkVersion)', '3.0'))">
     <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>

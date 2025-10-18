@@ -13,10 +13,25 @@
       <ItemGroup>
         <TestFile Include="getPrune\bin\Debug\$(TargetFramework)\References\*.dll" />
         <TestFile CompareTo="getRef\bin\Debug\$(TargetFramework)\References\%(FileName)%(Extension)" />
+
+        <MissingFile Include="@(TestFile)" Condition="!Exists('%(TestFile.CompareTo)')" />
+        <ExistingFile Include="@(TestFile)" Condition="Exists('%(TestFile.CompareTo)')" />
       </ItemGroup>
 
-      <Error Text="Prune file %(TestFile.FileName) is not present in $(TargetFramework) reference set"
-             Condition="!Exists('%(TestFile.CompareTo)')" 
-             ContinueOnError="ErrorAndContinue" />
+      <WriteLinesToFile
+        File="MissingFiles_$(TargetFramework).log"
+        Lines="@(MissingFile->'%(Identity)')"
+        Overwrite="true" />
+
+      <WriteLinesToFile 
+        File="$(TargetDir)apiCompat.rsp"
+        Lines="@(ExistingFile->'-l %(Identity) -r %(CompareTo)');
+               --lref getRef\bin\Debug\$(TargetFramework)\References
+               --rref getRef\bin\Debug\$(TargetFramework)\References
+               --suppression-output-file apicompat_$(TargetFramework).xml
+               --generate-suppression-file"
+        Overwrite="true" /> 
+
+        <Exec Command="apicompat @$(TargetDir)apiCompat.rsp" />
     </Target>
 </Project>

@@ -5,9 +5,15 @@
     <NoWarn>$(NoWarn);NU1605</NoWarn>
   </PropertyGroup>
 
-  <UsingTask TaskName="GetPackagesToPrune" AssemblyFile="C:\src\dotnet\sdk\artifacts\bin\Debug\Sdks\Microsoft.NET.Sdk\tools\net10.0\Microsoft.NET.Build.Tasks.dll" />
+  <UsingTask TaskName="GetPackagesToPrune" AssemblyFile="C:\src\dotnet\sdk\artifacts\bin\Sdks\Microsoft.NET.Sdk\tools\net10.0\Microsoft.NET.Build.Tasks.dll" />
 
-  <!-- Don't bring in any framework references, instead reference every package in the pruning list --> 
+  <Target Name="RemoveFrameworkReferences" BeforeTargets="ResolveFrameworkReferences">
+    <ItemGroup>
+      <FrameworkReference Remove="@(FrameworkReference)" />
+    </ItemGroup>
+  </Target>
+
+  <!-- Don't bring in any framework references, instead reference every package in the pruning list -->
   <Target Name="AddPackageReferences" BeforeTargets="CollectPrunePackageReferences"
           DependsOnTargets="ProcessFrameworkReferences">
 
@@ -32,7 +38,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Condition="'%(PackageReference.Version)' == '10.0.*'" Version="10.0.0-*" />
+      <PackageReference Condition="'%(PackageReference.Version)' == '10.0.*'" Version="10.0.0-*" IncludeAssets="Compile" />
     </ItemGroup>
 
     <!-- We have some imaginary version in net9.0 & 10.0 -->
@@ -62,7 +68,6 @@
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.Diagnostics.Abstractions'" Version="2.3.0" />
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.Diagnostics'" Version="2.3.0" />
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.Diagnostics.HealthChecks'" Version="2.2.0" />
-      <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore'" Version="2.3.0" />
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.HostFiltering'" Version="2.3.0" />
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.Hosting.Abstractions'" Version="2.3.0" />
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.Hosting'" Version="2.3.0" />
@@ -112,7 +117,6 @@
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.SignalR'" Version="1.2.0" />
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.StaticFiles'" Version="2.3.0" />
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.WebSockets'" Version="2.3.0" />
-      <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.App'" Version="3.0.0-preview3-19153-02" />
       
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.Net.Http.Headers' AND  $([MSBuild]::VersionLessThan('$(TargetFrameworkVersion)', '8.0'))" Version="2.3.0" />
       <PackageReference  Condition="'%(Identity)' == 'Microsoft.AspNetCore.WebUtilities' AND  $([MSBuild]::VersionLessThan('$(TargetFrameworkVersion)', '8.0'))" Version="2.3.0" />
@@ -125,7 +129,11 @@
       <PackageReference Remove="Microsoft.AspNetCore.Authentication.BearerToken" />
       <PackageReference Remove="Microsoft.AspNetCore.Components.Endpoints" />
       <PackageReference Remove="Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes" />
-    </ItemGroup>
 
+      <!-- Meta packages -->
+      <PackageReference Remove="Microsoft.AspNetCore.App" />
+      <PackageReference Remove="Microsoft.AspNetCore" />
+    </ItemGroup>
+  
   </Target>
 </Project>

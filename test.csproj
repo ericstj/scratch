@@ -18,6 +18,12 @@
       <ApiCompatNoWarn>$(ApiCompatNoWarn);CP0012</ApiCompatNoWarn>
       <!-- Sealing type -->
       <ApiCompatNoWarn>$(ApiCompatNoWarn);CP0009</ApiCompatNoWarn>
+
+      <MissingFileSeparator>
+        .
+        ------------------- NuGet Dependency Graphs -------------------
+        .
+      </MissingFileSeparator>
     </PropertyGroup>
 
     <Target Name="Test" AfterTargets="Compile">
@@ -44,15 +50,19 @@
       <MakeDir Directories="Results\$(TargetFramework)" />
 
       <WriteLinesToFile
-        File="Results\$(TargetFramework)\MissingFiles.log"
-        Lines="@(MissingFile)"
+        File="Results\$(TargetFramework)\MissingFiles.txt"
+        Lines="@(MissingFile);$(MissingFileSeparator)"
+        Condition="@(MissingFile) != ''" 
         Overwrite="true" />
+
+      <Exec Command="dotnet nuget why getPrune\getPrune.csproj %(MissingFile.Identity) -f $(TargetFramework) >> Results\$(TargetFramework)\MissingFiles.txt" 
+            Condition="@(MissingFile) != ''" />
 
       <WriteLinesToFile 
         File="%(ExistingFile.ApiCompatRspFile)"
         Lines="%(ExistingFile.ApiCompatCommand)"
         Overwrite="true" />
 
-      <Exec Command="apicompat @%(ExistingFile.ApiCompatRspFile)" />
+      <Exec Command="apicompat @%(ExistingFile.ApiCompatRspFile)" Condition="'$(RunApiCompat)' != 'false'" />
     </Target>
 </Project>

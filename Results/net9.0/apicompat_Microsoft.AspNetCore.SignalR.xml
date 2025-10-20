@@ -4,13 +4,13 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Builder.SignalRAppBuilderExtensions</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.SignalR.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.SignalR.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.SignalR.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.SignalR.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.SignalR.HubRouteBuilder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.SignalR.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.SignalR.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.SignalR.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.SignalR.dll</Right>
   </Suppression>
 </Suppressions>

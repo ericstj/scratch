@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0003</DiagnosticId>
     <Target>System.Drawing.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\System.Drawing.Common.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\System.Drawing.Common.dll</Right>
+    <Left>pruned/System.Drawing.Common.dll</Left>
+    <Right>framework/System.Drawing.Common.dll</Right>
   </Suppression>
 </Suppressions>

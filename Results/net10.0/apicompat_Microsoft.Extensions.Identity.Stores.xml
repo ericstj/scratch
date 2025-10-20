@@ -4,19 +4,19 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Identity.IdentityPasskeyData</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Stores.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Stores.dll</Right>
+    <Left>pruned/Microsoft.Extensions.Identity.Stores.dll</Left>
+    <Right>framework/Microsoft.Extensions.Identity.Stores.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Identity.IdentityUserPasskey`1.get_Data</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Stores.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Stores.dll</Right>
+    <Left>pruned/Microsoft.Extensions.Identity.Stores.dll</Left>
+    <Right>framework/Microsoft.Extensions.Identity.Stores.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Identity.IdentityUserPasskey`1.set_Data(Microsoft.AspNetCore.Identity.IdentityPasskeyData)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Stores.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.Extensions.Identity.Stores.dll</Right>
+    <Left>pruned/Microsoft.Extensions.Identity.Stores.dll</Left>
+    <Right>framework/Microsoft.Extensions.Identity.Stores.dll</Right>
   </Suppression>
 </Suppressions>

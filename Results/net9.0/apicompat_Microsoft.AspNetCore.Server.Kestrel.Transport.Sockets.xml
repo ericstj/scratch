@@ -4,61 +4,61 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.BufferExtensions</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.IOQueue</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.ISocketsTrace</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketAwaitable</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketReceiver</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketSender</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketsTrace</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions},Microsoft.AspNetCore.Hosting.IApplicationLifetime,Microsoft.Extensions.Logging.ILoggerFactory)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.Create(Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.IEndPointInformation,Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.IConnectionDispatcher)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</Right>
   </Suppression>
 </Suppressions>

@@ -4,19 +4,19 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.IIS.Core.IISServerAuthenticationHandler</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Server.IIS.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Server.IIS.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.IIS.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.IIS.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.IIS.Core.ThrowingWasUpgradedWriteOnlyStream</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Server.IIS.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Server.IIS.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.IIS.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.IIS.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.IIS.Core.WriteOnlyStream</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Server.IIS.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Server.IIS.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.IIS.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.IIS.dll</Right>
   </Suppression>
 </Suppressions>

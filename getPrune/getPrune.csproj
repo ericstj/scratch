@@ -34,11 +34,11 @@
     </GetPackagesToPrune>
 
     <ItemGroup>
-      <PackageReference Include="%(_PackageReference.Identity)" Version="$([System.String]::new('%(_PackageReference.Version)').Replace('32767', '*'))" />
+      <PackageReference Include="%(_PackageReference.Identity)" Version="$([System.String]::new('%(_PackageReference.Version)').Replace('32767', '*'))" IncludeAssets="Compile" PrivateAssets="All" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Condition="'%(PackageReference.Version)' == '10.0.*'" Version="10.0.0-*" IncludeAssets="Compile" />
+      <PackageReference Condition="'%(PackageReference.Version)' == '10.0.*'" Version="10.0.0-*" />
     </ItemGroup>
 
     <!-- We have some imaginary version in net9.0 & 10.0 -->

@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0003</DiagnosticId>
     <Target>Microsoft.Extensions.DependencyInjection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.Extensions.DependencyInjection.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.Extensions.DependencyInjection.dll</Right>
+    <Left>pruned/Microsoft.Extensions.DependencyInjection.dll</Left>
+    <Right>framework/Microsoft.Extensions.DependencyInjection.dll</Right>
   </Suppression>
 </Suppressions>

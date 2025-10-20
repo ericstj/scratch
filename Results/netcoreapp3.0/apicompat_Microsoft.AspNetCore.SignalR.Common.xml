@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0003</DiagnosticId>
     <Target>Microsoft.AspNetCore.SignalR.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.SignalR.Common.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.SignalR.Common.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.SignalR.Common.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.SignalR.Common.dll</Right>
   </Suppression>
 </Suppressions>

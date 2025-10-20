@@ -4,19 +4,19 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Features.IHttpRequestBodyDetectionFeature</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Http.Features.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Http.Features.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Features.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Features.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.Features.FeatureCollection.#ctor(System.Int32)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Http.Features.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Http.Features.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Features.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Features.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0003</DiagnosticId>
     <Target>Microsoft.AspNetCore.Http.Features, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Http.Features.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Http.Features.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Features.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Features.dll</Right>
   </Suppression>
 </Suppressions>

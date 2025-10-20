@@ -1,0 +1,8 @@
+Microsoft.AspNetCore.Http.Features 6.0.0.0 is greater than 5.0.0.0
+Microsoft.Extensions.DependencyInjection 5.0.0.1 is greater than 5.0.0.0
+System.Diagnostics.EventLog 5.0.0.1 is greater than 5.0.0.0
+System.Diagnostics.PerformanceCounter 5.0.0.1 is greater than 5.0.0.0
+System.Drawing.Common 5.0.0.2 is greater than 5.0.0.0
+System.IO.Pipelines 5.0.0.1 is greater than 5.0.0.0
+System.Security.Cryptography.Pkcs 5.0.0.1 is greater than 5.0.0.0
+System.Text.Encodings.Web 5.0.0.1 is greater than 5.0.0.0

@@ -4,163 +4,163 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Builder.Internal.ApplicationBuilder</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Authentication.Internal.DefaultAuthenticationManager</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.HttpContextFactory</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.BindingAddress</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.BufferingHelper</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.DefaultConnectionInfo</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.DefaultWebSocketManager</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.FormFile</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.FormFileCollection</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.ItemsDictionary</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.QueryCollection</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.RequestCookieCollection</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.ResponseCookies</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.DefaultHttpContext.InitializeAuthenticationManager</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.DefaultHttpContext.InitializeConnectionInfo</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.DefaultHttpContext.InitializeHttpRequest</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.DefaultHttpContext.InitializeHttpResponse</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.DefaultHttpContext.InitializeWebSocketManager</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.DefaultHttpContext.UninitializeAuthenticationManager(Microsoft.AspNetCore.Http.Authentication.AuthenticationManager)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.DefaultHttpContext.UninitializeConnectionInfo(Microsoft.AspNetCore.Http.ConnectionInfo)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.DefaultHttpContext.UninitializeHttpRequest(Microsoft.AspNetCore.Http.HttpRequest)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.DefaultHttpContext.UninitializeHttpResponse(Microsoft.AspNetCore.Http.HttpResponse)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.DefaultHttpContext.UninitializeWebSocketManager(Microsoft.AspNetCore.Http.WebSocketManager)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.Features.Authentication.HttpAuthenticationFeature.get_Handler</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.Features.Authentication.HttpAuthenticationFeature.set_Handler(Microsoft.AspNetCore.Http.Features.Authentication.IAuthenticationHandler)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Http.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.dll</Right>
   </Suppression>
 </Suppressions>

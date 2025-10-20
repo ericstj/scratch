@@ -4,13 +4,13 @@
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:System.Linq.EnumerableExecutor.#ctor</Target>
-    <Left>getPrune\bin\Debug\netstandard2.1\References\System.Linq.Queryable.dll</Left>
-    <Right>getRef\bin\Debug\netstandard2.1\References\System.Linq.Queryable.dll</Right>
+    <Left>pruned/System.Linq.Queryable.dll</Left>
+    <Right>framework/System.Linq.Queryable.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:System.Linq.EnumerableQuery.#ctor</Target>
-    <Left>getPrune\bin\Debug\netstandard2.1\References\System.Linq.Queryable.dll</Left>
-    <Right>getRef\bin\Debug\netstandard2.1\References\System.Linq.Queryable.dll</Right>
+    <Left>pruned/System.Linq.Queryable.dll</Left>
+    <Right>framework/System.Linq.Queryable.dll</Right>
   </Suppression>
 </Suppressions>

@@ -4,79 +4,79 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Routing.Internal.BufferValue</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Routing.Internal.LinkGenerationDecisionTree</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Routing.Internal.OutboundMatchResult</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Routing.Internal.PathTokenizer</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Routing.Internal.RoutingMarkerService</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Routing.Internal.SegmentState</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Routing.Internal.UriBuilderContextPooledObjectPolicy</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Routing.Internal.UriBuildingContext</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Routing.DefaultInlineConstraintResolver.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Routing.RouteOptions})</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Routing.Template.TemplateBinder.#ctor(System.Text.Encodings.Web.UrlEncoder,Microsoft.Extensions.ObjectPool.ObjectPool{Microsoft.AspNetCore.Routing.Internal.UriBuildingContext},Microsoft.AspNetCore.Routing.Template.RouteTemplate,Microsoft.AspNetCore.Routing.RouteValueDictionary)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Routing.Tree.TreeRouteBuilder.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.Extensions.ObjectPool.ObjectPool{Microsoft.AspNetCore.Routing.Internal.UriBuildingContext},Microsoft.AspNetCore.Routing.IInlineConstraintResolver)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Routing.Tree.TreeRouteBuilder.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.Text.Encodings.Web.UrlEncoder,Microsoft.Extensions.ObjectPool.ObjectPool{Microsoft.AspNetCore.Routing.Internal.UriBuildingContext},Microsoft.AspNetCore.Routing.IInlineConstraintResolver)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Routing.Tree.TreeRouter.#ctor(Microsoft.AspNetCore.Routing.Tree.UrlMatchingTree[],System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Routing.Tree.OutboundRouteEntry},System.Text.Encodings.Web.UrlEncoder,Microsoft.Extensions.ObjectPool.ObjectPool{Microsoft.AspNetCore.Routing.Internal.UriBuildingContext},Microsoft.Extensions.Logging.ILogger,Microsoft.Extensions.Logging.ILogger,System.Int32)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Routing.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Routing.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Routing.dll</Right>
   </Suppression>
 </Suppressions>

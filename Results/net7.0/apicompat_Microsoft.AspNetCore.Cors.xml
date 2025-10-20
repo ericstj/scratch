@@ -4,31 +4,31 @@
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.AspNetCore.Cors.Infrastructure.ICorsService,Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicy)</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Cors.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.AspNetCore.Cors.Infrastructure.ICorsService,Microsoft.AspNetCore.Cors.Infrastructure.ICorsPolicyProvider,System.String)</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Cors.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.AspNetCore.Cors.Infrastructure.ICorsService,Microsoft.AspNetCore.Cors.Infrastructure.ICorsPolicyProvider)</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Cors.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Cors.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Cors.Infrastructure.CorsService.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions})</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Cors.dll</Right>
   </Suppression>
 </Suppressions>

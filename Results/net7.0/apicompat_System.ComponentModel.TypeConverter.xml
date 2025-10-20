@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:System.ComponentModel.BaseNumberConverter.#ctor</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\System.ComponentModel.TypeConverter.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\System.ComponentModel.TypeConverter.dll</Right>
+    <Left>pruned/System.ComponentModel.TypeConverter.dll</Left>
+    <Right>framework/System.ComponentModel.TypeConverter.dll</Right>
   </Suppression>
 </Suppressions>

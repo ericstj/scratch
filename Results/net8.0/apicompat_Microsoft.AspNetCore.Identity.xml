@@ -4,31 +4,31 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Builder.BuilderExtensions</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Identity.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Identity.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Identity.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Identity.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Identity.DataProtectorTokenProvider`1.#ctor(Microsoft.AspNetCore.DataProtection.IDataProtectionProvider,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Identity.DataProtectionTokenProviderOptions})</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Identity.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Identity.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Identity.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Identity.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Identity.SecurityStampValidator`1.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Identity.SecurityStampValidatorOptions},Microsoft.AspNetCore.Identity.SignInManager{`0},Microsoft.AspNetCore.Authentication.ISystemClock)</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Identity.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Identity.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Identity.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Identity.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Identity.SignInManager`1.#ctor(Microsoft.AspNetCore.Identity.UserManager{`0},Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.AspNetCore.Identity.IUserClaimsPrincipalFactory{`0},Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Identity.IdentityOptions},Microsoft.Extensions.Logging.ILogger{Microsoft.AspNetCore.Identity.SignInManager{`0}},Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider)</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Identity.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Identity.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Identity.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Identity.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Identity.TwoFactorSecurityStampValidator`1.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Identity.SecurityStampValidatorOptions},Microsoft.AspNetCore.Identity.SignInManager{`0},Microsoft.AspNetCore.Authentication.ISystemClock)</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Identity.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Identity.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Identity.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Identity.dll</Right>
   </Suppression>
 </Suppressions>

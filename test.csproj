@@ -5,8 +5,8 @@
   </PropertyGroup>
   
     <ItemGroup>
-      <ProjectReference Include="getPrune\getPrune.csproj" />
-      <ProjectReference Include="getRef\getRef.csproj" />
+      <ProjectReference Include="getPrune\getPrune.csproj" Targets="CopyReferences" ReferenceOutputAssembly="false" OutputItemType="TestFile" />
+      <ProjectReference Include="getRef\getRef.csproj"  Targets="CopyReferences" ReferenceOutputAssembly="false" OutputItemType="RefFile" />
     </ItemGroup>
 
     <PropertyGroup>
@@ -24,45 +24,70 @@
 ------------------- NuGet Dependency Graphs -------------------
 .
       </MissingFileSeparator>
+      <!-- Skip NetFx facades from API Compat testing -->
+      <SkipFiles>mscorlib;System;System.Core;System.Configuration;System.Data;System.Drawing;System.Net;System.Security;System.ServiceProcess;System.Transactions;WindowsBase;</SkipFiles>
     </PropertyGroup>
 
-    <Target Name="Test" AfterTargets="Compile">
-      <ItemGroup>
-        <TestFile Include="getPrune\bin\Debug\$(TargetFramework)\References\*.dll" />
-        <TestFile Original="%(Identity)" CompareTo="getRef\bin\Debug\$(TargetFramework)\References\%(FileName)%(Extension)" />
-        <TestFileByName Include="@(TestFile->'%(FileName)')" />        
+    <Target Name="TestMissingFiles">
+      <ItemGroup>      
+        <TestFileByName Include="@(TestFile->'%(FileName)')" Original="%(Identity)" />
+        <RefFileByName Include="@(RefFile->'%(FileName)')" />
+        <MissingFileByFileName Include="@(TestFileByName)" Exclude="@(RefFileByName)" />
+        <ExistingFileByFileName Include="@(TestFileByName)" Exclude="@(MissingFileByFileName);$(SkipFile)" />
+        <ExistingFile Include="@(ExistingFileByFileName->'%(Original)')" />
+      </ItemGroup>      
 
-        <MissingFile Include="@(TestFileByName)" Condition="!Exists('%(CompareTo)')" />
-        <ExistingFile Include="@(TestFileByName)" Condition="Exists('%(CompareTo)')" />
-
-        <!-- Remove NetFx facades from API Compat testing -->
-        <ExistingFile Remove="mscorlib;System;System.Core;System.Configuration;System.Data;System.Drawing;System.Net;System.Security;System.ServiceProcess;System.Transactions;WindowsBase" />
-
-        <ExistingFile ApiCompatCommand="-l %(ExistingFile.Original) -r %(ExistingFile.CompareTo)
-               --lref getRef\bin\Debug\$(TargetFramework)\References
-               --rref getRef\bin\Debug\$(TargetFramework)\References
-               --suppression-output-file Results\$(TargetFramework)\apicompat_%(ExistingFile.Identity).xml
-               --generate-suppression-file
-               --noWarn $([MSBuild]::Escape('$(ApiCompatNoWarn)'))"
-               ApiCompatRspFile="$(TargetDir)apiCompat_%(ExistingFile.Identity).rsp" />
-      </ItemGroup>
-
+      <RemoveDir Directories="Results\$(TargetFramework)" />
       <MakeDir Directories="Results\$(TargetFramework)" />
 
       <WriteLinesToFile
         File="Results\$(TargetFramework)\MissingFiles.txt"
-        Lines="@(MissingFile);$(MissingFileSeparator)"
-        Condition="@(MissingFile) != ''" 
+        Lines="@(MissingFileByFileName);$(MissingFileSeparator)"
+        Condition="@(MissingFileByFileName) != ''" 
         Overwrite="true" />
 
-      <Exec Command="dotnet nuget why getPrune\getPrune.csproj %(MissingFile.Identity) -f $(TargetFramework) >> Results\$(TargetFramework)\MissingFiles.txt" 
-            Condition="@(MissingFile) != ''" />
-
-      <WriteLinesToFile 
-        File="%(ExistingFile.ApiCompatRspFile)"
-        Lines="%(ExistingFile.ApiCompatCommand)"
-        Overwrite="true" />
-
-      <Exec Command="apicompat @%(ExistingFile.ApiCompatRspFile)" Condition="'$(RunApiCompat)' != 'false'" />
+      <Exec Command="dotnet nuget why getPrune\getPrune.csproj %(MissingFileByFileName.Identity) -f $(TargetFramework) >> Results\$(TargetFramework)\MissingFiles.txt" 
+            Condition="@(MissingFileByFileName) != ''" />
     </Target>
+
+    <Target Name="CompareExistingFile"
+            Inputs="%(ExistingFile.FileName)"
+            Outputs="unused"
+            DependsOnTargets="TestMissingFiles"
+            Condition="'@(ExistingFile)' != ''">
+      <PropertyGroup>
+        <_fileName>%(ExistingFile.FileName)</_fileName>
+      </PropertyGroup>
+      <ItemGroup>
+        <MatchingRefFile Include="@(RefFile->WithMetadataValue('FileName', '$(_fileName)'))" />
+      </ItemGroup>
+      <PropertyGroup>
+        <Refpath>%(MatchingRefFile.RootDir)%(MatchingRefFile.Directory)</Refpath>
+        <ApiCompatSuppressionFile>Results\$(TargetFramework)\apicompat_%(ExistingFile.FileName).xml</ApiCompatSuppressionFile>
+        <ApiCompatRspFile>$(TargetDir)apiCompat_%(ExistingFile.FileName).rsp</ApiCompatRspFile>
+        <ApiCompatCommand>
+          -l @(ExistingFile) -r @(MatchingRefFile)
+          --lref $(Refpath)
+          --rref $(Refpath)
+          --left-assemblies-transformation-pattern $([MSBuild]::Escape('.+\\([^\\]+\.dll);pruned/$1'))
+          --right-assemblies-transformation-pattern $([MSBuild]::Escape('.+\\([^\\]+\.dll);framework/$1'))
+          --suppression-output-file $(ApiCompatSuppressionFile)
+          --generate-suppression-file
+          --noWarn $([MSBuild]::Escape('$(ApiCompatNoWarn)'))
+        </ApiCompatCommand>
+        <TestAssemblyVersion>$([System.Text.RegularExpressions.Regex]::Replace('%(ExistingFile.FusionName)', '^.*Version=([0-9\.]+).*$', '$1'))</TestAssemblyVersion>
+        <RefAssemblyVersion>$([System.Text.RegularExpressions.Regex]::Replace('%(MatchingRefFile.FusionName)', '^.*Version=([0-9\.]+).*$', '$1'))</RefAssemblyVersion>
+      </PropertyGroup>
+
+      <WriteLinesToFile File="Results\$(TargetFramework)\VersionFiles.txt"
+                        Lines="%(ExistingFile.FileName) $(TestAssemblyVersion) is greater than $(RefAssemblyVersion)" 
+                        Condition="$([MSBuild]::VersionGreaterThan('$(TestAssemblyVersion)', '$(RefAssemblyVersion)'))" />
+
+      <WriteLinesToFile File="$(ApiCompatRspFile)" Lines="$(ApiCompatCommand)" Overwrite="true" />
+
+      <Exec Command="apicompat @$(ApiCompatRspFile)" Condition="'$(RunApiCompat)' != 'false'" />
+
+    </Target>
+
+    <Target Name="Test" AfterTargets="Compile" DependsOnTargets="TestMissingFiles;CompareExistingFile" />
 </Project>

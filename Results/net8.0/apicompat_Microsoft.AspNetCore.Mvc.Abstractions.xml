@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Formatters.OutputFormatterCanWriteContext.#ctor</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Mvc.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Mvc.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Abstractions.dll</Right>
   </Suppression>
 </Suppressions>

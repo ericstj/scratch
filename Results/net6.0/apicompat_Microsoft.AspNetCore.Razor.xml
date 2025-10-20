@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Razor.TagHelpers.NullHtmlEncoder.#ctor</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Razor.dll</Right>
   </Suppression>
 </Suppressions>

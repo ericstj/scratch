@@ -4,727 +4,727 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Adapter.Internal.AdaptedPipeline</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Adapter.Internal.ConnectionAdapterContext</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Adapter.Internal.IAdaptedConnection</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Adapter.Internal.IConnectionAdapter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Adapter.Internal.LoggingConnectionAdapter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Adapter.Internal.RawStream</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.ConnectionDispatcher</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.ConnectionLimitMiddleware</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.ConnectionLogScope</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.ConnectionOptions</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.DateHeaderValueManager</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ConnectionContext</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1MessageBody</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1OutputProducer</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ParsingHandler</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestHeaders</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestTarget</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpOutputProducer</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpParser`1</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpProtocolContext</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpResponseControl</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.MessageBody</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.PathNormalizer</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.PipelineExtensions</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.ProduceEndType</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.ReasonPhrases</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.RequestProcessingStatus</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.RequestRejectionReason</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.TransferCoding</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.DynamicTable</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.HeaderField</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.HPackDecoder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.HPackDecodingException</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.HPackEncoder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.Huffman</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.HuffmanDecodingException</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.IntegerDecoder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.IntegerEncoder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.StaticTable</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.HPack.StatusCodes</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2ConnectionContext</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2ConnectionErrorException</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2ContinuationFrameFlags</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2DataFrameFlags</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2ErrorCode</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Frame</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameReader</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameType</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2HeadersFrameFlags</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2MessageBody</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2OutputProducer</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2PeerSetting</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2PeerSettings</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2PingFrameFlags</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2SettingsFrameFlags</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2SettingsParameter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2SettingsParameterOutOfRangeException</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Stream</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2StreamContext</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2StreamErrorException</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.IHttp2FrameWriter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.IHttp2StreamLifetimeHandler</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnection</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnectionBuilderExtensions</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnectionContext</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnectionMiddleware`1</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.Disposable</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.Heartbeat</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.HttpConnectionManager</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.HttpConnectionManagerShutdownExtensions</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.HttpConnectionReference</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.HttpHeartbeatManager</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.HttpUtilities</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.IDebugger</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.IHeartbeatHandler</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.IKestrelTrace</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.ISystemClock</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.ITimeoutControl</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelEventSource</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.ReadOnlyStream</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.ResourceCounter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.Streams</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.ThrowingWriteOnlyStream</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TimeoutAction</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.UriUtilities</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.WriteOnlyStream</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.IRequestProcessor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelServerOptionsSetup</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelTrace</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.ServiceContext</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.ServerAddress</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Https.Internal.CertificateLoader</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException.Throw(Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.RequestRejectionReason,Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpMethod)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseHeaders(`0,System.Buffers.ReadOnlySequence{System.Byte}@,System.SequencePosition@,System.SequencePosition@,System.Int32@)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(`0,System.Buffers.ReadOnlySequence{System.Byte}@,System.SequencePosition@,System.SequencePosition@)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpHeadersHandler.OnHeader(System.Span{System.Byte},System.Span{System.Byte})</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpRequestLineHandler.OnStartLine(Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpMethod,Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpVersion,System.Span{System.Byte},System.Span{System.Byte},System.Span{System.Byte},System.Span{System.Byte},System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerOptions},Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.ITransportFactory,Microsoft.Extensions.Logging.ILoggerFactory)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerOptions.get_ApplicationSchedulingMode</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerOptions.set_ApplicationSchedulingMode(Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.SchedulingMode)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.get_ConnectionAdapters</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.get_HandleType</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.get_NoDelay</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.get_Type</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.set_HandleType(Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.FileHandleType)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.set_IPEndPoint(System.Net.IPEndPoint)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.set_NoDelay(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0006</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpHeadersHandler.OnHeader(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0006</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpHeadersHandler.OnHeadersComplete(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0006</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpHeadersHandler.OnStaticIndexedHeader(System.Int32,System.ReadOnlySpan{System.Byte})</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0006</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpHeadersHandler.OnStaticIndexedHeader(System.Int32)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0006</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.IHttpRequestLineHandler.OnStartLine(Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpVersionAndMethod,Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.TargetOffsetPathLength,System.Span{System.Byte})</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0010</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpVersion</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.Kestrel.Core.dll</Right>
   </Suppression>
 </Suppressions>

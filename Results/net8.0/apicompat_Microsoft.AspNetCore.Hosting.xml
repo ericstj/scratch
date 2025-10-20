@@ -4,103 +4,103 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.ConventionBasedStartup</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.ApplicationLifetime</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.ConfigureBuilder</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.ConfigureContainerBuilder</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.ConfigureServicesBuilder</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.HostingApplication</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.HostingEnvironment</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.HostingEnvironmentExtensions</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.HostingEventSource</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.RequestServicesFeature</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.StartupLoader</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.StartupMethods</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.WebHostOptions</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.WebHostUtilities</Target>
-    <Left>getPrune\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Left>
-    <Right>getRef\bin\Debug\net8.0\References\Microsoft.AspNetCore.Hosting.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.dll</Right>
   </Suppression>
 </Suppressions>

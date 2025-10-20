@@ -4,13 +4,13 @@
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Components.Routing.Router.get_PreferExactMatches</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Components.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Components.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Components.Routing.Router.set_PreferExactMatches(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Components.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Components.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.dll</Right>
   </Suppression>
 </Suppressions>

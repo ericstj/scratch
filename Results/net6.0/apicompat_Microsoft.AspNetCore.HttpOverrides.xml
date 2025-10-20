@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.HttpOverrides.Internal.IPEndPointParser</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.HttpOverrides.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.HttpOverrides.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.HttpOverrides.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.HttpOverrides.dll</Right>
   </Suppression>
 </Suppressions>

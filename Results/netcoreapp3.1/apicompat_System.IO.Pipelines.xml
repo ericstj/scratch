@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0003</DiagnosticId>
     <Target>System.IO.Pipelines, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\System.IO.Pipelines.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\System.IO.Pipelines.dll</Right>
+    <Left>pruned/System.IO.Pipelines.dll</Left>
+    <Right>framework/System.IO.Pipelines.dll</Right>
   </Suppression>
 </Suppressions>

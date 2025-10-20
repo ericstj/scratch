@@ -4,67 +4,67 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Builder.BlazorApplicationBuilderExtensions</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Builder.BlazorOptions</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Builder.ComponentEndpointConventionBuilderExtensions</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Components.Browser.Rendering.RemoteRendererException</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Components.Server.Circuits.RemoteUriHelper</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Components.Server.ComponentHub</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Components.Server.WasmMediaTypeNames</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Builder.ComponentEndpointRouteBuilderExtensions.MapComponentHub(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.Type,System.String,System.String)</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Builder.ComponentEndpointRouteBuilderExtensions.MapComponentHub``1(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String,System.String)</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Builder.ComponentEndpointRouteBuilderExtensions.MapComponentHub``1(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder,System.String)</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.Extensions.DependencyInjection.ComponentServiceCollectionExtensions.AddRazorComponents(Microsoft.Extensions.DependencyInjection.IServiceCollection)</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Components.Server.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Components.Server.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Components.Server.dll</Right>
   </Suppression>
 </Suppressions>

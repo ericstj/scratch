@@ -4,19 +4,19 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.IStartupConfigureContainerFilter`1</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Hosting.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Hosting.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.Abstractions.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Hosting.Internal.IStartupConfigureServicesFilter</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Hosting.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Hosting.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.Abstractions.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Hosting.WebHostBuilderContext.get_HostingEnvironment</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Hosting.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Hosting.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Hosting.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Hosting.Abstractions.dll</Right>
   </Suppression>
 </Suppressions>

@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0003</DiagnosticId>
     <Target>Microsoft.Extensions.Localization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.Extensions.Localization.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.Extensions.Localization.dll</Right>
+    <Left>pruned/Microsoft.Extensions.Localization.dll</Left>
+    <Right>framework/Microsoft.Extensions.Localization.dll</Right>
   </Suppression>
 </Suppressions>

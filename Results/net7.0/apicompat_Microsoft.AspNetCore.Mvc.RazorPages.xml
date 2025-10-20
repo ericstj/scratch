@@ -4,217 +4,217 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MvcRazorPagesDiagnosticSourceExtensions</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageActivatorProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageFactoryProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageHandlerMethodSelector</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageArgumentBinder</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageDirectiveFeature</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.AuthorizationPageApplicationModelProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.AutoValidateAntiforgeryPageApplicationModelProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.CompiledPageActionDescriptorBuilder</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.CompiledPageRouteModelProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.DefaultPageApplicationModelProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.DefaultPageArgumentBinder</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.DefaultPageLoader</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.ExecutorFactory</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionDescriptorChangeProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvokerCacheEntry</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvokerProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageHandlerBinderDelegate</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageHandlerExecutorDelegate</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageHandlerPageFilter</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageHandlerResultFilter</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.RazorPagesRazorViewEngineOptionsSetup</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.RazorProjectPageRouteModelProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.ResponseCacheFilter</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Internal.ResponseCacheFilterApplicationModelProvider</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageResultExecutor.#ctor(Microsoft.AspNetCore.Mvc.Infrastructure.IHttpResponseStreamWriterFactory,Microsoft.AspNetCore.Mvc.ViewEngines.ICompositeViewEngine,Microsoft.AspNetCore.Mvc.Razor.IRazorViewEngine,Microsoft.AspNetCore.Mvc.Razor.IRazorPageActivator,System.Diagnostics.DiagnosticSource,System.Text.Encodings.Web.HtmlEncoder)</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.RazorPageAdapter.#ctor(Microsoft.AspNetCore.Mvc.Razor.RazorPageBase)</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions.get_AllowAreas</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions.get_AllowMappingHeadRequestsToGetHandler</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions.set_AllowAreas(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions.set_AllowMappingHeadRequestsToGetHandler(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.HandlerParameterDescriptor</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageBoundPropertyDescriptor</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.RazorPages.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.RazorPages.dll</Right>
   </Suppression>
 </Suppressions>

@@ -4,25 +4,25 @@
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.StaticFiles.DefaultFilesMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.DefaultFilesOptions})</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.StaticFiles.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.StaticFiles.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.StaticFiles.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.StaticFiles.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.StaticFiles.DirectoryBrowserMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.DirectoryBrowserOptions})</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.StaticFiles.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.StaticFiles.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.StaticFiles.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.StaticFiles.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.StaticFiles.DirectoryBrowserMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.AspNetCore.Hosting.IHostingEnvironment,System.Text.Encodings.Web.HtmlEncoder,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.DirectoryBrowserOptions})</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.StaticFiles.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.StaticFiles.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.StaticFiles.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.StaticFiles.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.StaticFileOptions},Microsoft.Extensions.Logging.ILoggerFactory)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.StaticFiles.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.StaticFiles.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.StaticFiles.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.StaticFiles.dll</Right>
   </Suppression>
 </Suppressions>

@@ -4,13 +4,13 @@
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.IISOptions},System.String,Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider,Microsoft.AspNetCore.Hosting.IApplicationLifetime)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Server.IISIntegration.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Server.IISIntegration.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.IISIntegration.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.IISIntegration.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.IISOptions},System.String,System.Boolean,Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider,Microsoft.AspNetCore.Hosting.IApplicationLifetime)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Server.IISIntegration.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.Server.IISIntegration.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Server.IISIntegration.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Server.IISIntegration.dll</Right>
   </Suppression>
 </Suppressions>

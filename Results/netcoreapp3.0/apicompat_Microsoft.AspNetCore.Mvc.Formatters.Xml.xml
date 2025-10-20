@@ -4,49 +4,49 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.FormattingUtilities</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.LoggerExtensions</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.MvcXmlDataContractSerializerMvcOptionsSetup</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Xml.Internal.MvcXmlSerializerMvcOptionsSetup</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerInputFormatter.#ctor</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerInputFormatter.#ctor(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerInputFormatter.#ctor</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerInputFormatter.#ctor(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</Right>
   </Suppression>
 </Suppressions>

@@ -4,13 +4,13 @@
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Mvc.MvcOptions},Microsoft.AspNetCore.Routing.IInlineConstraintResolver,Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider,Microsoft.AspNetCore.Mvc.Infrastructure.IActionResultTypeMapper)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.ApiExplorer.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.ApiExplorer.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.ApiExplorer.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.ApiExplorer.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ApiExplorer.DefaultApiDescriptionProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Mvc.MvcOptions},Microsoft.AspNetCore.Routing.IInlineConstraintResolver,Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider)</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.ApiExplorer.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.0\References\Microsoft.AspNetCore.Mvc.ApiExplorer.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.ApiExplorer.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.ApiExplorer.dll</Right>
   </Suppression>
 </Suppressions>

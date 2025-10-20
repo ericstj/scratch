@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0003</DiagnosticId>
     <Target>System.Text.Encodings.Web, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\System.Text.Encodings.Web.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\System.Text.Encodings.Web.dll</Right>
+    <Left>pruned/System.Text.Encodings.Web.dll</Left>
+    <Right>framework/System.Text.Encodings.Web.dll</Right>
   </Suppression>
 </Suppressions>

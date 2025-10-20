@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0003</DiagnosticId>
     <Target>Microsoft.AspNetCore.DataProtection.Abstractions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60</Target>
-    <Left>getPrune\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.DataProtection.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\netcoreapp3.1\References\Microsoft.AspNetCore.DataProtection.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.DataProtection.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.DataProtection.Abstractions.dll</Right>
   </Suppression>
 </Suppressions>

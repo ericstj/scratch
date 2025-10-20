@@ -4,67 +4,67 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Builder.CookieAppBuilderExtensions</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions.get_CookieDomain</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions.get_CookieHttpOnly</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions.get_CookieName</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions.get_CookiePath</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions.get_CookieSecure</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions.set_CookieDomain(System.String)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions.set_CookieHttpOnly(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions.set_CookieName(System.String)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions.set_CookiePath(System.String)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions.set_CookieSecure(Microsoft.AspNetCore.Http.CookieSecurePolicy)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Authentication.Cookies.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Authentication.Cookies.dll</Right>
   </Suppression>
 </Suppressions>

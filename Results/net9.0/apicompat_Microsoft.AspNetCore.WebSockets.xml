@@ -4,13 +4,13 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.WebSockets.Internal.Constants</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.WebSockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.WebSockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.WebSockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.WebSockets.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.WebSockets.WebSocketMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.WebSocketOptions})</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.WebSockets.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.WebSockets.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.WebSockets.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.WebSockets.dll</Right>
   </Suppression>
 </Suppressions>

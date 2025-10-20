@@ -11,10 +11,13 @@
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
-  <Target Name="CopyReferences" AfterTargets="ResolveReferences">
+  <Target Name="CopyReferences" DependsOnTargets="ResolveReferences" Returns="@(CopiedReferences)">
     <Message Importance="high" Text="Copying references to 'References' folder..." />
+    <ItemGroup>
+      <CopiedReferences Include="@(ReferencePath->'$(TargetDir)\References\%(FileName)%(Extension)')" />
+    </ItemGroup>
     <MakeDir Directories="$(TargetDir)\References" />
-    <Copy SourceFiles="@(ReferencePath)" DestinationFolder="$(TargetDir)\References" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(ReferencePath)" DestinationFiles="@(CopiedReferences)" SkipUnchangedFiles="true" />
   </Target>
 
 </Project>

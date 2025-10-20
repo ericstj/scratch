@@ -4,7 +4,7 @@
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.RequestLocalizationOptions})</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Localization.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Localization.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Localization.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Localization.dll</Right>
   </Suppression>
 </Suppressions>

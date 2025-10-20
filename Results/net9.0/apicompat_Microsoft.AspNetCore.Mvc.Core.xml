@@ -4,865 +4,865 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Controllers.DefaultControllerActivator</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Controllers.DefaultControllerFactory</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Internal.AcceptHeaderParser</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Internal.HttpParseResult</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Internal.HttpTokenParsingRules</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Internal.IFormatFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Formatters.Internal.MediaTypeSegmentWithQuality</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ActionAttributeRouteModel</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ActionConstraintCache</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ActionInvokerFactory</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ActionResultTypeMapper</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ActionSelector</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorApplicationModelProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ApiBehaviorOptionsSetup</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ApiDescriptionActionData</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ApplicationModelConventions</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.AttributeRoute</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.AttributeRouting</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.AuthorizationApplicationModelProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ClientValidatorCache</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorBuilder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerCache</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerCacheEntry</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ControllerBinderDelegate</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ControllerBinderDelegateProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ControllerResultFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.CopyOnWriteList`1</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultActionConstraintProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultApplicationModelProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultBindingMetadataProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultCollectionValidationStrategy</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultComplexObjectValidationStrategy</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultCompositeMetadataDetailsProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultControllerPropertyActivator</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultModelValidatorProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultObjectValidator</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DefaultValidationMetadataProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.DisableRequestSizeLimitFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ElementalValueProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ExplicitIndexCollectionValidationStrategy</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.FilterCursor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.FilterCursorItem`2</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.FilterDescriptorOrderComparer</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.FilterFactory</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.FilterFactoryResult</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.IApiBehaviorMetadata</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.IConsumesActionConstraint</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.IControllerPropertyActivator</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.IMiddlewareFilterFeature</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.IParameterInfoParameterDescriptor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.IPropertyInfoParameterDescriptor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.IResponseCacheFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ITypeActivatorCache</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MemoryPoolHttpRequestStreamReaderFactory</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MemoryPoolHttpResponseStreamWriterFactory</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MiddlewareFilterBuilder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MiddlewareFilterConfigurationProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MiddlewareFilterFeature</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MvcBuilder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MvcCoreBuilder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MvcCoreDiagnosticSourceExtensions</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MvcCoreMvcOptionsSetup</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MvcCoreRouteOptionsSetup</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MvcMarkerService</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.NonDisposableStream</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.NoOpBinder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.NormalizedRouteValue</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ParameterDefaultValues</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.PlaceholderBinder</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.PrefixContainer</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.PropertyValueSetter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.RequestFormLimitsFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.RequestSizeLimitFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ResponseCacheFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ResponseCacheFilterExecutor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ResponseContentTypeHelper</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ShortFormDictionaryValidationStrategy`2</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.TypeActivatorCache</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ValidatorCache</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Internal.ViewEnginePath</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.ModelBinding.Internal.ModelBindingHelper</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.ModelBinding.Internal.ValidationStack</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ApplicationParts.AssemblyPart.GetReferencePaths</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Formatters.FormatFilter.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Mvc.MvcOptions})</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Formatters.MediaType.CreateMediaTypeSegmentWithQuality(System.String,System.Int32)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.#ctor(Microsoft.AspNetCore.Mvc.Infrastructure.OutputFormatterSelector,Microsoft.AspNetCore.Mvc.Infrastructure.IHttpResponseStreamWriterFactory,Microsoft.Extensions.Logging.ILoggerFactory)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Infrastructure.VirtualFileResultExecutor.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.AspNetCore.Hosting.IHostingEnvironment)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinder`1.#ctor(Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinder)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinder.#ctor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinder`1.#ctor(Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinder)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinder.#ctor(System.Collections.Generic.IDictionary{Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata,Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinder})</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DecimalModelBinder.#ctor(System.Globalization.NumberStyles)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinder`2.#ctor(Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinder,Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinder)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DoubleModelBinder.#ctor(System.Globalization.NumberStyles)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatModelBinder.#ctor(System.Globalization.NumberStyles)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinder.#ctor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder.#ctor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinder.#ctor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinder`2.#ctor(Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinder,Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinder)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder.#ctor(System.Type)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.FormValueProvider.get_PrefixContainer</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.JQueryValueProvider.get_PrefixContainer</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.ModelAttributes.#ctor(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Object})</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.ModelAttributes.#ctor(System.Collections.Generic.IEnumerable{System.Object})</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory.#ctor(Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Mvc.MvcOptions})</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.GetValidationVisitor(Microsoft.AspNetCore.Mvc.ActionContext,Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IModelValidatorProvider,Microsoft.AspNetCore.Mvc.Internal.ValidatorCache,Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider,Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationStateDictionary)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.#ctor(Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider,Microsoft.AspNetCore.Mvc.ModelBinding.IModelBinderFactory,Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IObjectModelValidator)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(Microsoft.AspNetCore.Mvc.ActionContext,Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider,Microsoft.AspNetCore.Mvc.Abstractions.ParameterDescriptor,System.Object)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(Microsoft.AspNetCore.Mvc.ActionContext,Microsoft.AspNetCore.Mvc.ModelBinding.IValueProvider,Microsoft.AspNetCore.Mvc.Abstractions.ParameterDescriptor)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.QueryStringValueProvider.get_PrefixContainer</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.RouteValueProvider.get_PrefixContainer</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.#ctor(Microsoft.AspNetCore.Mvc.ActionContext,Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IModelValidatorProvider,Microsoft.AspNetCore.Mvc.Internal.ValidatorCache,Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider,Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationStateDictionary)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.get_Cache</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.get_CurrentPath</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.MvcOptions.get_AllowBindingHeaderValuesToNonStringModelTypes</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.MvcOptions.get_AllowCombiningAuthorizeFilters</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.MvcOptions.get_AllowValidatingTopLevelNodes</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.MvcOptions.get_InputFormatterExceptionPolicy</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.MvcOptions.get_SuppressBindingUndefinedValueToEnumType</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.MvcOptions.set_AllowBindingHeaderValuesToNonStringModelTypes(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.MvcOptions.set_AllowCombiningAuthorizeFilters(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.MvcOptions.set_AllowValidatingTopLevelNodes(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.MvcOptions.set_InputFormatterExceptionPolicy(Microsoft.AspNetCore.Mvc.Formatters.InputFormatterExceptionPolicy)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.MvcOptions.set_SuppressBindingUndefinedValueToEnumType(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint.#ctor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0005</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.GetValidationVisitor(Microsoft.AspNetCore.Mvc.ActionContext,Microsoft.AspNetCore.Mvc.ModelBinding.Validation.IModelValidatorProvider,Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidatorCache,Microsoft.AspNetCore.Mvc.ModelBinding.IModelMetadataProvider,Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationStateDictionary)</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.ApiControllerAttribute</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.ApplicationParts.AssemblyPart</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.ConsumesAttribute</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Controllers.ControllerBoundPropertyDescriptor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Controllers.ControllerParameterDescriptor</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Formatters.FormatFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Core.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Core.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Core.dll</Right>
   </Suppression>
 </Suppressions>

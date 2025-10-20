@@ -4,13 +4,13 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Localization.Internal.MvcLocalizationServices</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Mvc.Localization.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Mvc.Localization.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Localization.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Localization.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Localization.ViewLocalizer.#ctor(Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerFactory,Microsoft.AspNetCore.Hosting.IHostingEnvironment)</Target>
-    <Left>getPrune\bin\Debug\net10.0\References\Microsoft.AspNetCore.Mvc.Localization.dll</Left>
-    <Right>getRef\bin\Debug\net10.0\References\Microsoft.AspNetCore.Mvc.Localization.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Localization.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Localization.dll</Right>
   </Suppression>
 </Suppressions>

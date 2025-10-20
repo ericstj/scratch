@@ -4,247 +4,247 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Compilation.CompilationFailedException</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Compilation.MetadataReferenceFeature</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Compilation.MetadataReferenceFeatureProvider</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Compilation.RazorReferenceManager</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Compilation.RoslynCompilationContext</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Compilation.ViewsFeatureProvider</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.ChecksumValidator</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.CSharpCompiler</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRazorPageFactoryProvider</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRazorReferenceManager</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRazorViewEngineFileProviderAccessor</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultTagHelperActivator</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultTagHelperFactory</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.ExpressionRewriter</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.FileProviderRazorProjectFileSystem</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.FileProviderRazorProjectItem</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.IRazorViewEngineFileProviderAccessor</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.LazyMetadataReferenceFeature</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.MvcRazorDiagnosticSourceExtensions</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.MvcRazorLoggerExtensions</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.MvcRazorMvcViewOptionsSetup</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.RazorPagePropertyActivator</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompiler</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewCompilerProvider</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.RazorViewEngineOptionsSetup</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.ServiceBasedTagHelperActivator</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.TagHelperComponentManager</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.TagHelpersAsServices</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.ViewLocationCacheItem</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.ViewLocationCacheKey</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.ViewLocationCacheResult</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Razor.Internal.ViewPath</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Razor.Compilation.CompiledViewDescriptor.get_IsPrecompiled</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Razor.Compilation.CompiledViewDescriptor.set_IsPrecompiled(System.Boolean)</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Razor.RazorView.#ctor(Microsoft.AspNetCore.Mvc.Razor.IRazorViewEngine,Microsoft.AspNetCore.Mvc.Razor.IRazorPageActivator,System.Collections.Generic.IReadOnlyList{Microsoft.AspNetCore.Mvc.Razor.IRazorPage},Microsoft.AspNetCore.Mvc.Razor.IRazorPage,System.Text.Encodings.Web.HtmlEncoder,System.Diagnostics.DiagnosticSource)</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.#ctor(Microsoft.AspNetCore.Mvc.Razor.IRazorPageFactoryProvider,Microsoft.AspNetCore.Mvc.Razor.IRazorPageActivator,System.Text.Encodings.Web.HtmlEncoder,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions},Microsoft.AspNetCore.Razor.Language.RazorProject,Microsoft.Extensions.Logging.ILoggerFactory,System.Diagnostics.DiagnosticSource)</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine.#ctor(Microsoft.AspNetCore.Mvc.Razor.IRazorPageFactoryProvider,Microsoft.AspNetCore.Mvc.Razor.IRazorPageActivator,System.Text.Encodings.Web.HtmlEncoder,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions},Microsoft.AspNetCore.Razor.Language.RazorProjectFileSystem,Microsoft.Extensions.Logging.ILoggerFactory,System.Diagnostics.DiagnosticSource)</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions.get_AdditionalCompilationReferences</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions.get_CompilationCallback</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions.get_FileProviders</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions.set_CompilationCallback(System.Action{Microsoft.AspNetCore.Mvc.Razor.Compilation.RoslynCompilationContext})</Target>
-    <Left>getPrune\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Left>
-    <Right>getRef\bin\Debug\net5.0\References\Microsoft.AspNetCore.Mvc.Razor.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Razor.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Razor.dll</Right>
   </Suppression>
 </Suppressions>

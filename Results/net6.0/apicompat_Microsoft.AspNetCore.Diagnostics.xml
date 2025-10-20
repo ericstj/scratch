@@ -4,37 +4,37 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Diagnostics.Views.WelcomePage</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Diagnostics.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Diagnostics.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.DiagnosticsViewPage.Views.AttributeValue</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Diagnostics.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Diagnostics.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.DiagnosticsViewPage.Views.BaseView</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Diagnostics.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Diagnostics.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.DiagnosticsViewPage.Views.HelperResult</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Diagnostics.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Diagnostics.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.DeveloperExceptionPageOptions},Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.AspNetCore.Hosting.IHostingEnvironment,System.Diagnostics.DiagnosticSource)</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Diagnostics.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Diagnostics.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Builder.ExceptionHandlerOptions},System.Diagnostics.DiagnosticSource)</Target>
-    <Left>getPrune\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Left>
-    <Right>getRef\bin\Debug\net6.0\References\Microsoft.AspNetCore.Diagnostics.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Diagnostics.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Diagnostics.dll</Right>
   </Suppression>
 </Suppressions>

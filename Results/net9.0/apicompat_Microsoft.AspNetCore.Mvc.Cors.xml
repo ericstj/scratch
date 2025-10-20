@@ -4,43 +4,43 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Cors.Internal.CorsApplicationModelProvider</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Cors.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Cors.Internal.CorsAuthorizationFilterFactory</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Cors.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Cors.Internal.CorsHttpMethodActionConstraint</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Cors.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Cors.Internal.CorsLoggerExtensions</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Cors.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Cors.Internal.DisableCorsAuthorizationFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Cors.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Cors.Internal.ICorsAuthorizationFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Cors.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0008</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Mvc.Cors.CorsAuthorizationFilter</Target>
-    <Left>getPrune\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Left>
-    <Right>getRef\bin\Debug\net9.0\References\Microsoft.AspNetCore.Mvc.Cors.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Mvc.Cors.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Mvc.Cors.dll</Right>
   </Suppression>
 </Suppressions>

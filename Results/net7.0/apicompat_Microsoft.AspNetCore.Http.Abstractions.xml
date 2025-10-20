@@ -4,49 +4,49 @@
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Authentication.AuthenticateInfo</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Abstractions.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Authentication.AuthenticationDescription</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Abstractions.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Authentication.AuthenticationManager</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Abstractions.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Authentication.AuthenticationProperties</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Abstractions.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.HeaderSegment</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Abstractions.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.HeaderSegmentCollection</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Abstractions.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0001</DiagnosticId>
     <Target>T:Microsoft.AspNetCore.Http.Internal.ParsingHelpers</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Abstractions.dll</Right>
   </Suppression>
   <Suppression>
     <DiagnosticId>CP0002</DiagnosticId>
     <Target>M:Microsoft.AspNetCore.Http.HttpContext.get_Authentication</Target>
-    <Left>getPrune\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Left>
-    <Right>getRef\bin\Debug\net7.0\References\Microsoft.AspNetCore.Http.Abstractions.dll</Right>
+    <Left>pruned/Microsoft.AspNetCore.Http.Abstractions.dll</Left>
+    <Right>framework/Microsoft.AspNetCore.Http.Abstractions.dll</Right>
   </Suppression>
 </Suppressions>

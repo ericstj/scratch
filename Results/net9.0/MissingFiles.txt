@@ -1,14 +1,8 @@
-MessagePack
-Microsoft.AspNetCore.Components.Browser
 Microsoft.AspNetCore.JsonPatch
 Microsoft.AspNetCore.Mvc.Razor.Extensions
-Microsoft.AspNetCore.NodeServices
 Microsoft.AspNetCore.Razor.Language
 Microsoft.AspNetCore.Server.Kestrel.Https
 Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions
-Microsoft.AspNetCore.SignalR.Protocols.MessagePack
-Microsoft.AspNetCore.SpaServices
-Microsoft.AspNetCore.SpaServices.Extensions
 Microsoft.CodeAnalysis.CSharp
 Microsoft.CodeAnalysis
 Microsoft.CodeAnalysis.Razor
@@ -20,21 +14,6 @@ System.Net.WebSockets.WebSocketProtocol
 .
 ------------------- NuGet Dependency Graphs -------------------
 .
-Project 'getPrune' has the following dependency graph(s) for 'MessagePack':
-
-  [net9.0]
-   │  
-   └─ Microsoft.AspNetCore.Components.Server (v3.0.0-preview3-19153-02)
-      └─ Microsoft.AspNetCore.SignalR.Protocols.MessagePack (v3.0.0-preview3-19153-02)
-         └─ MessagePack (v1.7.3.4)
-
-Project 'getPrune' has the following dependency graph(s) for 'Microsoft.AspNetCore.Components.Browser':
-
-  [net9.0]
-   │  
-   └─ Microsoft.AspNetCore.Components.Server (v3.0.0-preview3-19153-02)
-      └─ Microsoft.AspNetCore.Components.Browser (v3.0.0-preview3-19153-02)
-
 Project 'getPrune' has the following dependency graph(s) for 'Microsoft.AspNetCore.JsonPatch':
 
   [net9.0]
@@ -111,15 +90,6 @@ Project 'getPrune' has the following dependency graph(s) for 'Microsoft.AspNetCo
    └─ Microsoft.AspNetCore.Mvc.TagHelpers (v2.3.0)
       └─ Microsoft.AspNetCore.Mvc.Razor (v2.3.0)
          └─ Microsoft.AspNetCore.Mvc.Razor.Extensions (v2.3.0)
-
-Project 'getPrune' has the following dependency graph(s) for 'Microsoft.AspNetCore.NodeServices':
-
-  [net9.0]
-   │  
-   └─ Microsoft.AspNetCore.Components.Server (v3.0.0-preview3-19153-02)
-      └─ Microsoft.AspNetCore.SpaServices.Extensions (v3.0.0-preview3-19153-02)
-         └─ Microsoft.AspNetCore.SpaServices (v3.0.0-preview3-19153-02)
-            └─ Microsoft.AspNetCore.NodeServices (v3.0.0-preview3-19153-02)
 
 Project 'getPrune' has the following dependency graph(s) for 'Microsoft.AspNetCore.Razor.Language':
 
@@ -209,28 +179,6 @@ Project 'getPrune' has the following dependency graph(s) for 'Microsoft.AspNetCo
    │  └─ Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions (v2.3.0)
    └─ Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets (v2.3.0)
       └─ Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions (v2.3.0)
-
-Project 'getPrune' has the following dependency graph(s) for 'Microsoft.AspNetCore.SignalR.Protocols.MessagePack':
-
-  [net9.0]
-   │  
-   └─ Microsoft.AspNetCore.Components.Server (v3.0.0-preview3-19153-02)
-      └─ Microsoft.AspNetCore.SignalR.Protocols.MessagePack (v3.0.0-preview3-19153-02)
-
-Project 'getPrune' has the following dependency graph(s) for 'Microsoft.AspNetCore.SpaServices':
-
-  [net9.0]
-   │  
-   └─ Microsoft.AspNetCore.Components.Server (v3.0.0-preview3-19153-02)
-      └─ Microsoft.AspNetCore.SpaServices.Extensions (v3.0.0-preview3-19153-02)
-         └─ Microsoft.AspNetCore.SpaServices (v3.0.0-preview3-19153-02)
-
-Project 'getPrune' has the following dependency graph(s) for 'Microsoft.AspNetCore.SpaServices.Extensions':
-
-  [net9.0]
-   │  
-   └─ Microsoft.AspNetCore.Components.Server (v3.0.0-preview3-19153-02)
-      └─ Microsoft.AspNetCore.SpaServices.Extensions (v3.0.0-preview3-19153-02)
 
 Project 'getPrune' has the following dependency graph(s) for 'Microsoft.CodeAnalysis.CSharp':
 
@@ -677,11 +625,6 @@ Project 'getPrune' has the following dependency graph(s) for 'Newtonsoft.Json':
    │  
    ├─ Microsoft.AspNetCore.Authentication.OAuth (v2.3.0)
    │  └─ Newtonsoft.Json (v13.0.1)
-   ├─ Microsoft.AspNetCore.Components.Server (v3.0.0-preview3-19153-02)
-   │  └─ Microsoft.AspNetCore.SpaServices.Extensions (v3.0.0-preview3-19153-02)
-   │     └─ Microsoft.AspNetCore.SpaServices (v3.0.0-preview3-19153-02)
-   │        └─ Microsoft.AspNetCore.NodeServices (v3.0.0-preview3-19153-02)
-   │           └─ Newtonsoft.Json (v13.0.1)
    ├─ Microsoft.AspNetCore.Http.Connections (v1.2.0)
    │  └─ Newtonsoft.Json (v13.0.1)
    ├─ Microsoft.AspNetCore.Mvc (v2.3.0)

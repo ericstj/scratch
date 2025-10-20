@@ -24,8 +24,6 @@
 ------------------- NuGet Dependency Graphs -------------------
 .
       </MissingFileSeparator>
-      <!-- Skip NetFx facades from API Compat testing -->
-      <SkipFiles>mscorlib;System;System.Core;System.Configuration;System.Data;System.Drawing;System.Net;System.Security;System.ServiceProcess;System.Transactions;WindowsBase;</SkipFiles>
     </PropertyGroup>
 
     <Target Name="TestMissingFiles">
@@ -33,7 +31,9 @@
         <TestFileByName Include="@(TestFile->'%(FileName)')" Original="%(Identity)" />
         <RefFileByName Include="@(RefFile->'%(FileName)')" />
         <MissingFileByFileName Include="@(TestFileByName)" Exclude="@(RefFileByName)" />
-        <ExistingFileByFileName Include="@(TestFileByName)" Exclude="@(MissingFileByFileName);$(SkipFile)" />
+        <ExistingFileByFileName Include="@(TestFileByName)" Exclude="@(MissingFileByFileName)" />
+        <!-- Skip NetFx facades from API Compat testing -->
+        <ExistingFileByFileName Remove="mscorlib;System;System.Core;System.Configuration;System.Data;System.Drawing;System.Net;System.Security;System.ServiceProcess;System.Transactions;WindowsBase" />
         <ExistingFile Include="@(ExistingFileByFileName->'%(Original)')" />
       </ItemGroup>      
 

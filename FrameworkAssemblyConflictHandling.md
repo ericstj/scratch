@@ -50,7 +50,9 @@ Framework assemblies are identified using the **`IsRedistRoot`** metadata proper
 
 RAR consults `FrameworkList.xml` files from the targeting pack to determine which assemblies are part of the framework. These files are located in the .NET reference assemblies directories.
 
-Example path: `C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\{version}\data\FrameworkList.xml`
+Example path: `C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.0\data\FrameworkList.xml`
+
+(Replace `8.0.0` with your actual .NET version)
 
 #### 3. **Conflict Resolution Logic**
 

@@ -19,7 +19,7 @@ The logic for handling framework assemblies and preventing them from being treat
 
 1. **[`src/Tasks/AssemblyDependency/ResolveAssemblyReference.cs`](https://github.com/dotnet/msbuild/blob/main/src/Tasks/AssemblyDependency/ResolveAssemblyReference.cs)**
    - Main task implementation
-   - Contains the `NotCopyLocalBecauseFrameworksFiles` string constant (line ~172)
+   - Contains the `NotCopyLocalBecauseFrameworksFiles` string constant
    - Coordinates framework assembly resolution
 
 2. **[`src/Tasks/RedistList.cs`](https://github.com/dotnet/msbuild/blob/main/src/Tasks/RedistList.cs)**
@@ -118,7 +118,7 @@ public bool IsFrameworkAssembly(string assemblyName)
 
 This method identifies framework assemblies by checking the `RedistName` from the `FrameworkList.xml` entries.
 
-#### 3. **Not CopyLocal Message (ResolveAssemblyReference.cs, line ~172)**
+#### 3. **Not CopyLocal Message (ResolveAssemblyReference.cs)**
 
 ```csharp
 NotCopyLocalBecauseFrameworksFiles = GetResourceFourSpaces("ResolveAssemblyReference.NotCopyLocalBecauseFrameworksFiles");
@@ -157,7 +157,7 @@ The RAR task has several parameters that affect this behavior:
 
 ## Summary
 
-**The framework assembly conflict handling is in the `ResolveAssemblyReference.cs` file in the dotnet/msbuild repository**. Framework assemblies are identified via the redist list (`FrameworkList.xml`) and marked with `IsRedistRoot=true`, which causes RAR to:
+**The framework assembly conflict handling is primarily in the `RedistList.cs` file in the dotnet/msbuild repository**, with coordination in `ResolveAssemblyReference.cs`. Framework assemblies are identified via the redist list (`FrameworkList.xml`) and marked with `IsRedistRoot=true`, which causes RAR to:
 
 1. Not treat them as conflicts
 2. Not copy them locally
